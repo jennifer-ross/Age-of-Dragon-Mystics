@@ -1,0 +1,176 @@
+
+[Mobs]
+
+	[Mobs."Immortal Mobs"]
+
+		[Mobs."Immortal Mobs"."Immortal Skeleton"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+
+		[Mobs."Immortal Mobs"."Immortal Knight"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+
+		[Mobs."Immortal Mobs"."Immortal Shaman"]
+			#Immortal Shaman heal values (based on max health percentage)
+			#Range: 0.0 ~ 1.0
+			"Heal percentage" = 0.5
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+			#Set damage cap percentage (based on max health)
+			#Range: 0.01 ~ 1.0
+			"Damage cap percentage" = 0.25
+
+		[Mobs."Immortal Mobs"."Immortal Golem"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+
+		[Mobs."Immortal Mobs"."Immortal Boss"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+
+	[Mobs."Structure-Bloody Altar"]
+
+		[Mobs."Structure-Bloody Altar"."Corpse & Corpse Villager"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+			#If 'False', it will not be converted to corpse
+			"Converted to corpse" = true
+
+		[Mobs."Structure-Bloody Altar"."Corpse Warlock"]
+			#Set the distance to take damage from projectiles
+			#Range: 1.0 ~ 32.0
+			"Attack distance" = 12.0
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+			#Set damage cap percentage (based on max health)
+			#Range: 0.01 ~ 1.0
+			"Damage cap percentage" = 0.25
+
+	[Mobs.Structure-Guling]
+
+		[Mobs.Structure-Guling."Guling Sentinel"]
+			#If 'False' disable non-combat heal
+			"Enable non-combat heal" = true
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+
+		[Mobs.Structure-Guling."Guling Sentinel-Heavy"]
+			#If 'False' disable non-combat heal
+			"Enable non-combat heal" = true
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+
+		[Mobs.Structure-Guling."Nameless Guardian"]
+			#Max life steal coefficient (based on max health percentage)
+			#Range: 0.0 ~ 1.0
+			"Suck blood factor" = 0.05
+			#If 'False' disable non-combat heal
+			"Enable non-combat heal" = true
+			#If 'False' disable forced suck blood on power status(Does not take effect in Challenge mode)
+			"Enable forced suck blood" = true
+			#Challenge mode!
+			"Be careful! It's going to get tricky!" = false
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+			#Set damage cap percentage (based on max health)
+			#Range: 0.01 ~ 1.0
+			"Damage cap percentage" = 0.05
+
+[Entity]
+
+	[Entity."Guardian Laser"]
+		#If 'False' disable scorch generate on the ground
+		"Enable scorch generate" = true
+		#Set the maximum shooting distance when the user is a player
+		#Range: 1.0 ~ 64.0
+		"Set attack radius" = 16.0
+
+[Items]
+
+	[Items."Summoning Soul Necklace"]
+		#Set the maximum amount of damage a player can take while holding this item
+		#Range: 1.0 ~ 3.4028234663852886E38
+		"Set the maximum cumulative damage taken" = 50.0
+		#Set item cool down time after player summons (seconds)
+		#Range: > 1
+		"Set item cool down time" = 20
+
+	[Items."Guardian Axe"]
+		#Set tool attack damage
+		#Range: 0.0 ~ 3.4028234663852886E38
+		"Attack damage" = 15.0
+		#Set tool attack speed
+		#Range: 0.0 ~ 3.4028234663852886E38
+		"Attack speed" = 0.9
+
+	[Items."Immortal Staff"]
+		#Set the cool down time after using the weapon (seconds)
+		#Range: 0 ~ 60
+		"Set item cool down time" = 1
+		#Set the weapon recharge time (seconds)
+		#Range: 0 ~ 60
+		"Set item recharge time" = 1
+
+	[Items."Ghost Warrior Armor & Weapons"]
+		#If 'True' the 'Ghost Warrior Armor' will be damaged due to durability
+		"Enable armor durability" = false
+		#Set tool attack damage
+		#Range: 0.0 ~ 3.4028234663852886E38
+		"Attack damage" = 14.0
+		#Set tool attack speed
+		#Range: 0.0 ~ 3.4028234663852886E38
+		"Attack speed" = 1.4
+
+[Other]
+	#If 'False' disable camera shake
+	"Enable camera shake" = true
+	#If 'False' disable bosses blood bars
+	"Enable bosses blood bars" = true
+	#If 'False' able inflict damage between mobs of the same type
+	"Mobs of the same type cannot cause harm" = true
+	#If 'False' disable falling block rendering
+	"Enable falling block rendering" = true
+	#If 'False' disable play boss music
+	"Enable play boss music" = true
+
