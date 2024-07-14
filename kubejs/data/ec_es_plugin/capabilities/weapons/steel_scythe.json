@@ -1,0 +1,11 @@
+{
+  "type": "falchionmoveset:falchion",
+  "attributes": {
+    "common": {
+      "armor_negation": 15.5,
+      "impact": 5.45,
+      "max_strikes": 4.0,
+      "speed_bonus": 0.3
+    }
+  }
+}

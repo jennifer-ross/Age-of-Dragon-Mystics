@@ -1,0 +1,10 @@
+execute as @p if data entity @p SelectedItem."tag"."csController"{cs.hasAnimationBegun:1b} if data entity @p ForgeCaps."epicfight:skill_cap"{playerMode:BATTLE} run tag @s add epiccelest
+execute as @p if data entity @p[tag=epiccelest] SelectedItem."tag"."csController"{cs.hasAnimationBegun:1b} if data entity @p ForgeCaps."epicfight:skill_cap"{playerMode:BATTLE} run function celestisynth:epiccelestisynth
+execute as @p if data entity @p[tag=epiccelest] ForgeCaps."epicfight:skill_cap"{playerMode:MINING} if data entity @p SelectedItem."tag"."csController"{cs.hasAnimationBegun:0b} run epicfight mode battle @s
+execute as @p if data entity @p[tag=epiccelest] ForgeCaps."epicfight:skill_cap"{playerMode:BATTLE} if data entity @p SelectedItem."tag"."csController"{cs.hasAnimationBegun:0b} run tag @s remove epiccelest
+execute as @p if data entity @p Inventory[{Slot:-106b}]."tag"."csController"{cs.hasAnimationBegun:1b} if data entity @p ForgeCaps."epicfight:skill_cap"{playerMode:BATTLE} run tag @s add epiccelest2
+execute as @p if data entity @p[tag=epiccelest2] Inventory[{Slot:-106b}]."tag"."csController"{cs.hasAnimationBegun:1b} if data entity @p ForgeCaps."epicfight:skill_cap"{playerMode:BATTLE} run function celestisynth:epiccelestisynth
+execute as @p if data entity @p[tag=epiccelest2] ForgeCaps."epicfight:skill_cap"{playerMode:MINING} if data entity @p Inventory[{Slot:-106b}]."tag"."csController"{cs.hasAnimationBegun:0b} run epicfight mode battle @s
+execute as @p if data entity @p[tag=epiccelest2] ForgeCaps."epicfight:skill_cap"{playerMode:BATTLE} if data entity @p Inventory[{Slot:-106b}]."tag"."csController"{cs.hasAnimationBegun:0b} run tag @s remove epiccelest2
+execute as @p[nbt={SelectedItem:{id:"celestisynth:breezebreaker"},OnGround:false}] run function celestisynth:breezejumping
+execute as @p[nbt={Inventory:[{id:"celestisynth:breezebreaker",Slot:-106b}],OnGround:false}] run function celestisynth:breezejumping

@@ -138,7 +138,7 @@
 		#
 		# Warns when Flywheel is installed since you may see weird dynamic lighting on some blocks from Create.
 		# Default: true
-		warnAboutFlywheel = true
+		warnAboutFlywheel = false
 		#
 		# Warns when Sodium (or a variation) is installed since dynamic lighting may not work.
 		# Default: true

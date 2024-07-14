@@ -1,0 +1,10 @@
+{
+    "attributes": {
+        "common": {
+            "armor_negation": 20,
+            "impact": 4.4,
+            "max_strikes": 4, "speed_bonus": 1.2
+        }
+    },
+    "type": "epicfight:greatsword"
+}

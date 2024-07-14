@@ -1,0 +1,11 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"impact":2.5,
+			"max_strikes":2, "speed_bonus": 0.1
+		}
+	},
+	"type":"epicfight:longsword"
+}

@@ -1,0 +1,10 @@
+{
+    "type": "epicfight:shovel",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 7,
+                "impact": 1.87,
+            "max_strikes": 0
+        }
+    }
+ }

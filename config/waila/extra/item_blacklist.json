@@ -21,7 +21,13 @@
     "",
     "The #waila:extra/item_blacklist tag rule can not be removed"
   ],
-  "blocks": [],
-  "blockEntityTypes": [],
-  "entityTypes": []
+  "blocks": [
+    "#waila:extra/item_blacklist"
+  ],
+  "blockEntityTypes": [
+    "#waila:extra/item_blacklist"
+  ],
+  "entityTypes": [
+    "#waila:extra/item_blacklist"
+  ]
 }

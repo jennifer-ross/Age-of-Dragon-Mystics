@@ -1,0 +1,10 @@
+{
+    "type": "epicfight:axe",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 80,
+                "impact": 3.1,
+            "max_strikes": 3
+        }
+    }
+ }

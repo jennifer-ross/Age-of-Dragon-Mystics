@@ -21,7 +21,13 @@
     "",
     "The #waila:extra/fluid_blacklist tag rule can not be removed"
   ],
-  "blocks": [],
-  "blockEntityTypes": [],
-  "entityTypes": []
+  "blocks": [
+    "#waila:extra/fluid_blacklist"
+  ],
+  "blockEntityTypes": [
+    "#waila:extra/fluid_blacklist"
+  ],
+  "entityTypes": [
+    "#waila:extra/fluid_blacklist"
+  ]
 }

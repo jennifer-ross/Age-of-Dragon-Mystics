@@ -1,0 +1,10 @@
+{
+    "type": "epicfight:bow",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 55,
+                "impact": 2.5,
+            "max_strikes": 0
+        }
+    }
+ }

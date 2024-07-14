@@ -1,0 +1,10 @@
+{
+    "type": "epicfight:hoe",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 70,
+                "impact": 0.3,
+            "max_strikes": 2
+        }
+    }
+ }

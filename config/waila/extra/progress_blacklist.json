@@ -21,7 +21,13 @@
     "",
     "The #waila:extra/progress_blacklist tag rule can not be removed"
   ],
-  "blocks": [],
-  "blockEntityTypes": [],
-  "entityTypes": []
+  "blocks": [
+    "#waila:extra/progress_blacklist"
+  ],
+  "blockEntityTypes": [
+    "#waila:extra/progress_blacklist"
+  ],
+  "entityTypes": [
+    "#waila:extra/progress_blacklist"
+  ]
 }

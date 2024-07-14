@@ -21,7 +21,13 @@
     "",
     "The #waila:extra/energy_blacklist tag rule can not be removed"
   ],
-  "blocks": [],
-  "blockEntityTypes": [],
-  "entityTypes": []
+  "blocks": [
+    "#waila:extra/energy_blacklist"
+  ],
+  "blockEntityTypes": [
+    "#waila:extra/energy_blacklist"
+  ],
+  "entityTypes": [
+    "#waila:extra/energy_blacklist"
+  ]
 }

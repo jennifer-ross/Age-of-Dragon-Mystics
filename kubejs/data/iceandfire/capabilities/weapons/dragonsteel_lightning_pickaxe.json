@@ -1,0 +1,10 @@
+{
+    "type": "epicfight:pickaxe",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 36,
+                "impact": 2.2,
+            "max_strikes": 2
+        }
+    }
+ }

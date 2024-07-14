@@ -1,0 +1,3 @@
+execute as @p if data entity @p[tag=epiccelest] ForgeCaps."epicfight:skill_cap"{playerMode:BATTLE} if data entity @p SelectedItem."tag"."csController"{cs.hasAnimationBegun:1b} run epicfight mode mining @s
+
+execute as @p if data entity @p[tag=epiccelest2] ForgeCaps."epicfight:skill_cap"{playerMode:BATTLE} if data entity @p Inventory[{Slot:-106b}]."tag"."csController"{cs.hasAnimationBegun:1b} run epicfight mode mining @s
