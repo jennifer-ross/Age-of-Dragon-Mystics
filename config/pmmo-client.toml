@@ -22,12 +22,12 @@
 		"Display Vein Gauge" = false
 		#how far offset from center the gain list should be
 		#Range: 0.0 ~ 1.0
-		"Gain List Xoffset" = 0.45
+		"Gain List Xoffset" = 0.15
 		#how far down from the top left corner the gain list should be
 		#Range: 0.0 ~ 1.0
 		"Gain List Yoffset" = 5.0E-4
 		#Should the Gain list be displayed
-		"Display Gain List" = true
+		"Display Gain List" = false
 		#what color should the background be for the section header lines in the glossary
 		"Section Header Color" = 352630048
 		#What color should the background be for the salvage item lines in the glossary

@@ -23,7 +23,7 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.0978378080985917
-fov:0.0
+fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -280,6 +280,16 @@ key_key.irons_spellbooks.spell_quick_cast_12:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_13:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown
+key_key.xtracr_realcamera.togglePerspective:key.keyboard.f6
+key_key.xtracr_realcamera.adjustBACK:key.keyboard.unknown
+key_key.xtracr_realcamera.adjustFRONT:key.keyboard.unknown
+key_key.xtracr_realcamera.adjustDOWN:key.keyboard.unknown
+key_key.xtracr_realcamera.adjustLEFT:key.keyboard.unknown
+key_key.xtracr_realcamera.adjustRIGHT:key.keyboard.unknown
+key_key.xtracr_realcamera.modelViewScreen:key.keyboard.keypad.8
+key_key.xtracr_realcamera.toggleAdjustMode:key.keyboard.unknown
+key_key.xtracr_realcamera.toggleCameraMode:key.keyboard.unknown
+key_key.xtracr_realcamera.adjustUP:key.keyboard.unknown
 soundCategory_master:0.017880794701986773
 soundCategory_music:0.2012048855633802
 soundCategory_record:1.0
