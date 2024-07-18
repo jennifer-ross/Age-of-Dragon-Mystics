@@ -1,0 +1,9 @@
+
+[Config]
+	#Items that switch to mining mode whilst using
+	epic_use_items = []
+	"Mining mode while holding shift" = true
+	"Auto switch back to battle mode when unequipping an item listed in Epic Fight's mining autoswitch config" = true
+	"Switch to mining mode whilst aiming with MrCrayfish Guns" = false
+	"Keep stamina bar up" = false
+
