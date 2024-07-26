@@ -46,7 +46,7 @@
 	# The number of different entities per spawner. Increasing the number increases the diversity of the monster equipment.
 	#
 	#Range: 1 ~ 128
-	spawner_entities = 6
+	spawner_entities = 9
 	#----------------------------------------------------------------------------------------------------+
 	# Whether custom mob spawners with equipment, etc.. should be used.
 	#

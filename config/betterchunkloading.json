@@ -1,7 +1,7 @@
 {
   "enablePrediction": {
     "desc:": "Enables predictive chunkloading, which predicts player movement and preloads an area in movement direction: default:true",
-    "enablePrediction": true
+    "enablePrediction": false
   },
   "predictionarea": {
     "desc:": "Size of the area marked for preloading: default:7 chunks, max: 32, min: 2",

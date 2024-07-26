@@ -1,0 +1,127 @@
+Mobs = {}
+
+[Generation]
+
+	[Generation.Dragon]
+		#Whether to generate dragon skeletons or not
+		"Generate Dragon Skeletons" = true
+		#1 out of this number chance per chunk for generation
+		#Range: 1 ~ 10000
+		"Generate Dragon Skeleton Chance" = 300
+		#1 out of this number chance per chunk for generation
+		#Range: 1 ~ 10000
+		"Generate Dragon Cave Chance" = 180
+		#1 out of this number chance per chunk for generation
+		#Range: 1 ~ 10000
+		"Generate Dragon Roost Chance" = 360
+		#1 out of this number chance per block that gold will generate in dragon lairs.
+		#Range: 1 ~ 10000
+		"Dragon Den Gold Amount" = 4
+		#Ratio of Stone(this number) to Ores in Dragon Caves
+		#Range: 1 ~ 10000
+		"Dragon Cave Ore Ratio" = 45
+
+	[Generation.Structures-Features]
+		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn.
+		#Range: 1 ~ 10000
+		"Dangerous World Gen Dist From Spawn" = 800
+		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
+		#Range: 1 ~ 10000
+		"Dangerous World Gen Dist Seperation" = 300
+		#Whether to generate glacier biomes or not
+		"Generate Glaciers" = true
+		#Glacier Spawn Weight. Higher number = more common
+		#Range: 1 ~ 10000
+		"Glacier Spawn Weight" = 4
+		#True if mausoleums are allowed to generate
+		"Generate Mausoleums" = true
+		#Whether to generate graveyards or not
+		"Generate Graveyards" = true
+		#True if gorgon temples are allowed to spawn
+		"Generate Gorgon Temple" = true
+
+[Dragons]
+
+	[Dragons.Griefing]
+		#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default. This value is also affected by minecrafts mob griefing rule.
+		#Range: 0 ~ 2
+		"Dragon Griefing" = 0
+		#True if tamed dragons can follow the griefing rules.
+		"Tamed Dragon Griefing" = true
+		#The percentage chance for a block to drop as an item when a dragon breaks it.
+		#Range: 0.0 ~ 1.0
+		"Dragon Block Breaking Drop Chance" = 0.10000000149011612
+
+	[Dragons.Attributes]
+		#How long it takes(in ticks) for a dragon egg to hatch
+		#Range: > 1
+		"Dragon Egg Hatch Time" = 7200
+		#Dragon Flap Noise Distance - Larger number, further away you can hear it
+		#Range: 0 ~ 10000
+		"Dragon Flap Noise Distance" = 4
+		#Dragon Flute Distance - how many chunks away is the dragon flute effective?
+		#Range: 0 ~ 10000
+		"Dragon Flute Distance" = 4
+		#Max dragon health. Health is scaled to this
+		#Range: 1.0 ~ 100000.0
+		"Dragon Health" = 500.0
+		#Max dragon attack damage. Attack Damage is scaled to this
+		#Range: 1 ~ 10000
+		"Dragon Attack Damage" = 17
+		#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
+		#Range: 0.0 ~ 10000.0
+		"Dragon Attack Damage(Fire breath)" = 2.0
+		#Damage dealt from a successful ice breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
+		#Range: 0.0 ~ 10000.0
+		"Dragon Attack Damage(Ice breath)" = 2.5
+		#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
+		#Range: 0.0 ~ 10000.0
+		"Dragon Attack Damage(Lightning breath)" = 3.5
+		#Change this to slow down or speed up dragon or amphithere flight.
+		#Range: 0.0 ~ 2.0
+		"Dragon Flight Speed Modifier" = 1.0
+		#Enable this if your server is being bombarded with moved wrongly or moved too fast console messages. REQUIRES RESTART!
+		"Dragon Moved Wrongly Error Fix" = false
+
+	[Dragons.Behaviour]
+		#How high dragons can fly, in Y height.
+		#Range: > 100
+		"Max Dragon Flight Height" = 256
+		#How far away dragons will detect gold blocks being destroyed or chests being opened
+		#Range: 0 ~ 10000
+		"Dragon Gold Search Length" = 30
+		#Whether the bite attack from a dragon heals them or not.
+		"Dragon Bite Heal" = true
+		#True if dragons can despawn. Note that if this is false there may be SERIOUS lag issues.
+		"Dragons Despawn" = true
+		#True if tamed dragons go to sleep at night.
+		"Tamed Dragons Sleep" = true
+		#True if dragons can break blocks if they get stuck. Turn this off if your dragons randomly explode.
+		"Dragons Dig When Stuck" = true
+		#True if dragons can drop their skull on death.
+		"Dragons Drop Skull" = true
+		#True if dragons can drop their heart on death.
+		"Dragons Drop Heart" = true
+		#True if dragons can drop their blood on death.
+		"Dragons Drop Blood" = true
+		#True if dragons fire/ice charges create secondary explosions that launch blocks everywhere. Turn this to true if you like unfair explosions. Or lag.
+		"Explosive Dragon Breath" = false
+		#How many blocks away can dragons spot potential prey. Note that increasing this could cause lag.
+		#Range: 1 ~ 10000
+		"Dragon Target Search Length" = 128
+		#How many blocks away can dragons wander from their defined "home" position.
+		#Range: 1 ~ 10000
+		"Dragon Wander From Home Distance" = 40
+		#Every interval of this number in ticks, dragon hunger decreases.
+		#Range: 1 ~ 10000
+		"Dragon Hunger Tick Rate" = 3000
+		#Every interval of this number in ticks, dragon allowed to break blocks.
+		#Range: 0 ~ 10000
+		"Dragon Block Break Cooldown" = 5
+		#True if villagers should run away and hide from dragons and other hostile Ice and Fire mobs.
+		"Villagers Fear Dragons" = true
+		#True if animals should run away and hide from dragons and other hostile Ice and Fire mobs.
+		"Animals Fear Dragons" = true
+		#A more intelligent dragon pathfinding system, but is also laggier. Turn this on if you think dragons are too stupid.
+		"Intelligent Dragon Pathfinding" = false
+

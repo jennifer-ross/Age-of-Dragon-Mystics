@@ -1,5 +1,5 @@
 
 [logbegone]
-	phrases = ["Disconnecting VANILLA connection attempt", "Channels "]
 	regex = ["Disconnecting VANILLA connection attempt", "Channels "]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Unknown variable: BIOME_SWAMP_HILLS", "[worlds_together] Error for jar:file:", "UUID of added entity already exists"]
 

@@ -55,13 +55,13 @@
 	["YUNG's Better Dungeons"."Small Nether Dungeons"]
 		# Whether or not small Nether dungeons should spawn.
 		# Default: false
-		"Enable Small Nether Dungeons" = false
+		"Enable Small Nether Dungeons" = true
 		# Whether or not Wither skeletons spawned from small Nether dungeons have a chance to drop Wither skeleton skulls.
 		# Default: true
-		"Wither Skeletons From Spawners Drop Wither Skeleton Skulls" = true
+		"Wither Skeletons From Spawners Drop Wither Skeleton Skulls" = false
 		# Whether or not blazes spawned from small Nether dungeons have a chance to drop blaze rods.
 		# Default: true
-		"Blazes From Spawners Drop Blaze Rods" = true
+		"Blazes From Spawners Drop Blaze Rods" = false
 		# The maximum number of banners that can spawn in a single small Nether dungeon.
 		# Default: 2
 		#Range: 0 ~ 8

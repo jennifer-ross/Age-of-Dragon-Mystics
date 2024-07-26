@@ -17,7 +17,7 @@
 		// The maximum height campsites can spawn at
 		"maxY": 40,
 		// Probability that a campsite has a mimic instead of a chest
-		"mimicChance": 0.3,
+		"mimicChance": 0.1,
 		// Whether to use wooden chests from other mods when generating campsites
 		"useModdedChests": true,
 		// Whether campsites can contain blocks that emit light
@@ -32,5 +32,5 @@
 	   A list of available game rules and their effects can be found on the wiki on GitHub:
 	   https://github.com/ochotonida/artifacts/wiki
 	*/
-	"artifactRarity": 1.0
+	"artifactRarity": 10000.0
 }

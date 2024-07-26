@@ -5,12 +5,12 @@
 	#Allowed Values: NONE, HURT, TARGET
 	health_bar_show_option = "HURT"
 	show_target_indicator = true
-	filter_animation = false
+	filter_animation = true
 	#Range: 0.0 ~ 1.0
-	laser_pointer_color = 0.328125
+	laser_pointer_color = 0.8287671232876712
 	enable_laser_pointer = true
-	camera_auto_switch = false
-	auto_preparation = false
+	camera_auto_switch = true
+	auto_preparation = true
 	blood_effects = true
 	no_mining_in_combat = true
 	battle_autoswitch_items = []
@@ -23,8 +23,8 @@
 		stamina_bar_x_base = "RIGHT"
 		#Allowed Values: TOP, BOTTOM, CENTER
 		stamina_bar_y_base = "BOTTOM"
-		weapon_innate_x = 42
-		weapon_innate_y = 48
+		weapon_innate_x = 41
+		weapon_innate_y = 40
 		#Allowed Values: LEFT, RIGHT, CENTER
 		weapon_innate_x_base = "RIGHT"
 		#Allowed Values: TOP, BOTTOM, CENTER

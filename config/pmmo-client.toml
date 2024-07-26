@@ -19,7 +19,7 @@
 		#Range: 0.0 ~ 1.0
 		"Vein Gauge Yoffset" = 0.95
 		#Should the vein charge data be displayed
-		"Display Vein Gauge" = false
+		"Display Vein Gauge" = true
 		#how far offset from center the gain list should be
 		#Range: 0.0 ~ 1.0
 		"Gain List Xoffset" = 0.15
@@ -123,7 +123,7 @@
 	[Client.Vein_Miner]
 		#The max blocks a vein activation should consume regardless of charge
 		#Range: > 0
-		Vein_Limit = 64
+		Vein_Limit = 65
 
 	#Toggles for helpful features related to mechanics
 	[Client.Tutorial]

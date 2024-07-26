@@ -1,11 +1,11 @@
 
 ["Skill Points"]
 	#Range: 1 ~ 1000
-	"Maximum skill points" = 85
+	"Maximum skill points" = 160
 	#Range: > 0
-	"First skill point cost" = 15
+	"First skill point cost" = 30
 	#Range: > 0
-	"Last skill point cost" = 1400
+	"Last skill point cost" = 2800
 	#You can set cost for each skill point instead
 	"Use skill points costs array" = false
 	#This list's size must be equal to maximum skill points.
@@ -17,7 +17,7 @@
 
 [Gems]
 	#Range: 0.0 ~ 1.0
-	"Base drop chance" = 0.15
+	"Base drop chance" = 0.05
 
 [Equipment]
 	#Range: 0 ~ 4

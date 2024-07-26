@@ -57,52 +57,52 @@
 ["Entity damage"]
 	#Void Rune's Damage
 	#Range: 0.0 ~ 1000000.0
-	Voidrunedamage = 7.0
+	Voidrunedamage = 11.0
 	#Ashen Breath's Damage
 	#Range: 0.0 ~ 1000000.0
-	Ashenbreathdamage = 4.0
+	Ashenbreathdamage = 8.0
 	#Death Laser's Damage
 	#Range: 0.0 ~ 1000000.0
-	DeathLaserdamage = 5.0
+	DeathLaserdamage = 10.0
 	#Death Laser's Hp Damage
 	#Range: 0.0 ~ 1.0
-	DeathLaserHpdamage = 0.05
+	DeathLaserHpdamage = 0.08
 	#Player's Laser's Damage
 	#Range: 0.0 ~ 1000000.0
-	Laserdamage = 7.0
+	Laserdamage = 8.0
 	#Blazing Bone's Damage
 	#Range: 0.0 ~ 1000000.0
-	BlazingBonedamage = 5.0
+	BlazingBonedamage = 9.0
 	#Lionfish Spike's Damage
 	#Range: 0.0 ~ 1000000.0
-	LionfishSpikedamage = 4.0
+	LionfishSpikedamage = 7.0
 	#Wither Howizter's Damage
 	#Range: 0.0 ~ 1000000.0
-	WitherHowizterdamage = 8.0
+	WitherHowizterdamage = 10.0
 	#Dimensional Rift's Damage
 	#Range: 0.0 ~ 1000000.0
 	DimensionalRiftdamage = 10.0
 	#Wither Homing Missile's Damage
 	#Range: 0.0 ~ 1000000.0
-	WitherHomingMissiledamage = 3.0
+	WitherHomingMissiledamage = 8.0
 	#Abyss Blast's Damage
 	#Range: 0.0 ~ 1000000.0
 	AbyssBlastdamage = 10.0
 	#Abyss Blast's Hp Damage
 	#Range: 0.0 ~ 1.0
-	AbyssBlastHpdamage = 0.1
+	AbyssBlastHpdamage = 0.08
 	#Abyss Orb's Damage
 	#Range: 0.0 ~ 1000000.0
-	AbyssOrbdamage = 4.0
+	AbyssOrbdamage = 8.0
 	#Lava bomb's Radius
 	#Range: 1 ~ 7
 	Lavabombradius = 2
 	#Amethyst Cluster's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Amethyst Cluster Damage" = 12.0
+	"Amethyst Cluster Damage" = 19.0
 	#Sandstorm's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Sandstorm Damage" = 5.0
+	"Sandstorm Damage" = 10.0
 	#Ancient Desert Stele's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Ancient Desert Stele Damage" = 18.0

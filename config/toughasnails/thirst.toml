@@ -3,7 +3,7 @@
 [general]
 	#The threshold at which exhaustion causes a reduction in hydration and the thirst bar.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	exhaustion_threshold = 8.0
+	exhaustion_threshold = 12.0
 
 [drink_options]
 	#Thirst restored from drinking with hands.

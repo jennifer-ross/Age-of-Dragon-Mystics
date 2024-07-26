@@ -5,7 +5,7 @@
 	#Witches Attack Villagers?
 	"Witches attack villagers?" = true
 	#This will make Illusioners get involved in raids
-	"Have Illusioners in raids?" = false
+	"Have Illusioners in raids?" = true
 	#This makes Illagers run from polar bears, as anyone with common sense would.
 	"Have Illagers have some common sense?" = true
 

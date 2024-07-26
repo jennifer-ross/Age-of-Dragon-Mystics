@@ -1,18 +1,18 @@
-#Allowed Values: ALL, LOADING, RELOADING, NONE
-hideType = "RELOADING"
 #text.autoconfig.rrls.option.rgbProgress.@Tooltip
 rgbProgress = false
+#Allowed Values: PROGRESS, TEXT
+type = "PROGRESS"
+reloadText = ""
+resetResources = false
+#text.autoconfig.rrls.option.reInitScreen.@Tooltip
+reInitScreen = true
+#Allowed Values: ALL, LOADING, RELOADING, NONE
+hideType = "RELOADING"
 #text.autoconfig.rrls.option.forceClose.@Tooltip
 forceClose = false
 #text.autoconfig.rrls.option.blockOverlay.@Tooltip
 blockOverlay = false
 miniRender = true
-#Allowed Values: PROGRESS, TEXT
-type = "PROGRESS"
-reloadText = "Edit in config!"
-resetResources = false
-#text.autoconfig.rrls.option.reInitScreen.@Tooltip
-reInitScreen = true
 #text.autoconfig.rrls.option.removeOverlayAtEnd.@Tooltip
 removeOverlayAtEnd = true
 #text.autoconfig.rrls.option.earlyPackStatusSend.@Tooltip[0]
