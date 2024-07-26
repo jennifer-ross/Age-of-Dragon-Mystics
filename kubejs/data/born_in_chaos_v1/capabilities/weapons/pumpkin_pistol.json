@@ -1,5 +1,5 @@
 {
-	"type": "bow",
+	"type": "epicfight:bow",
 	"attributes": {
 		"common": {
 			"armor_negation": 0.0,

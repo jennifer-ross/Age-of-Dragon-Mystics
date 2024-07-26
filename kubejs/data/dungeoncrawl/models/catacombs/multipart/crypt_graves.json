@@ -1,0 +1,26 @@
+{
+  "features": [
+    {
+      "type": "spawner_grave",
+      "positions": [
+        {"x": 2, "y": 1, "z": 1, "facing": "west"},
+        {"x": 2, "y": 3, "z": 1, "facing": "west"},
+        {"x": 2, "y": 1, "z": 3, "facing": "west"},
+        {"x": 2, "y": 3, "z": 3, "facing": "west"},
+        {"x": 2, "y": 1, "z": 5, "facing": "west"},
+        {"x": 2, "y": 3, "z": 5, "facing": "west"}
+      ],
+      "amount": {
+        "min": 3,
+        "max": 6
+      },
+      "follow_up": {
+        "type": "empty_grave",
+        "amount": {
+          "min": 0,
+          "max": 3
+        }
+      }
+    }
+  ]
+}
