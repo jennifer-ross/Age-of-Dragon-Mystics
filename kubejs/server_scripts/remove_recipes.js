@@ -5,10 +5,9 @@
 * When the callback runs, it is also known as the event "firing".
 */
 
-const mc = (id) => `minecraft:${id}`;
-
 // Listen for the "recipes" server event.
 ServerEvents.recipes(event => {
+    // let mc = (id) => `minecraft:${id}`;
     // You can replace `event` with any name you like, as
     // long as you change it inside the callback too!
 

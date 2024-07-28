@@ -1,0 +1,30 @@
+{
+    "type": "geocluster:deposit_dense",
+    "config": {
+        "yMin": -59,
+        "yMax": 48,
+        "size": 70,
+        "biomeTag": "#minecraft:is_overworld",
+        "generationWeight": 4,
+        "blocks": {
+            "default": [
+                {
+                    "block": "lapis_ore",
+                    "chance": 1
+                }
+            ],
+            "minecraft:deepslate": [
+                {
+                    "block": "deepslate_lapis_ore",
+                    "chance": 1
+                }
+            ]
+        },
+        "samples": [
+            {
+                "block": "geocluster:lapis_ore_sample",
+                "chance": 1.0
+            }
+        ]
+    }
+}

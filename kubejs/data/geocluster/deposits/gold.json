@@ -1,0 +1,42 @@
+{
+    "type": "geocluster:deposit_dense",
+    "config": {
+        "yMin": -48,
+        "yMax": 16,
+        "size": 40,
+        "biomeTag": "#minecraft:is_overworld",
+        "generationWeight": 5,
+        "blocks": {
+            "default": [
+                {
+                    "block": "gold_ore",
+                    "chance": 0.8
+                },
+                {
+                    "block": "iceandfire:silver_ore",
+                    "chance": 0.2
+                }
+            ],
+            "minecraft:deepslate": [
+                {
+                    "block": "deepslate_gold_ore",
+                    "chance": 0.8
+                },
+                {
+                    "block": "iceandfire:deepslate_silver_ore",
+                    "chance": 0.2
+                }
+            ]
+        },
+        "samples": [
+            {
+                "block": "geocluster:gold_ore_sample",
+                "chance": 0.8
+            },
+            {
+                "block": "geocluster:silver_ore_sample",
+                "chance": 0.2
+            }
+        ]
+    }
+}

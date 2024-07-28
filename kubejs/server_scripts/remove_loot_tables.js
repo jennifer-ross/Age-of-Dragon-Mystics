@@ -1,6 +1,8 @@
-const mc = (id) => `minecraft:${id}`;
+
 
 // LootJS.lootTables((event) => {
+//     let mc = (id) => `minecraft:${id}`;
+
 //     event
 //         .getLootTable(mc('chests/desert_pyramid'))
 //         .firstPool()

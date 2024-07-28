@@ -47,7 +47,7 @@
 			"Health multiplier" = 1.0
 			#Set this mob attack multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.0
+			"Attack multiplier" = 1.6
 
 	[Mobs."Structure-Bloody Altar"]
 
@@ -106,7 +106,7 @@
 			#If 'False' disable forced suck blood on power status(Does not take effect in Challenge mode)
 			"Enable forced suck blood" = true
 			#Challenge mode!
-			"Be careful! It's going to get tricky!" = false
+			"Be careful! It's going to get tricky!" = true
 			#Set this mob health multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Health multiplier" = 1.0

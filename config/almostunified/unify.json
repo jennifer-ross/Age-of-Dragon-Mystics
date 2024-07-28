@@ -84,16 +84,21 @@
   ],
   "priorityOverrides": {},
   "customTags": {},
-  "tagOwnerships": {},
+  "tagOwnerships": {
+  },
   "itemTagInheritanceMode": "ALLOW",
-  "itemTagInheritance": {},
+  "itemTagInheritance": {
+  },
   "blockTagInheritanceMode": "ALLOW",
   "blockTagInheritance": {},
-  "ignoredTags": [],
-  "ignoredItems": [],
+  "ignoredTags": [
+  ],
+  "ignoredItems": [
+  ],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],
-  "ignoredRecipes": [],
-  "itemsHidingJeiRei": true
+  "ignoredRecipes": [
+  ],
+  "itemsHidingJeiRei": false
 }

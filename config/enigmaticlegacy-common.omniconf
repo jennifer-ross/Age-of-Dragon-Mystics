@@ -643,10 +643,10 @@
     D:TheTwistAttackSpeed=-1.8
 
     # Attack damage bonus of The Twist against players and bossess. [range: 0 ~ 32768, default: 300, synchronized: yes]
-    I:TheTwistBossDamageBonus=300
+    I:TheTwistBossDamageBonus=200
 
     # Knockback bonus of The Twist. For Phantoms, this value is multiplied by 1.5. [range: 0 ~ 32768, default: 300, synchronized: yes]
-    I:TheTwistKnockbackPowerBonus=300
+    I:TheTwistKnockbackPowerBonus=200
 
     # Base damage dealt by Darkness every half a second, when it devours a creature in proximity of bearer of the pearl. [range: 0.0 ~ 1000.0, default: 4.0, synchronized: yes]
     D:VoidPearlBaseDarknessDamage=4.0
@@ -705,7 +705,7 @@
 
 "Save the Bees" {
     # If true, bees will never affected by the Second Curse of Ring of the Seven Curses. [default: false, synchronized: yes]
-    B:CursedRingDontTouchMyBees=false
+    B:CursedRingDontTouchMyBees=true
 }
 
 

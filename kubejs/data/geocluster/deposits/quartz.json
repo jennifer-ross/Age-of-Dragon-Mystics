@@ -1,0 +1,24 @@
+{
+    "type": "geocluster:deposit_dense",
+    "config": {
+        "yMin": -32,
+        "yMax": 32,
+        "size": 40,
+        "biomeTag": "#minecraft:is_overworld",
+        "generationWeight": 2,
+        "blocks": {
+            "default": [
+               
+            ],
+            "minecraft:deepslate": [
+       
+            ]
+        },
+        "samples": [
+            {
+                "block": "geocluster:quartz_ore_sample",
+                "chance": 1.0
+            }
+        ]
+    }
+}

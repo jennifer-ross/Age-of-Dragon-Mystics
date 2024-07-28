@@ -1,0 +1,42 @@
+{
+    "type": "geocluster:deposit_dense",
+    "config": {
+        "yMin": -16,
+        "yMax": 52,
+        "size": 60,
+        "biomeTag": "#minecraft:is_overworld",
+        "generationWeight": 7,
+        "blocks": {
+            "default": [
+                {
+                    "block": "iron_ore",
+                    "chance": 0.7
+                },
+                {
+                    "block": "tfmg:nickel_ore",
+                    "chance": 0.3
+                }
+            ],
+            "minecraft:deepslate": [
+                {
+                    "block": "deepslate_iron_ore",
+                    "chance": 0.7
+                },
+                {
+                    "block": "tfmg:deepslate_nickel_ore",
+                    "chance": 0.3
+                }
+            ]
+        },
+        "samples": [
+            {
+                "block": "geocluster:iron_ore_sample",
+                "chance": 0.7
+            },
+            {
+                "block": "geocluster:nickel_ore_sample",
+                "chance": 0.3
+            }
+        ]
+    }
+}

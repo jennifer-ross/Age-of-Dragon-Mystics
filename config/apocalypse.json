@@ -1,0 +1,50 @@
+{
+  "horde": {
+    "enabled": true,
+    "cooldownMin": 300,
+    "cooldownMax": 600,
+    "distanceMin": 64,
+    "distanceMax": 128,
+    "ZombieAmountMin": 8,
+    "ZombieAmountMax": 16,
+    "PersistentZombies": true
+  },
+  "zombie": {
+    "attackSpeed": 1.5,
+    "burnsInDaylight": false,
+    "avoidSunlight": false,
+    "pathThroughDoors": true,
+    "enablePounce": true,
+    "pounceVelocity": 0.2,
+    "pouncePriority": 14,
+    "revengeEnabled": true,
+    "groupRevengeEnabled": true,
+    "revengePriority": 1,
+    "targets": [
+      "minecraft:player,2,false,false",
+      "minecraft:villager,2,false,false",
+      "minecraft:wandering_trader,3,false,false",
+      "minecraft:iron_golem,3,false,false",
+      "minecraft:turtle,5,false,false",
+      "minecraft:sheep,6,false,false",
+      "minecraft:cow,6,false,false",
+      "minecraft:pig,6,false,false",
+      "minecraft:polar_bear,12,false,false",
+      "minecraft:horse,8,false,false",
+      "minecraft:mule,8,false,false",
+      "minecraft:donkey,8,false,false",
+      "minecraft:wolf,8,false,false",
+      "minecraft:dolphin,12,false,false"
+    ],
+    "enableDigging": true,
+    "blockBreakPriority": 2,
+    "dropBrokenBlocks": true,
+    "instantDoorBreak": true,
+    "climbEachOther": true,
+    "climbingVelocity": 0.2,
+    "instantDoorBreakHardness": 5.0,
+    "diggingProgressTick": 0.05,
+    "maximumTargetHardness": 20,
+    "modifyPiglins": true
+  }
+}

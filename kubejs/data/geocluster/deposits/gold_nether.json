@@ -1,0 +1,31 @@
+{
+    "type": "geocluster:deposit_dense",
+    "config": {
+        "yMin": 10,
+        "yMax": 60,
+        "size": 50,
+        "generationWeight": 8,
+        "blockStateMatchers": [
+            "minecraft:netherrack",
+            "minecraft:basalt",
+            "minecraft:blackstone",
+            "minecraft:magma_block",
+            "create:scorchia"
+        ],
+        "biomeTag": "#minecraft:is_nether",
+        "blocks": {
+            "default": [
+                {
+                    "block": "nether_gold_ore",
+                    "chance": 1
+                }
+            ]
+        },
+        "samples": [
+            {
+                "block": "geocluster:nether_gold_ore_sample",
+                "chance": 1
+            }
+        ]
+    }
+}

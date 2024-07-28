@@ -1,0 +1,54 @@
+{
+    "type": "geocluster:deposit_dense",
+    "config": {
+        "yMin": -59,
+        "yMax": 0,
+        "size": 40,
+        "biomeTag": "#minecraft:is_overworld",
+        "generationWeight": 4,
+        "blocks": {
+            "default": [
+                {
+                    "block": "diamond_ore",
+                    "chance": 0.4
+                },
+                {
+                    "block": "coal_ore",
+                    "chance": 0.3
+                },
+                {
+                    "block": "born_in_chaos_v1:infected_diamond_ore",
+                    "chance": 0.3
+                }
+            ],
+            "minecraft:deepslate": [
+                {
+                    "block": "deepslate_diamond_ore",
+                    "chance": 0.4
+                },
+                {
+                    "block": "deepslate_coal_ore",
+                    "chance": 0.3
+                },
+                {
+                    "block": "born_in_chaos_v1:infected_deepslate_diamond_ore",
+                    "chance": 0.3
+                }
+            ]
+        },
+        "samples": [
+            {
+                "block": "geocluster:diamond_ore_sample",
+                "chance": 0.4
+            },
+            {
+                "block": "geocluster:coal_ore_sample",
+                "chance": 0.3
+            },
+            {
+                "block": "geocluster:infected_diamond_ore_sample",
+                "chance": 0.3
+            }
+        ]
+    }
+}
