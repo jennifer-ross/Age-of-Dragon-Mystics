@@ -79,7 +79,7 @@
 			color = 65535
 			noAfkPenalty = false
 			displayGroupName = false
-			useTotalLevels = false
+			useTotalLevels = true
 
 		[Skills.Entry.engineering]
 			maxLevel = 100

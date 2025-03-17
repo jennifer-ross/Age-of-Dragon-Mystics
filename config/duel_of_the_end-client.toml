@@ -1,0 +1,25 @@
+#剧情对话是否使用打字机效果
+enable_typewriter_effect = true
+#打字机效果打字速度
+#Range: > 1
+typewriter_effect_speed = 2
+#打字机效果打字间隔
+#Range: > 1
+typewriter_effect_interval = 2
+#是否显示Boss血量
+show_boss_health = true
+#是否显示自定义GUI（可通过快捷键设置，具体看按键绑定）
+render_custom_gui = false
+#任务提示框的x屏幕位置占比
+#Range: 0.0 ~ 1.7976931348623157E308
+task_x = 0.8
+#任务提示框的y屏幕位置占比
+#Range: 0.0 ~ 1.7976931348623157E308
+task_y = 0.1
+#任务提示框的各任务间隔
+#Range: > 1
+task_interval = 12
+#占据宽度
+#Range: 0.0 ~ 1.7976931348623157E308
+task_size = 100.0
+

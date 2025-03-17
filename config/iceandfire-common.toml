@@ -12,7 +12,7 @@
 		"Generate Dragon Cave Chance" = 180
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Roost Chance" = 360
+		"Generate Dragon Roost Chance" = 500
 		#1 out of this number chance per block that gold will generate in dragon lairs.
 		#Range: 1 ~ 10000
 		"Dragon Den Gold Amount" = 4
@@ -46,7 +46,7 @@
 		#Range: 0 ~ 2
 		"Dragon Griefing" = 0
 		#True if tamed dragons can follow the griefing rules.
-		"Tamed Dragon Griefing" = true
+		"Tamed Dragon Griefing" = false
 		#The percentage chance for a block to drop as an item when a dragon breaks it.
 		#Range: 0.0 ~ 1.0
 		"Dragon Block Breaking Drop Chance" = 0.10000000149011612
@@ -60,25 +60,25 @@
 		"Dragon Flap Noise Distance" = 4
 		#Dragon Flute Distance - how many chunks away is the dragon flute effective?
 		#Range: 0 ~ 10000
-		"Dragon Flute Distance" = 4
+		"Dragon Flute Distance" = 30
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 500.0
+		"Dragon Health" = 1500.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
-		"Dragon Attack Damage" = 17
+		"Dragon Attack Damage" = 30
 		#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Fire breath)" = 2.0
+		"Dragon Attack Damage(Fire breath)" = 8.0
 		#Damage dealt from a successful ice breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Ice breath)" = 2.5
+		"Dragon Attack Damage(Ice breath)" = 8.5
 		#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Lightning breath)" = 3.5
+		"Dragon Attack Damage(Lightning breath)" = 8.5
 		#Change this to slow down or speed up dragon or amphithere flight.
 		#Range: 0.0 ~ 2.0
-		"Dragon Flight Speed Modifier" = 1.0
+		"Dragon Flight Speed Modifier" = 1.2
 		#Enable this if your server is being bombarded with moved wrongly or moved too fast console messages. REQUIRES RESTART!
 		"Dragon Moved Wrongly Error Fix" = false
 
@@ -104,7 +104,7 @@
 		#True if dragons can drop their blood on death.
 		"Dragons Drop Blood" = true
 		#True if dragons fire/ice charges create secondary explosions that launch blocks everywhere. Turn this to true if you like unfair explosions. Or lag.
-		"Explosive Dragon Breath" = false
+		"Explosive Dragon Breath" = true
 		#How many blocks away can dragons spot potential prey. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
 		"Dragon Target Search Length" = 128
@@ -113,7 +113,7 @@
 		"Dragon Wander From Home Distance" = 40
 		#Every interval of this number in ticks, dragon hunger decreases.
 		#Range: 1 ~ 10000
-		"Dragon Hunger Tick Rate" = 3000
+		"Dragon Hunger Tick Rate" = 4000
 		#Every interval of this number in ticks, dragon allowed to break blocks.
 		#Range: 0 ~ 10000
 		"Dragon Block Break Cooldown" = 5
@@ -122,7 +122,7 @@
 		#True if animals should run away and hide from dragons and other hostile Ice and Fire mobs.
 		"Animals Fear Dragons" = true
 		#A more intelligent dragon pathfinding system, but is also laggier. Turn this on if you think dragons are too stupid.
-		"Intelligent Dragon Pathfinding" = false
+		"Intelligent Dragon Pathfinding" = true
 
 [Mobs]
 
@@ -180,10 +180,10 @@
 		"Death Worm Target Search Length" = 64
 		#Default deathworm health, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Health" = 10.0
+		"Death Worm Base Health" = 50.0
 		#Default deathworm attack strength, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Attack Strength" = 3.0
+		"Death Worm Base Attack Strength" = 5.0
 		#True if wild deathworms are allowed to target and attack monsters
 		"Death Worms Target Monsters" = true
 		#Deathworm spawn weight. Higher = lower chance to spawn

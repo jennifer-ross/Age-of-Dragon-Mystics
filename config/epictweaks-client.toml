@@ -1,0 +1,13 @@
+#
+#This value only has an effect if Epic Fights 'filter_animation' is disabled.
+#Set this to 'true' to prevent Epic Fights rendering in first person view while in mining mode.
+#
+#Default: true
+filter_animation_first_person = true
+#
+#If enabled the player cannot manually switch between battle or mining mode if the item in his hand is designated to either of the modes
+#(i.e. the item was added to Epic Fights 'battle_autoswitch_items' or 'mining_autoswitch_items').
+#
+#Default: true
+enforce_mode = true
+

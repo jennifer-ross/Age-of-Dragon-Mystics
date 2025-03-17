@@ -386,6 +386,12 @@
 		POWER_CONSOLIDATION_TIER_UPGRADE_ITEM = ["minecraft:nether_star"]
 		#Words which are considered unholy by Caliburn and Rhongomyniad
 		UNHOLY_WORDS = ["zomb", "vampir", "demon", "devil", "skele", "lich", "evil", "curse", "undead", "wither"]
+		#Should Caliburn be gated behind fun
+		CALIBURN_FUN_REQUIRED = false
+		#Mandatory fun requirements before you can get caliburn
+		CALIBURN_MANDATORY_FUN_REQUIREMENTS = ["EMRYS_HIT_PHANTOM", "SHOOT_A_SWORD", "SPATIAL_THROW_SOMETHING", "BORROWED_AUTHORITY_PUNCH", "BUTTERFLY_FUTURE_BLOCK_REMOVE", "GEAS_PICKUP_CANCEL", "CREEPER_BINDING_EYES", "CREEPER_POSSESSION", "SWAP_TWO_THINGS"]
+		#Whether projections of Caliburns can be used to make new Caliburn/Morgan
+		POWER_CONSOLIDATION_PROJECTIONS_ALLOWED = false
 
 	[projection.rhongomyniad]
 		#Rhongomyniad Lake Nerf Factor

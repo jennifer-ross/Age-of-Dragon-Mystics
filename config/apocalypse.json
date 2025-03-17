@@ -1,18 +1,18 @@
 {
   "horde": {
     "enabled": true,
-    "cooldownMin": 300,
-    "cooldownMax": 600,
-    "distanceMin": 64,
-    "distanceMax": 128,
+    "cooldownMin": 1200,
+    "cooldownMax": 2600,
+    "distanceMin": 12,
+    "distanceMax": 24,
     "ZombieAmountMin": 8,
     "ZombieAmountMax": 16,
     "PersistentZombies": true
   },
   "zombie": {
     "attackSpeed": 1.5,
-    "burnsInDaylight": false,
-    "avoidSunlight": false,
+    "burnsInDaylight": true,
+    "avoidSunlight": true,
     "pathThroughDoors": true,
     "enablePounce": true,
     "pounceVelocity": 0.2,
@@ -39,12 +39,12 @@
     "enableDigging": true,
     "blockBreakPriority": 2,
     "dropBrokenBlocks": true,
-    "instantDoorBreak": true,
+    "instantDoorBreak": false,
     "climbEachOther": true,
     "climbingVelocity": 0.2,
     "instantDoorBreakHardness": 5.0,
-    "diggingProgressTick": 0.05,
-    "maximumTargetHardness": 20,
+    "diggingProgressTick": 1.0E-4,
+    "maximumTargetHardness": 2,
     "modifyPiglins": true
   }
 }

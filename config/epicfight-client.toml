@@ -9,12 +9,18 @@
 	#Range: 0.0 ~ 1.0
 	laser_pointer_color = 0.8287671232876712
 	enable_laser_pointer = true
-	camera_auto_switch = true
-	auto_preparation = true
+	camera_auto_switch = false
+	auto_preparation = false
 	blood_effects = true
 	no_mining_in_combat = true
 	battle_autoswitch_items = []
 	mining_autoswitch_items = []
+	#Range: 0 ~ 30
+	max_hit_projectiles = 30
+	aiming_correction = true
+	show_epicfight_attributes = true
+	use_animation_shader = false
+	first_person_model = true
 
 	[ingame.ui]
 		stamina_bar_x = 120

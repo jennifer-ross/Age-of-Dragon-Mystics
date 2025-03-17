@@ -1,0 +1,5 @@
+
+["Timer Settings"]
+	#define whether remove tickrate limit of entities
+	disableTickrateLimit = false
+

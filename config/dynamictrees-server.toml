@@ -1,9 +1,12 @@
+#The maximum number of leaves blocks that will fling particles when a falling tree crashes into the ground. Higher values might have a performance impact.
+#Range: 0 ~ 4096
+growthFolding = 400
 
 #Seed Settings
 [seeds]
 	#The rate at which seeds drop from leaves.
 	#Range: 0.0 ~ 64.0
-	leavesSeedDropRate = 1.0
+	leavesSeedDropRate = 4.0
 	#The rate at which seeds voluntarily drop from branches
 	#Range: 0.0 ~ 1.0
 	voluntarySeedDropRate = 0.01

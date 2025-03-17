@@ -406,41 +406,6 @@
         }
       },
       "particlesPerDamage": 1
-    },
-    "thirst": {
-      "enabled": true,
-      "opacity": 1.0,
-      "defaultIntensity": 0,
-      "maxIntensity": 5,
-      "fadeFactor": 0.05000000074505806,
-      "thirstLevel": {
-        "min": 2,
-        "max": 8
-      },
-      "focus": {
-        "disabled": false,
-        "opacity": 1.0
-      }
-    },
-    "temperature": {
-      "enabled": true,
-      "opacity": 1.0,
-      "fadeFactor": 0.005,
-      "freeze": {
-        "disabled": false,
-        "opacity": 1.0,
-        "animationSpeed": 0
-      },
-      "heat": {
-        "disabled": false,
-        "opacity": 1.0,
-        "animationSpeed": 0
-      },
-      "icyIntensity": 0.3,
-      "coldIntensity": 0.2,
-      "neutralIntensity": 0,
-      "warmIntensity": 0.2,
-      "hotIntensity": 0.3
     }
   }
 }

@@ -6,7 +6,7 @@
 	#% Bonus to Spell Damage per Magic level
 	ars_damage_bonus = 0.0
 	#% Bonus to Spell Resistance per Magic level
-	ars_defense_bonus = 0.0
+	ars_defense_bonus = 0.5
 
 #Scaling Health scaling
 ["SCALING HEALTH"]

@@ -46,91 +46,93 @@
 		skill_button_y = -22
 		#If enabled, lists in chat all features unlocked when a skill levels up.
 		skillup_unlocks = true
+		#should skillups only show in chat if content is actually unlocked.
+		strict_skillup_unlocks = true
 
 	#Generic Tooltip Settings
 	[Client.ToolTip_Settings]
 		#Should met reqs be hidden on the tooltip.
-		"Hide Met Req Tooltips" = true
+		"Hide Met Req Tooltips" = false
 
 	#This section covers the various tooltip elements and whether they should be enabled
 	[Client.Tooltip_Visibility]
 
 		[Client.Tooltip_Visibility.Requirement_Tooltips]
-			"WEAR Req  tooltip enabled" = true
-			"USE_ENCHANTMENT Req  tooltip enabled" = true
-			"TOOL Req  tooltip enabled" = true
-			"WEAPON Req  tooltip enabled" = true
-			"USE Req  tooltip enabled" = true
-			"PLACE Req  tooltip enabled" = true
-			"BREAK Req  tooltip enabled" = true
-			"KILL Req  tooltip enabled" = true
-			"TRAVEL Req  tooltip enabled" = true
-			"RIDE Req  tooltip enabled" = true
-			"TAME Req  tooltip enabled" = true
-			"BREED Req  tooltip enabled" = true
-			"INTERACT Req  tooltip enabled" = true
-			"ENTITY_INTERACT Req  tooltip enabled" = true
+			"WEAR Req  tooltip enabled" = false
+			"USE_ENCHANTMENT Req  tooltip enabled" = false
+			"TOOL Req  tooltip enabled" = false
+			"WEAPON Req  tooltip enabled" = false
+			"USE Req  tooltip enabled" = false
+			"PLACE Req  tooltip enabled" = false
+			"BREAK Req  tooltip enabled" = false
+			"KILL Req  tooltip enabled" = false
+			"TRAVEL Req  tooltip enabled" = false
+			"RIDE Req  tooltip enabled" = false
+			"TAME Req  tooltip enabled" = false
+			"BREED Req  tooltip enabled" = false
+			"INTERACT Req  tooltip enabled" = false
+			"ENTITY_INTERACT Req  tooltip enabled" = false
 
 		[Client.Tooltip_Visibility.Xp_Gain_Tooltips]
-			"ANVIL_REPAIR XP Gain  tooltip enabled" = true
-			"BLOCK_BREAK XP Gain  tooltip enabled" = true
-			"BREAK_SPEED XP Gain  tooltip enabled" = true
-			"BLOCK_PLACE XP Gain  tooltip enabled" = true
-			"BREATH_CHANGE XP Gain  tooltip enabled" = true
-			"BREED XP Gain  tooltip enabled" = true
-			"BREW XP Gain  tooltip enabled" = true
-			"CONSUME XP Gain  tooltip enabled" = true
-			"CRAFT XP Gain  tooltip enabled" = true
-			"CROUCH XP Gain  tooltip enabled" = true
-			"RECEIVE_DAMAGE XP Gain  tooltip enabled" = true
-			"DEAL_DAMAGE XP Gain  tooltip enabled" = true
-			"DEATH XP Gain  tooltip enabled" = true
-			"ENCHANT XP Gain  tooltip enabled" = true
-			"EFFECT XP Gain  tooltip enabled" = true
-			"FISH XP Gain  tooltip enabled" = true
-			"SMELT XP Gain  tooltip enabled" = true
-			"GROW XP Gain  tooltip enabled" = true
-			"GIVEN_AS_TRADE XP Gain  tooltip enabled" = true
-			"HEALTH_CHANGE XP Gain  tooltip enabled" = true
-			"HEALTH_INCREASE XP Gain  tooltip enabled" = true
-			"HEALTH_DECREASE XP Gain  tooltip enabled" = true
-			"JUMP XP Gain  tooltip enabled" = true
-			"SPRINT_JUMP XP Gain  tooltip enabled" = true
-			"CROUCH_JUMP XP Gain  tooltip enabled" = true
-			"HIT_BLOCK XP Gain  tooltip enabled" = true
-			"ACTIVATE_BLOCK XP Gain  tooltip enabled" = true
-			"ACTIVATE_ITEM XP Gain  tooltip enabled" = true
-			"ENTITY XP Gain  tooltip enabled" = true
-			"RECEIVED_AS_TRADE XP Gain  tooltip enabled" = true
-			"RIDING XP Gain  tooltip enabled" = true
-			"SHIELD_BLOCK XP Gain  tooltip enabled" = true
-			"SKILL_UP XP Gain  tooltip enabled" = true
-			"SPRINTING XP Gain  tooltip enabled" = true
-			"SUBMERGED XP Gain  tooltip enabled" = true
-			"SWIMMING XP Gain  tooltip enabled" = true
-			"DIVING XP Gain  tooltip enabled" = true
-			"SURFACING XP Gain  tooltip enabled" = true
-			"SWIM_SPRINTING XP Gain  tooltip enabled" = true
-			"TAMING XP Gain  tooltip enabled" = true
+			"ANVIL_REPAIR XP Gain  tooltip enabled" = false
+			"BLOCK_BREAK XP Gain  tooltip enabled" = false
+			"BREAK_SPEED XP Gain  tooltip enabled" = false
+			"BLOCK_PLACE XP Gain  tooltip enabled" = false
+			"BREATH_CHANGE XP Gain  tooltip enabled" = false
+			"BREED XP Gain  tooltip enabled" = false
+			"BREW XP Gain  tooltip enabled" = false
+			"CONSUME XP Gain  tooltip enabled" = false
+			"CRAFT XP Gain  tooltip enabled" = false
+			"CROUCH XP Gain  tooltip enabled" = false
+			"RECEIVE_DAMAGE XP Gain  tooltip enabled" = false
+			"DEAL_DAMAGE XP Gain  tooltip enabled" = false
+			"DEATH XP Gain  tooltip enabled" = false
+			"ENCHANT XP Gain  tooltip enabled" = false
+			"EFFECT XP Gain  tooltip enabled" = false
+			"FISH XP Gain  tooltip enabled" = false
+			"SMELT XP Gain  tooltip enabled" = false
+			"GROW XP Gain  tooltip enabled" = false
+			"GIVEN_AS_TRADE XP Gain  tooltip enabled" = false
+			"HEALTH_CHANGE XP Gain  tooltip enabled" = false
+			"HEALTH_INCREASE XP Gain  tooltip enabled" = false
+			"HEALTH_DECREASE XP Gain  tooltip enabled" = false
+			"JUMP XP Gain  tooltip enabled" = false
+			"SPRINT_JUMP XP Gain  tooltip enabled" = false
+			"CROUCH_JUMP XP Gain  tooltip enabled" = false
+			"HIT_BLOCK XP Gain  tooltip enabled" = false
+			"ACTIVATE_BLOCK XP Gain  tooltip enabled" = false
+			"ACTIVATE_ITEM XP Gain  tooltip enabled" = false
+			"ENTITY XP Gain  tooltip enabled" = false
+			"RECEIVED_AS_TRADE XP Gain  tooltip enabled" = false
+			"RIDING XP Gain  tooltip enabled" = false
+			"SHIELD_BLOCK XP Gain  tooltip enabled" = false
+			"SKILL_UP XP Gain  tooltip enabled" = false
+			"SPRINTING XP Gain  tooltip enabled" = false
+			"SUBMERGED XP Gain  tooltip enabled" = false
+			"SWIMMING XP Gain  tooltip enabled" = false
+			"DIVING XP Gain  tooltip enabled" = false
+			"SURFACING XP Gain  tooltip enabled" = false
+			"SWIM_SPRINTING XP Gain  tooltip enabled" = false
+			"TAMING XP Gain  tooltip enabled" = false
 
 		[Client.Tooltip_Visibility.Bonus_Tooltips]
-			"BIOME Bonus  tooltip enabled" = true
-			"HELD Bonus  tooltip enabled" = true
-			"WORN Bonus  tooltip enabled" = true
-			"DIMENSION Bonus  tooltip enabled" = true
+			"BIOME Bonus  tooltip enabled" = false
+			"HELD Bonus  tooltip enabled" = false
+			"WORN Bonus  tooltip enabled" = false
+			"DIMENSION Bonus  tooltip enabled" = false
 
 	#Client Settings Related to the Vein Mining Ability
 	[Client.Vein_Miner]
 		#The max blocks a vein activation should consume regardless of charge
 		#Range: > 0
-		Vein_Limit = 65
+		Vein_Limit = 123
 
 	#Toggles for helpful features related to mechanics
 	[Client.Tutorial]
 		#Should blocks affected by Reuse Penalty show a red outline?
-		"Enable Reuse Penalty Highlights" = true
+		"Enable Reuse Penalty Highlights" = false
 		#Should the owner of a block show when hovering?
-		"Enable Owner Highlights" = true
+		"Enable Owner Highlights" = false
 		#Should hovering over a salvage block show helpful tips?
-		"Enable Salvage Tips" = true
+		"Enable Salvage Tips" = false
 

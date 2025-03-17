@@ -3,10 +3,10 @@
 [general]
 	#Number of ticks to delay changing the player's temperature after their temperature changes.
 	#Range: > 0
-	temperature_change_delay = 500
+	temperature_change_delay = 2500
 	#Number of ticks to delay changing the player's temperature after their temperature changes when wearing armor.
 	#Range: > 0
-	armor_temperature_change_delay = 50
+	armor_temperature_change_delay = 150
 	#Number of ticks to delay changing the player's temperature after their temperature changes when holding an item.
 	#Range: > 0
 	handheld_temperature_change_delay = 375
@@ -18,7 +18,7 @@
 	extremity_rebound_temperature_change_delay = 250
 	#Number of ticks to delay taking damage when icy or hot.
 	#Range: > 0
-	extremity_damage_delay = 500
+	extremity_damage_delay = 1750
 	#Number of ticks for the duration of Climate Clemency.
 	#Range: > 0
 	climate_clemency_duration = 6000

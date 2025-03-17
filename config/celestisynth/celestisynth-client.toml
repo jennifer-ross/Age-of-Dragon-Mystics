@@ -6,4 +6,6 @@
 	"Show Left Arm" = true
 	#Defines if your right arm must be shown during the ability casting process.
 	"Show Right Arm" = true
+	#Should chant messages be displayed?
+	"Enable Chant Messages" = true
 

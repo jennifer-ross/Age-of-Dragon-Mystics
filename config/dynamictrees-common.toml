@@ -12,6 +12,8 @@
 [misc]
 	#If enabled, dirt bucket recipes will be automatically generated.
 	generateDirtBucketRecipes = true
+	#The base potion the Biochar Base is brewed from. Minecraft potions use 'awkward'. If you change this, don't forget to update the patchouli manual page too.
+	biocharBrewingBase = "thick"
 
 #Mod Integration Settings
 [integration]

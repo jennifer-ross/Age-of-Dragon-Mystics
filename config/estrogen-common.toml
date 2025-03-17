@@ -13,3 +13,19 @@
 	#Range: 0 ~ 255
 	permaDashAmount = 0
 
+#.
+#Settings for the durations of effects
+[durations]
+	#.
+	#How long does Girl Power from the Estrogen Pill last in ticks
+	#Range: 0 ~ 100000
+	estrogenPillDuration = 6000
+	#.
+	#How long does Girl Power from the Crystal Estrogen Pill last in ticks
+	#Range: 0 ~ 100000
+	crystalEstrogenPillDuration = 6000
+	#.
+	#How long does Girl Power from the Crystal Estrogen Pill last in ticks
+	#Range: 0 ~ 100000
+	estrogenChipCookieDuration = 6000
+

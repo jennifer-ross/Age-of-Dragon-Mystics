@@ -4,9 +4,9 @@
 	#XP gained per Mana spent
 	ars_mana = 0.1
 	#% Bonus to Max Mana per level
-	ars_max_bonus = 0.01
+	ars_max_bonus = 5.0
 	#% Bonus to Mana Regen per level
-	ars_regen_bonus = 0.00666
+	ars_regen_bonus = 0.8
 
 #Blood Magic
 [BLOOD]

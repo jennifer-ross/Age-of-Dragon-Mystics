@@ -4,7 +4,6 @@ WorldgenEvents.remove(e => {
   // -- MOD NAMESPACE UTILITY FUNCTIONS -- //
     let mc = (id) => `minecraft:${id}`;
     let cr = (id) => `create:${id}`;
-    let sh = (id) => `scalinghealth:${id}`;
 
       e.removeOres(ores => {
           ores.blocks = [
@@ -14,7 +13,6 @@ WorldgenEvents.remove(e => {
               '#forge:ores_in_ground/deepslate',
               '#forge:ore_bearing_ground/stone',
               '#forge:ore_bearing_ground/deepslate',
-              '#terralith:island_blocks',
           ];
       });
 
@@ -46,17 +44,5 @@ WorldgenEvents.remove(e => {
               cr('zinc_ore')
           ]
       );
-
-      let sh_ores = [
-        sh('heart_crystal_ore'),
-        sh('deepslate_heart_crystal_ore'),
-        sh('power_crystal_ore'),
-        sh('deepslate_power_crystal_ore')
-      ]
-
-      // SCALING HEALTH
-      e.removeOres(ores => {
-        ores.blocks = sh_ores;
-    });
 
 });

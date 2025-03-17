@@ -1,0 +1,15 @@
+
+["Boss Health"]
+	"Gob, King of Gnomes Health" = 450.0
+	"Super Sniffer Health" = 1000.0
+	"Trial Guardian Health" = 800.0
+	"Virtue Health" = 700.0
+	"Enchanter Merlin Health" = 700.0
+	"Sorceress Circe Health" = 700.0
+	"Archmage Gundalf Health" = 1000.0
+	"Multiplayer Boss Health Scaling" = true
+
+["Mob Health"]
+	"Duskrok Health" = 100.0
+	"Hellrok Health" = 250.0
+

@@ -1,19 +1,19 @@
 
-########################################################################################################################
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###   ATTENTION: These are client configs. For gameplay settings, go to the SERVER CONFIGS (in the world save file)   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-########################################################################################################################
+###############################################################################################
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###   ATTENTION: These are client configs. For gameplay settings, go to the SERVER CONFIGS   ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###############################################################################################
 #
 [UI]
 
@@ -48,8 +48,8 @@
 
 [Animations]
 	#What to render in first person while casting.
-	showFirstPersonArms = true
-	showFirstPersonItems = true
+	showFirstPersonArms = false
+	showFirstPersonItems = false
 
 [Renderers]
 	#By default, both fireballs are replaced with an enhanced model used by fire spells.

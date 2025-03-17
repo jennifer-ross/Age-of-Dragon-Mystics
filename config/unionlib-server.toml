@@ -6,7 +6,7 @@
 	#-------------------------------------------
 	#Default: true
 	#-------------------------------------------
-	"Boolean: Show Config Button" = true
+	"Boolean: Test Boolean 1" = true
 
 [Capes]
 	#
@@ -15,5 +15,5 @@
 	#-------------------------------------------
 	#Default: true
 	#-------------------------------------------
-	"Boolean: Show Capes" = true
+	"Boolean: Test Boolean 2" = true
 

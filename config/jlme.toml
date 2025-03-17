@@ -1,0 +1,360 @@
+
+[Parry]
+	#Activates or disables enchantment
+	Active = true
+	#Chance of blocking an attack 0.15 at default.
+	Chance = 0.15
+
+[Evasive]
+	#Activates or disables enchantment
+	Active = true
+	Chance = 0.25
+
+[Agility]
+	#Activates or disables enchantment
+	Active = true
+	#Speed per level of enchantment
+	Speed = 0.01
+	#Max level of enchantment
+	"Max Level" = 2
+
+[Lifesteal]
+	#Activates or disables enchantment
+	Active = true
+	#Percentage of damage healed per level.
+	Percentage = 0.1
+	#Max level of enchantment
+	"Max Level" = 1
+
+["Light Weight"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+
+[Envenomed]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+
+[Vitality]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 5
+	#Amount of health per level
+	Health = 4.0
+
+[Purge]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 5
+	#Chance per level
+	Chance = 0.1
+
+["Ash Destroyer"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 5
+	#Percentage of damage per level
+	"Damage Increase" = 0.2
+
+[Headless]
+	#Activates or disables enchantment
+	Active = true
+
+[Viper]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 5
+	#Base damage bonus for poisoned enemies, doesnt scale with levels
+	"Poisoned base damage" = 2.25
+	#Damage bonus per level to poisoned enemies
+	"Poisoned bonus damage" = 0.75
+	#Base damage bonus for withered enemies, doesnt scale with levels
+	"Withered base damage" = 1.5
+	#Damage bonus per level to withered enemies
+	"Withered bonus damage" = 0.5
+
+["Curse of Possession"]
+	#Activates or disables enchantment
+	Active = true
+
+["Swifter Slashes"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 5
+	#Bonus attack speed per level
+	"Attack Speed" = 0.2
+	#Chance to ignore iframes per level
+	Chance = 0.02
+
+["Advanced Looting"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+
+[Adept]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+	#Percentual increase in experience per level
+	"Percentual increase" = 0.5
+	#Percentual increase in experience per level for bossess
+	"Percentual boss increase" = 0.15
+	#Amount of original XP after the enchantment considers a mob a Boss
+	Threshold = 25
+
+["Piercing Capabilities"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+	#Percentage of damage that ignores reductions per level
+	Percentage = 0.25
+
+["Advanced Protection"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+
+["Advanced Sharpness"]
+	#Activates or disables enchantment
+	Active = true
+
+["Supreme Sharpness"]
+	#Activates or disables enchantment
+	Active = true
+
+["Lethal Cadence"]
+	#Activates or disables enchantment
+	Active = true
+	#Chance of ignoring iframes
+	Chance = 0.4
+
+[Range]
+	#Activates or disables enchantment
+	Active = true
+	#Multiplier Speed for arrows, below 1 will cause arrows to be slower
+	Boost = 2.0
+
+["Advanced Power"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 5
+
+["Arrow Piercing"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+	#Percentage of damage that ignores reductions per level
+	Percentage = 0.25
+
+[Vulnerability]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+	#Percentage of damage increased per level
+	Percentage = 0.08
+
+["Double Edge"]
+	#Activates or disables enchantment
+	Active = true
+	#Percentage of damage dealt increased
+	"Damage Bonus" = 0.25
+	#Percentage of damage dealt to itself
+	"Self Damage" = 0.5
+
+["Heavy Weight"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 5
+	#Attack Speed Decrease
+	Percentage = 0.2
+
+["Advanced Smite"]
+	#Activates or disables enchantment
+	Active = true
+
+["Supreme Smite"]
+	#Activates or disables enchantment
+	Active = true
+
+["Advanced Bane of Arthropods"]
+	#Activates or disables enchantment
+	Active = true
+
+["Supreme Bane of Arthropods"]
+	#Activates or disables enchantment
+	Active = true
+
+["Armor Piercing"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+	#Percentage of damage that ignores armor per level
+	Percentage = 0.25
+	#Base percentage of damage that ignores armor
+	Base = 0.15
+
+["Magic Piercing"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+	#Percentage of damage that ignores enchantments per level
+	Percentage = 0.25
+	#Base percentage of damage that ignores armor
+	Base = 0.15
+
+["Critical Strike"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+	#Percentage of damage per level
+	"Level Damage Increase" = 0.25
+	#Base percentage damage
+	"Base Damage Increase" = 0.5
+	#Percentage chance per level
+	"Chance Increase" = 0.05
+
+["Giant Slayer"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+	#Percentage of damage per level
+	"Level Damage Increase" = 0.01
+	#Base percentage damage
+	"Base Damage Increase" = 0.03
+	#Max damage bonus possible
+	"Max damage" = 10.0
+
+[Executioner]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+	#Percentage of missing health as damage per level
+	"Level Damage Increase" = 0.1
+	#Base Percentage of missing health as damage
+	"Base Damage Increase" = 0.1
+	#Max damage bonus possible
+	"Max damage" = 10.0
+
+[Shielded]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 5
+	#Max amount of absorption per level
+	Absorption = 4.0
+
+["Advanced Blast Protection"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+
+["Advanced Projectile Protection"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+
+["Advanced Fire Protection"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+
+["Advanced Feather Falling"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+
+["Advanced Efficiency"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 5
+
+["Advanced Lure"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+
+["Advanced Luck of the Sea"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 2
+
+["Advanced Fortune"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+
+[Heating]
+	#Activates or disables enchantment
+	Active = true
+
+[Chilling]
+	#Activates or disables enchantment
+	Active = true
+
+[Butcher]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+
+["Advanced Butcher"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+
+[Learning]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+	#Percentual increase in experience per level
+	"Percentual increase" = 0.6
+	#Amount of original XP after the enchantment considers a mob a Boss
+	Threshold = 25
+
+["Double Jump"]
+	#Activates or disables enchantment
+	Active = true
+
+[Harvester]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+	#Increase in damage per kill
+	"Damage Increase" = 0.06
+	#Initial max amount of kills
+	"Base kills" = 80
+	#Increase in max amount of kills per level
+	"Increase per levels" = 30
+

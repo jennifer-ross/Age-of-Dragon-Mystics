@@ -6,7 +6,7 @@
         "requiredLevel": 0,
         "maxLevel": 10,
         "stats": {
-          "talisman": {
+          "charm": {
             "minInitialValue": 1.0,
             "maxInitialValue": 3.0,
             "minThresholdValue": 4.9E-324,
@@ -25,7 +25,7 @@
   },
   "loot": {
     "entries": {
-      "[\\w]+:chests\\/[\\w_\\/]*village[\\w_\\/]*": 0.025
+      "[\\w]+:chests\\/[\\w_\\/]*village[\\w_\\/]*": 0.005
     }
   }
 }

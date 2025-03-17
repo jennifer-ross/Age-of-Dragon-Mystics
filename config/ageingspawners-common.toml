@@ -11,7 +11,7 @@
 [Whitelist]
 	#Decides default spawnCount of spawns a spawner can have in WHITELIST mode unless specified [Default: 20]
 	#Range: > 1
-	whitelistMaxSpawnCount = 70
+	whitelistMaxSpawnCount = 40
 	#Decides which mobs age a spawner (requires spawnerMode to be set to WHITELIST)
 	#[syntax: 'modid:entity;times' or 'modid:entity' ]
 	#[example: 'minecraft:pig;5' ]
@@ -21,7 +21,7 @@
 [Blacklist]
 	#Decides the spawnCount of spawns a spawner can have in BLACKLIST mode [Default: 20]
 	#Range: > 1
-	blacklistMaxSpawnCount = 70
+	blacklistMaxSpawnCount = 40
 	#Decides which mobs don't age a spawner (requires spawnerMode to be set to BLACKLIST) 
 	#[syntax: 'modid:entity']
 	blacklist = [""]

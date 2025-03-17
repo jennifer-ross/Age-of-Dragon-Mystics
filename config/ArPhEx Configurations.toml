@@ -1,0 +1,44 @@
+
+[Spawning]
+	#This controls whether all boss versions will require specific weather conditions to spawn. Without this, they will appear much more frequently. 
+	"Bosses require weather?" = true
+	#Do you want the boss and clone versions to spawn naturally, or only from summoning structures?
+	"Boss natural spawning" = true
+	#Bosses and variant spawns are rare by default. 1=twice as common. 2=default rarity. 3=twice as rare. 4=three times rarer. Avoid decimal and negative numbers.
+	"Boss rarity" = 2.0
+	#This controls whether the stalker bosses (spider moth, scorpioid bloodluster, draconic voidlasher, tormentor) are included in general. Set to false if you only want the other mobs, and the bosses will become unable to be spawned in any way.
+	"Boss inclusion" = true
+	#Controls the spawnrate of ALL non-boss mobs in this mod, including minibosses and all regular arthropods. Default multiplier value is 8. To double ArPhEx spawnrates, set it to 4. Lower values = more spawns (minimum value is 1). No maximum rarity. Avoid decimal and negative numbers.
+	"Non-boss global spawnrates" = 8.0
+	#ArPhEx has an additional spawning system that gives a 1 in (10) chance to spawn a random ArPhEx mob each time the natural spawn triggers. This system allows ArPhEx mobs to spawn in non-vanilla overworld biomes, while still accounting for mob rarity. Default number is 10, meaning it has a 1 in 10 chance to spawn each time. Setting it to 0 disables the additional spawning system entirely. Avoid decimal and negative numbers.
+	"Random-system spawn rates" = 10.0
+	"All entities enabled/disabled" = true
+	#Maximum colony tamed ants per player (furthest ants despawn, 20 default)
+	"Max tamed ants per player" = 20.0
+	#Option to limit all natural ArPhEx spawning to the Crawling dimension
+	"Crawling-restrict all mobs" = false
+	#Specifically disables the Tormentor boss entirely. It will be unable to be spawned in any form if this is enabled.
+	"Disable Tormentor" = false
+	#Disabled by default. If enabled, most mobs will become able to spawn in any dimension, including dimensions from other mods - may cause issues with some mod dimensions.
+	"Spawn in other dimensions" = false
+
+[Difficulty]
+	#By default, the stalker bosses have hundreds of health points. Choose true to decrease their maximum to just 60 health. Avoid decimal and negative numbers.
+	"Boss easy-mode" = false
+	#Can increase damage for most ArPhEx mob, miniboss, and boss attacks. Affects their ranged projectiles too. Default value is 0. Positive values will give that level of strength to all arphex mobs. Avoid decimal and negative numbers, upper limit is 256. Does not affect Tormentor fight significantly.
+	"Extra Difficulty Control" = 0.0
+	#Can lower damage for most ArPhEx mob, miniboss, and boss attacks. Affects their ranged projectiles too. Default value is 0. Positive values will give that level of weakness to all arphex mobs. Avoid decimal and negative numbers, upper limit is 256. Does not affect Tormentor fight significantly.
+	"Lower Difficulty Control" = 0.0
+	#Option to make the TORMENTOR weaker by lowering its max heath to any specific value. Default and maximum value is 1024.
+	"Tormentor Max Health" = 1024.0
+	#Value is in ticks. Since 20 ticks equate to a second, the default 50 ticks gives the Tormentor 5 seconds of immunity after each time it takes damage.
+	"Tormentor Damage Speed Limit" = 40.0
+
+[Other]
+	#When you join a world for the first time with ArPhEx installed, it shows a welcome message, informing you about the wiki and showing that the mod is active. Set to false to disable.
+	"Welcome message" = true
+	#Allow structure generations? Without them you will need to cheat to access the lower Crawling dimension layers or get ant colonies and termite-related items. Some tiny elements may still generate.
+	"Structure generation toggle" = true
+	#Keep enabled if you want to use the bonus rendering system for the Tormentor, featuring infinite render distance for the entity along with modifying fog distance accordingly, plus fog colour when nearby
+	"Special Tormentor rendering" = true
+

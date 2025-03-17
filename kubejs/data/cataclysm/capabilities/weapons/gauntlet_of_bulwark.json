@@ -1,15 +1,13 @@
 {
-    "type": "epicfight:fist",
-    "attributes": {
-        "one_hand": {
-            "armor_negation": 25.0,
-                "impact": 2.9,
-            "max_strikes": 2
-        },
-        "two_hand": {
-            "armor_negation": 25.0,
-                "impact": 2.9,
-            "max_strikes": 2
-        }
-    }
- }
+	"attributes":
+	{
+		"common":
+		{
+			"armor_negation":30.0,
+			"impact":4.0,
+			"max_strikes":5,
+			"speed_bonus": 0.5
+		}
+	},
+	"type":"wom:ender_blaster"
+}

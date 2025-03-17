@@ -1,10 +1,12 @@
- {
-    "type": "wom:agony",
-    "attributes": {
-        "common": {
-            "armor_negation": 30,
-                "impact": 1.1,
-            "max_strikes": 5
-        }
-    }
- }
+{
+	"attributes":
+	{
+		"common":
+		{
+			"impact":2.6,
+			"max_strikes":4,
+			"speed_bonus": 0.6
+		}
+	},
+	"type":"epicfight:spear"
+}

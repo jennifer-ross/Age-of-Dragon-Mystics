@@ -19,6 +19,7 @@
     "crop_progress": true,
     "command_block": true,
     "mob_growth": true,
+    "waxed": true,
     "harvest_tool.new_line": false,
     "entity_health.max_for_render": 40,
     "entity_health.show_fractions": false,
@@ -50,14 +51,13 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
+  "treechop": {
+    "plugin": true,
+    "show_tree_block_counts": true,
+    "show_num_chops_remaining": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
-  "supplementaries": {
-    "hat_stand": true
+  "tombstone": {
+    "graves": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -67,12 +67,25 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "dynamictrees": {
-    "rooty_water": true,
-    "pod": true,
-    "fruit": true,
-    "rooty": true,
-    "branch": true
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "lhmobdifficultyincrease": {
+    "level": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "create": {
     "filter": true,
@@ -85,19 +98,16 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "petrolpark": {
+    "contamination": true
+  },
   "waystones": {
     "waystone": true
   },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
+  "gravestone": {
+    "grave": true
+  },
+  "astages": {
+    "block_component_provider": true
   }
 }

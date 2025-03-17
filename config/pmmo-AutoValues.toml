@@ -149,32 +149,32 @@
 		[Auto_Values.Requirements.Items]
 
 			[Auto_Values.Requirements.Items."WEAR Default Req"]
-				endurance = 1
+				endurance = 0
 
 			[Auto_Values.Requirements.Items."USE_ENCHANTMENT Default Req"]
-				magic = 1
+				magic = 0
 
 			[Auto_Values.Requirements.Items."TOOL Default Req"]
-				mining = 1
+				mining = 0
 
 			[Auto_Values.Requirements.Items."WEAPON Default Req"]
-				combat = 1
+				combat = 0
 
 			#Tool requirments specifically for shovels.)
 			[Auto_Values.Requirements.Items."Shovel TOOL Override"]
-				excavation = 1
+				excavation = 0
 
 			#Tool requirments specifically for swords.)
 			[Auto_Values.Requirements.Items."Sword TOOL Override"]
-				farming = 1
+				farming = 0
 
 			#Tool requirments specifically for axes.)
 			[Auto_Values.Requirements.Items."Axe TOOL Override"]
-				woodcutting = 1
+				woodcutting = 0
 
 			#Tool requirments specifically for hoes.)
 			[Auto_Values.Requirements.Items."Hoe TOOL Override"]
-				farming = 1
+				farming = 0
 
 			#What effects and levels should be applied if a player does not meet an item req
 			[Auto_Values.Requirements.Items."Item Penalties"]

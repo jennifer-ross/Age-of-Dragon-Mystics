@@ -1,0 +1,14 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"armor_negation":50.0,
+			"impact":2.2,
+			"damage_bonus": 5.0,
+			"speed_bonus": -2.6,
+			"max_strikes":5
+		}
+	},
+	"type":"wom:ender_blaster"
+}

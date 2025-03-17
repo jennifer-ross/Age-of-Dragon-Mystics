@@ -1,10 +1,13 @@
 {
-    "type": "epicfight:greatsword",
-    "attributes": {
-        "two_hand": {
-            "armor_negation": 30.0,
-                "impact": 5.7,
-            "max_strikes": 3
-        }
-    }
- }
+	"attributes":
+	{
+		"common":
+		{
+			"armor_negation":20.0,
+			"impact":4.0,
+			"max_strikes":3,
+			"speed_bonus": 0.4
+		}
+	},
+	"type":"epicfight:torment"
+}

@@ -1,3 +1,11 @@
- {
-    "type": "epicfight:shield"
- }
+{
+	"attributes":
+	{
+		"common":
+		{
+			"impact":2.6,
+			"max_strikes":4
+		}
+	},
+	"type":"epicfight:shield"
+}

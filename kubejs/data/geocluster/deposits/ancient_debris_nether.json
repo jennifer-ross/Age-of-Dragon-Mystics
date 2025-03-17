@@ -1,0 +1,33 @@
+{
+    "type": "geocluster:deposit_dense",
+    "config": {
+        "yMin": 10,
+        "yMax": 20,
+        "size": 30,
+        "generationWeight": 10,
+        "blockStateMatchers": [
+            "minecraft:netherrack",
+            "minecraft:basalt",
+            "minecraft:blackstone",
+            "minecraft:magma_block",
+            "create:scorchia"
+        ],
+        "biomeTag": "#minecraft:is_nether",
+        "blocks": {
+            "default": [
+                {
+                    "block": "ancient_debris",
+                    "chance": 0.15
+                },
+                {
+                    "block": "minecraft:netherrack",
+                    "chance": 0.85
+                }
+            ]
+        },
+        "samples": [{                                     
+            "block": "geocluster:ancient_debris_ore_sample", 
+            "chance": 1.0
+        }]
+    }
+}

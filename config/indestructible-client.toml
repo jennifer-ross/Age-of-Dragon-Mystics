@@ -1,0 +1,8 @@
+
+["replace entityindicator"]
+	#replace original entityindicator
+	replace_ui = true
+
+["cancel original boss bar"]
+	name = []
+

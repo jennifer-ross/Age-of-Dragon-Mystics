@@ -1,0 +1,229 @@
+
+[redstone]
+	wind_vane = true
+	clock_block = true
+	redstone_illuminator = true
+	crank = true
+	cog_block = true
+	gold_door = true
+	gold_trapdoor = true
+	lock_block = true
+	relayer = true
+
+	[redstone.speaker_block]
+		enabled = true
+		#Enable/disable speaker block narrator mode
+		narrator_enabled = true
+		#Max text
+		#Range: 0 ~ 10000
+		max_text = 32
+		#Maximum block range
+		#Range: 0 ~ 100000000
+		range = 64
+
+	[redstone.bellows]
+		enabled = true
+		#bellows pushes air following this equation: 
+		#air=(sin(2PI*ticks/period)<0), with period = base_period-(redstone_power-1)*power_scaling 
+		#represents base period at 1 power
+		#Range: 1 ~ 512
+		base_period = 78
+		#entities with velocity greater than this won't be pushed
+		#Range: 0.0 ~ 16.0
+		power_scaling = 2.0
+		#velocity increase uses this equation: 
+		#vel = base_vel*((range-entity_distance)/range) with base_vel = base_velocity_scaling/period 
+		#note that the block will push further the faster it's pulsing
+		#Range: 0.0 ~ 64.0
+		base_velocity_scaling = 5.0
+		#maximum range
+		#note that it will still only keep alive the two fire blocks closer to it
+		#Range: 0 ~ 16
+		range = 5
+
+	[redstone.spring_launcher]
+		enabled = true
+		#spring launcher launch speed
+		#Range: 0.0 ~ 16.0
+		velocity = 1.5
+		#fall distance needed to trigger the automatic spring launch
+		#Range: 0 ~ 512
+		fall_height_required = 5
+
+	[redstone.enderman_head]
+		enabled = true
+		drop_head = true
+		#Time to increase 1 power level when being looked at
+		#Range: 0 ~ 10000
+		ticks_to_increase_power = 15
+		#do enderman heads work when looked from any side?
+		work_from_any_side = false
+
+	[redstone.turn_table]
+		enabled = true
+		#can rotate entities standing on it?
+		rotate_entities = true
+		#Allows turn table to shuffle containers content when rotated over horizontal axis
+		shuffle_containers = true
+
+	[redstone.pulley_block]
+		enabled = true
+		#Chance for a new mineshaft elevator piece to spawn
+		#Range: 0.0 ~ 1.0
+		mineshaft_elevator = 0.035
+
+	[redstone.dispenser_minecart]
+		enabled = true
+		#Dispenser minecarts will have their dispenser facing forward instead of up
+		face_forward = false
+
+	[redstone.faucet]
+		enabled = true
+		#Turn off to prevent faucets from dropping items
+		spill_items = true
+		#Allows faucets to fill entities inventories
+		fill_entities_below = false
+
+	[redstone.crystal_display]
+		enabled = true
+		#Allows chaining 2 crystal displays, letting one power the other to its left IF its own power exceeds 10. Given power will be its own divided by 10. Note that to work the decimal display must NOT have power directly behind it. Doing so will override the behavior to non chaining mode
+		chaining = true
+
+[functional]
+	fodder = true
+	hourglass = true
+
+	[functional.rope]
+		#So you came here to disable supp rope not because they are bad but because they are the easiest to disable, despite them doing all the stuff other ropes can do. Well too bad, this config doesnt do anything :P. Learn how to use datapacks to disable stuff, like its normally done
+		enabled = true
+		#Allows ropes to be supported & attached to solid block sides
+		block_side_attachment = true
+		#Makes sliding down ropes as fast as free falling, still negating fall damage
+		slide_on_fall = true
+		#In case you want to disable supplementaries ropes you can specify here another mod rope and they will be used for rope arrows and in mineshafts instead
+		rope_override = "supplementaries:rope"
+		#Enables horizontal placement of ropes
+		horizontal_ropes = true
+
+	[functional.jar]
+		enabled = true
+		#Jar liquid capacity: leave at 12 for pixel accuracy
+		#Range: 0 ~ 1024
+		capacity = 12
+		#Allow right click to instantly eat or drink food or potions inside a placed jar.
+		#Disable if you think this ability is op (honey for example). Cookies are excluded
+		drink_from_jar = false
+		#Allows the player to directly drink from jar items
+		drink_from_jar_item = false
+		#Dynamically allows all small mobs inside jars depending on their hitbox size. Tinted jars can accept hostile mbos too
+		jar_auto_detect = false
+		#Allow Jars to capture small mobs
+		jar_capture = true
+		#Allow Jars to hold cookies
+		jar_cookies = true
+		#Allow Jars to hold liquids from bottles, buckets and bowls
+		jar_liquids = true
+
+	[functional.cage]
+		enabled = true
+		#Allows all entities to be captured by cages and jars. Not meant for survival
+		allow_all_mobs = false
+		#Allows all baby mobs to be captured by cages
+		cage_allow_all_babies = false
+		#Dynamically allows all small mobs inside cages depending on their hitbox size
+		cage_auto_detect = false
+		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
+		persistent_mobs = false
+		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
+		#Range: 1 ~ 100
+		health_threshold = 100
+
+	[functional.safe]
+		enabled = true
+		#Makes safes only breakable by their owner or by a player in creative
+		prevent_breaking = false
+		#Make safes simpler so they do not require keys:
+		#they will be bound to the first person that opens one and only that person will be able to interact with them
+		simple_safes = false
+
+	[functional.sack]
+		enabled = true
+		#Penalize the player with slowness effect when carrying too many sacks
+		sack_penalty = true
+		#Maximum number of sacks after which the overencumbered effect will be applied. Each multiple of this number will increase the effect strength by one
+		#Range: 0 ~ 50
+		sack_increment = 2
+		#How many slots should a sack have
+		#Range: 1 ~ 27
+		slots = 9
+
+	[functional.bamboo_spikes]
+		enabled = true
+		tipped_spikes = true
+		#Allows entities killed by spikes to drop loot as if they were killed by a player
+		player_loot = false
+		#Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
+		only_allow_harmful_effects = true
+		#Populate the creative inventory with all tipped spikes variations
+		populate_creative_tab = true
+
+	[functional.urn]
+		enabled = true
+		#Chance for an urn to spawn a critter from the urn_spawn tag
+		#Range: 0.0 ~ 1.0
+		critter_spawn_chance = 0.009999999776482582
+		cave_urns = true
+
+	[functional.soap]
+		enabled = true
+		#Dyed Bock types that cannot be cleaned with soap
+		clean_blacklist = ["minecraft:glazed_terracotta", "botania:mystical_flower", "mna:chimerite_crystal", "botania:floating_flower", ",minecraft:mushroom", "botania:mushroom", "botania:tall_mystical_flower", "botania:petal_block", "morered:network_cable", "xycraft_world:glowing_shiny_aurey_block", "xycraft_world:shiny_aurey_block", "xycraft_world:rgb_lamp", "xycraft_world:glowing_rgb_viewer", "xycraft_world:glowing_matte_rgb_block", "xycraft_world:rgb_lamp_pole"]
+
+		#This is a map of special blocks that can be cleaned with soap
+		[functional.soap.special_blocks]
+			"quark:dirty_glass" = "minecraft:glass"
+			"minecraft:sticky_piston" = "minecraft:piston"
+			"quark:dirty_glass_pane" = "minecraft:glass_pane"
+			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
+
+	[functional.present]
+		enabled = true
+		trapped_present = true
+
+	[functional.flax]
+		enabled = true
+		wild_flax = true
+
+[building]
+	lapis_bricks = true
+	deepslate_lamp = true
+	end_stone_lamp = true
+	blackstone_lamp = true
+	stone_lamp = true
+	stone_tile = true
+	blackstone_tile = true
+	sconce = true
+	sconce_lever = true
+	pancake = true
+	netherite_door = true
+	netherite_trapdoor = true
+	checker_block = true
+	raked_gravel = true
+	feather_block = true
+	statue = true
+	flower_box = true
+	doormat = true
+	flint_block = true
+	candle_holder = true
+
+	[building.blackboard]
+		enabled = true
+		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
+		colored_blackboard = false
+		#Interaction mode for blackboards
+		#Allowed Values: BOTH, GUI, MANUAL
+		interaction_mode = "BOTH"
+
+	[building.timber_frame]
+		enabled = true
+		#Allow placing a timbe

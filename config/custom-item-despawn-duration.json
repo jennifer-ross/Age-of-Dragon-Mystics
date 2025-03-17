@@ -1,0 +1,5 @@
+{
+  "modifyDefaultItemDuration": true,
+  "defaultItemDuration": 1800,
+  "despawnDurations": {}
+}

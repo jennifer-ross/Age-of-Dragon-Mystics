@@ -3,28 +3,28 @@
 ["Damage System"]
 	#Max health of the Head
 	#Range: 2 ~ 12
-	maxHealthHead = 4
+	maxHealthHead = 6
 	#Max health of the Left Arm
 	#Range: 2 ~ 12
-	maxHealthLeft_Arm = 4
+	maxHealthLeft_Arm = 6
 	#Max health of the Left Leg
 	#Range: 2 ~ 12
-	maxHealthLeft_Leg = 4
+	maxHealthLeft_Leg = 6
 	#Max health of the Left Foot
 	#Range: 2 ~ 12
-	maxHealthLeft_Foot = 4
+	maxHealthLeft_Foot = 6
 	#Max health of the Body
 	#Range: 2 ~ 12
-	maxHealthBody = 6
+	maxHealthBody = 8
 	#Max health of the Right Arm
 	#Range: 2 ~ 12
-	maxHealthRight_Arm = 4
+	maxHealthRight_Arm = 6
 	#Max health of the Right Leg
 	#Range: 2 ~ 12
-	maxHealthRight_Leg = 4
+	maxHealthRight_Leg = 6
 	#Max health of the Right Foot
 	#Range: 2 ~ 12
-	maxHealthRight_Foot = 4
+	maxHealthRight_Foot = 6
 	#True if the head can cause death if health drops to 0
 	causeDeathHead = true
 	#True if the body can cause death if health drops to 0
@@ -111,12 +111,12 @@
 ["External Healing"]
 	#Allow vanilla's natural regeneration. Requires "allowOtherHealingItems" to be true
 	#**WARNING** This sets the gamerule "naturalRegeneration" for all of your worlds internally, so it persists even if you remove the mod
-	allowNaturalRegeneration = false
+	allowNaturalRegeneration = true
 	#If false, healing potions and other healing items will have no effect
 	allowOtherHealingItems = true
 	#Specifies how much percent of the max health should be restored when sleeping
 	#Range: 0.0 ~ 1.0
-	sleepHealPercentage = 0.07
+	sleepHealPercentage = 0.4
 	#The value external regen will be multiplied with. Has no effect if "allowOtherHealingItems" is disabled
 	#Range: 0.0 ~ 20.0
 	otherRegenMultiplier = 0.75
@@ -139,7 +139,7 @@
 	#MIN_CRITICAl takes the smallest health value of all critical limb.
 	#Does not have any effect if all critical limbs have been disabled.
 	#Allowed Values: AVERAGE_ALL, AVERAGE_CRITICAL, MIN_CRITICAL, CRITICAL_50_PERCENT_OTHER_50_PERCENT
-	vanillaHealthCalculation = "AVERAGE_ALL"
+	vanillaHealthCalculation = "AVERAGE_CRITICAL"
 	#If enabled, the default random damage distribution will be changed to leave critical limbs at 1hp if possible.
 	#When there is too much damage, the damage will still kill the player. Other distributions that defined are not affected by this.
 	useFriendlyRandomDistribution = false

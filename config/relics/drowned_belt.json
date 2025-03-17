@@ -6,7 +6,7 @@
         "requiredLevel": 0,
         "maxLevel": 10,
         "stats": {
-          "talisman": {
+          "charm": {
             "minInitialValue": 0.0,
             "maxInitialValue": 2.0,
             "minThresholdValue": 4.9E-324,
@@ -78,8 +78,8 @@
   },
   "loot": {
     "entries": {
-      "[\\w]+:chests\\/[\\w_\\/]*(water|ocean|river|(?<!air)ship|aqua)[\\w_\\/]*": 0.025,
-      "minecraft:chests/buried_treasure": 0.025
+      "[\\w]+:chests\\/[\\w_\\/]*(water|ocean|river|(?<!air)ship|aqua)[\\w_\\/]*": 0.005,
+      "minecraft:chests/buried_treasure": 0.005
     }
   }
 }

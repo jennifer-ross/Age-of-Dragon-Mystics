@@ -7,7 +7,7 @@
 
 // Listen for the "recipes" server event.
 ServerEvents.recipes(event => {
-    // let mc = (id) => `minecraft:${id}`;
+    let mc = (id) => `minecraft:${id}`;
     // You can replace `event` with any name you like, as
     // long as you change it inside the callback too!
 
@@ -16,5 +16,5 @@ ServerEvents.recipes(event => {
     // without needing to use ServerEvents.recipes() again.
 
     // Remove all recipes where output:
-    // event.remove({ output: mc('stone_pickaxe') })
+    event.remove({ output: mc('pufferfish') })
 })

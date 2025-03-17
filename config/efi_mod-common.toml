@@ -1,0 +1,12 @@
+
+["General settings"]
+	#Show debug info to player?
+	enableDebug = true
+	#Show Action bar info to player?
+	enableActionBar = true
+	#Enable auto toggle player mode?
+	enableAutoToggleMode = true
+	#How much time do we auto toggle player mode?
+	#Range: 20 ~ 1000
+	autoToggleTime = 20
+

@@ -1,0 +1,128 @@
+
+#Entity spawn configs
+[Drones]
+	#Gunner Drones max health
+	#Range: 1.0 ~ 999.9
+	gunnerDroneMaxHealth = 20.0
+	#Gunner Turrets max health
+	#Range: 1.0 ~ 999.9
+	gunnerTurretMaxHealth = 26.0
+	#Bullets damage
+	#Range: 1.0 ~ 999.9
+	bulletsDamage = 2.0
+	#Drones spawn rate
+	#Range: 0 ~ 100
+	droneSpawnWeight = 1
+
+[Beetles]
+	#Beetles max health
+	#Range: 1.0 ~ 999.9
+	beetleMaxHealth = 20.0
+	#Beetles attack damage
+	#Range: 1.0 ~ 999.9
+	beetleAttackDamage = 2.5
+	#Beetles overworld spawn rate. Set this to 0 to disable spawns
+	#Range: 0 ~ 100
+	beetleOverworldSpawnWeight = 66
+	#Beetles nether spawn rate (Sensitive). Set this to 0 to disable spawns
+	#Range: 0 ~ 100
+	beetleNetherSpawnWeight = 10
+	#Beetles minimum group size on spawn. Set this equal or lower than max group size
+	#Range: 1 ~ 8
+	beetleMinGroupSize = 1
+	#Beetles maximum group size on spawn. Set this equal or higher than min group size
+	#Range: 1 ~ 8
+	beetleMaxGroupSize = 3
+	#Despawn beetles when they are far away
+	enableBeetleDespawn = true
+
+[Lemurians]
+	#Lemurians max health
+	#Range: 1.0 ~ 999.9
+	lemurianMaxHealth = 20.0
+	#Lemurians attack damage
+	#Range: 1.0 ~ 999.9
+	lemurianAttackDamage = 2.5
+	#Lemurians overworld spawn rate. Set this to 0 to disable spawns
+	#Range: 0 ~ 100
+	lemurianOverworldSpawnWeight = 66
+	#Lemurians nether spawn rate (Sensitive). Set this to 0 to disable spawns
+	#Range: 0 ~ 100
+	lemurianNetherSpawnWeight = 10
+	#Lemurians minimum group size on spawn. Set this equal or lower than max group size
+	#Range: 1 ~ 8
+	lemurianMinGroupSize = 1
+	#Lemurians maximum group size on spawn. Set this equal or higher than min group size
+	#Range: 1 ~ 8
+	lemurianMaxGroupSize = 3
+	#Despawn lemurians when they are far away
+	enableLemurianDespawn = true
+	#Allow evolved lemurians to spit fireballs
+	enableFireballAttack = true
+	#Allow lemurian fireballs to set blocks on fire
+	enableFireballGrief = true
+
+["Stone Golems"]
+	#Stone Golems max health
+	#Range: 1.0 ~ 999.9
+	stoneGolemMaxHealth = 100.0
+	#Stone Golems attack damage
+	#Range: 1.0 ~ 999.9
+	stoneGolemAttackDamage = 24.0
+	#Stone Golems overworld spawn rate. Set this to 0 to disable spawns
+	#Range: 0 ~ 100
+	stoneGolemOverworldSpawnWeight = 10
+	#Stone Golems nether spawn rate (Sensitive). Set this to 0 to disable spawns
+	#Range: 0 ~ 100
+	stoneGolemNetherSpawnWeight = 2
+	#Stone Golems minimum group size. Set this equal or lower than max group size
+	#Range: 1 ~ 8
+	stoneGolemMinGroupSize = 1
+	#Stone Golems maximum group size. Set this equal or higher than min group size
+	#Range: 1 ~ 8
+	stoneGolemMaxGroupSize = 1
+	#Despawn stone golems when they are far away
+	enableStoneGolemDespawn = false
+	#Stone Golems spawn volume. Set this to 0 to disable
+	#Range: 0 ~ 100
+	stoneGolemSpawnVolume = 100
+
+[Wisps]
+	#Wisps max health
+	#Range: 1.0 ~ 999.9
+	wispMaxHealth = 12.0
+	#Wisps attack damage
+	#Range: 1.0 ~ 999.9
+	wispAttackDamage = 2.0
+	#Wisps overworld spawn rate. Set this to 0 to disable spawns
+	#Range: 0 ~ 100
+	wispOverworldSpawnWeight = 50
+	#Wisps nether spawn rate (Sensitive). Set this to 0 to disable spawns
+	#Range: 0 ~ 100
+	wispNetherSpawnWeight = 10
+	#Wisps minimum group size on spawn. Set this equal or lower than max group size
+	#Range: 1 ~ 8
+	wispMinGroupSize = 1
+	#Wisps maximum group size on spawn. Set this equal or higher than min group size
+	#Range: 1 ~ 8
+	wispMaxGroupSize = 3
+	#Despawn wisps when they are far away
+	wispBeetleDespawn = true
+
+["Sound effects from Risk of Rain"]
+	#Advancement sound volume. Set this to 0 to disable
+	#Range: 0 ~ 100
+	advancementSoundVolume = 10
+	#Chat sound volume. Set this to 0 to disable
+	#Range: 0 ~ 100
+	chatSoundVolume = 100
+	#Difficulty update sound volume. Set this to 0 to disable
+	#Range: 0 ~ 100
+	difficultyUpdateSoundVolume = 100
+	#Level update sound volume. Set this to 0 to disable
+	#Range: 0 ~ 100
+	levelUpdateSoundVolume = 100
+	#Player death sound volume. Set this to 0 to disable
+	#Range: 0 ~ 100
+	deathSoundVolume = 100
+

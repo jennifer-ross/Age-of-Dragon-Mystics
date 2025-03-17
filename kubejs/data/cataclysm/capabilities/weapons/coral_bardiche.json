@@ -1,15 +1,12 @@
 {
-    "type": "epicfight:spear",
-    "attributes": {
-        "one_hand": {
-            "armor_negation": 20.0,
-                "impact": 2.8,
-            "max_strikes": 3
-        },
-        "two_hand": {
-            "armor_negation": 20.0,
-                "impact": 2.8,
-            "max_strikes": 5
-        }
-    }
- }
+	"attributes":
+	{
+		"common":
+		{
+			"impact":2.6,
+			"max_strikes":4,
+			"damage_bonus": 1.0
+		}
+	},
+	"type":"epicfight:trident"
+}

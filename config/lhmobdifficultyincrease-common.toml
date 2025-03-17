@@ -1,0 +1,174 @@
+
+[basis]
+	#The base number of enemies killed required to increase the difficulty level.
+	#Range: > 1
+	base_kill_quantity = 30
+	#The required number of enemies killed increases by a percentage for each level the difficulty level is raised.
+	#Range: 0.0 ~ 1.0
+	level_grow_base_kill_quantity = 0.02
+	#When a player dies, the difficulty level decreases by a percentage.
+	#Range: 0.0 ~ 1.0
+	death_reduce_level = 0.2
+	#Max difficulty level.
+	#Range: > 0
+	max_level = 100
+	#Allow difficulty level to increase every day.
+	is_day_level = false
+	#Difficulty level increased per day.
+	#Range: > 0
+	day_level = 1
+	#How many levels does it take to increase basic attack power each time
+	#Range: > 0
+	base_attack_damage_level = 25
+	#Growth base
+	#Range: > 0
+	base_attack_damage_value = 1
+
+[attributes]
+	#Set the HP increase per level for the mob, based on a percentage increase from the base HP.
+	#Range: 0.0 ~ 10.0
+	grow_hp = 0.04
+	#Set the damage increase per level for the mob, based on a percentage increase from the base damage.
+	#Range: 0.0 ~ 10.0
+	grow_damage = 0.18
+	#Set the armor value increase per level for the mob.
+	#Range: 0.0 ~ 1.0
+	increase_armor = 0.3
+	#Set the armor toughness increase per level for the mob.
+	#Range: 0.0 ~ 1.0
+	increase_armorToughness = 0.1
+	#Set the knockback resistance increase per level for the mob.
+	#Range: 0.0 ~ 1.0
+	increase_knockBackResistance = 0.06
+	#Set the movement speed increase per level for the mob, based on a percentage increase from the base movement speed.
+	#Range: 0.0 ~ 1.0
+	grow_movementSpeed = 0.005
+	#Set the experience increase per level for the mob, based on a percentage increase from the base experience.
+	#Range: 0.0 ~ 10.0
+	grow_experience = 0.09
+
+[additional]
+	#Allow equipment generation
+	is_equipment = true
+	#Allow equipment enchantment
+	is_enchantment = true
+	#Allow mob enhance ai
+	is_ai = true
+
+["ai common"]
+	#Minimum level required for zombies or skeletons to throw ender pearls.
+	#Range: > 0
+	throw_pearl_level = 30
+	#Probability of acquiring the ability to throw ender pearls.
+	#Range: 0 ~ 100
+	throw_pearl_probability = 15
+	#Base number of ender pearls.
+	#Range: 1 ~ 16
+	pearl_number = 2
+	#Number of difficulty levels required to increase the number of ender pearls by one.
+	#Range: > 1
+	level_pearl_number = 20
+	#Minimum level required for zombies or skeletons to use fishing rods.
+	#Range: > 0
+	throw_hook_level = 30
+	#Probability of acquiring the ability to use fishing rods.
+	#Range: 0 ~ 100
+	throw_hook_probability = 15
+	#Probability of mobs using fishing rods to steal items from players when wielding bows, crossbows, or tridents in their main hand.
+	#Range: 0 ~ 100
+	throw_hook_steal_probability = 25
+	#Allow jump of air block
+	is_jump_empty_block_number = true
+	#The allowed number of air blocks to jump over.
+	#Range: 1 ~ 5
+	jump_empty_block_number = 2
+	#Allowed active ladder climbing.
+	is_active_ladder = true
+
+["ai spider"]
+	#Allow cobwebs to generate when spider shots miss.
+	is_spitting_silk_miss_generate_cobweb = true
+	#Allow slow effect when spider shots hit (default 50%).
+	is_spitting_silk_hit_deceleration = true
+	#Allow cobwebs to generate when spider shots hit (default 50%).
+	is_spitting_silk_hit_generate_cobweb = true
+	#Level required for spiders to spit silk.
+	#Range: > 0
+	spitting_silk_level = 30
+	#Probability of spiders obtaining silk spitting ability.
+	#Range: 0 ~ 100
+	spitting_silk_probability = 20
+	#Base cooldown for silk spitting.
+	#Range: 1 ~ 20
+	spitting_silk_cooling_time = 6
+	#Every how many difficulty levels decrease the cooldown for silk spitting by 1 second.
+	#Range: > 1
+	level_spitting_silk_cooling_time = 25
+	#Level required for spiders to spit triple rows of silk at a longer distance.
+	#Range: > 0
+	spitting_silk_three_rows_level = 50
+	#Cooldown time for spitting triple rows of silk.
+	#Range: 1 ~ 20
+	spitting_silk_three_rows_cooling_time = 12
+	#Every how many difficulty levels decrease the cooldown for spitting triple rows of silk by 1 second.
+	#Range: > 1
+	level_spitting_silk_three_rows_cooling_time = 30
+
+["ai wither skeleton"]
+	#Level required for wither skeleton to summon wither skull.
+	#Range: > 0
+	wither_skeleton_skull_level = 30
+	#Probability of wither skeleton summoning wither skull.
+	#Range: 0 ~ 100
+	wither_skeleton_skull_probability = 20
+	#Base cooldown for summoning wither skull.
+	#Range: 1 ~ 20
+	wither_skeleton_skull_cooling_time = 6
+	#Every how many difficulty levels decrease the cooldown for summoning wither skull by 1 second.
+	#Range: > 1
+	level_wither_skeleton_skull_cooling_time = 30
+	#Level required for melee wither skeletons to obtain teleportation ability.
+	#Range: > 0
+	wither_skeleton_teleport_level = 50
+	#Probability of melee wither skeletons obtaining teleportation ability.
+	#Range: 0 ~ 100
+	wither_skeleton_teleport_probability = 10
+	#Base cooldown for teleportation ability.
+	#Range: 1 ~ 20
+	wither_skeleton_teleport_cooling_time = 20
+	#Every how many difficulty levels decrease the cooldown for teleportation ability by 1 second.
+	#Range: > 1
+	level_wither_skeleton_teleport_cooling_time = 30
+
+["ai piglin brute"]
+	#piglin brute gain jumping ability.
+	is_piglin_brute_jump_high = true
+	#Jump height of piglin brute (in blocks).
+	#Range: 1 ~ 10
+	piglin_brute_jump_high = 5
+
+[entertainment]
+	#Allow zombies to inflict poison effect.
+	is_zombie_attack_poison = true
+	#Probability of zombies inflicting poison effect.
+	#Range: 0 ~ 100
+	zombie_attack_poison_probability = 25
+	#Poison level.
+	#Range: 1 ~ 5
+	zombie_attack_poison_level = 1
+	#Duration of poison effect.
+	#Range: 1 ~ 60
+	zombie_attack_poison_time = 10
+	#Creeper explosion allows entity flying.
+	is_creeper_blast_fly = true
+	#Creeper explosion allows block destruction.
+	is_creeper_blast_block = true
+	#Every how many difficulty levels Creeper explosion damage and range increase by 1 level.
+	#Range: > 1
+	creeper_level_hurt_and_range = 50
+	#Allow players to encounter DROWNED when fishing.
+	is_fishing_drowned = true
+	#Probability of encountering DROWNED when fishing.
+	#Range: 0 ~ 100
+	fishing_drowned_probability = 1
+
