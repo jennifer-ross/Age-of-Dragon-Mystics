@@ -20,3 +20,4 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 enigmatic_persistence.dat
+mods/.connector/*
