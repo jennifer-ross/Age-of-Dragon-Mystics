@@ -29,3 +29,7 @@ supportercache.json
 .curseclient
 .qmenu_opened.marker
 blueprints/*
+minecraftinstance.json
+*.rar
+servers.dat
+servers.dat_old
