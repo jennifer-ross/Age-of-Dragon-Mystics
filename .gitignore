@@ -21,3 +21,11 @@ usercache.json
 usernamecache.json
 enigmatic_persistence.dat
 mods/.connector/*
+.bobby
+ct_dumps
+TrashSlotSaveState.json
+supportercache.json
+.vscode
+.curseclient
+.qmenu_opened.marker
+blueprints/*
