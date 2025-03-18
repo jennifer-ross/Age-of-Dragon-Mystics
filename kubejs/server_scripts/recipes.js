@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
     let mc = (id) => `minecraft:${id}`;
     let ars = (id) => `ars_nouveau:${id}`;
     let irsb =  (id) => `irons_spellbooks:${id}`;
-    let apo = (id) =>`apotheosis:${id}`;
+    let apo =  (id) => `apotheosis:${id}`;
 
     event.remove({ output: mc('enchanting_table') })
 

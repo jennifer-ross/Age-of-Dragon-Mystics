@@ -1,0 +1,7 @@
+{
+	"PercentXPOnDamage": 0.05,
+	"PercentXPOnCast": 0.035,
+	"PercentXPOnHeal": 0.1,
+	"PercentXPOnInscribe": 0.05,
+	"PercentXPOnModify": 0.075
+}

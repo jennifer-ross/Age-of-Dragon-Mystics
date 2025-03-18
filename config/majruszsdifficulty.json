@@ -403,7 +403,7 @@
       "is_scaled_by_crd": true
     },
     "spawn_player_zombie": {
-      "is_enabled": true,
+      "is_enabled": false,
       "required_game_stage": "expert",
       "chance": 1.0,
       "is_scaled_by_crd": false,

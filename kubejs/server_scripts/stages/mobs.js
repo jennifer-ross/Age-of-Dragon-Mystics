@@ -1,3 +1,5 @@
+let STAGES = global.STAGES
+
 ServerEvents.loaded(() => {
     const MobListUtil = global.MobListUtil;
 
@@ -9,7 +11,7 @@ ServerEvents.loaded(() => {
     revampMobs.forEach(mob => {
         const fullName = `${revampModId}:${mob}`
 
-        AStages.addRestrictionForMob(`astages/undead_revamp2_${mob}`, "revamp", fullName)
+        AStages.addRestrictionForMob(`astages/undead_revamp2_${mob}`, STAGES.REVAMP, fullName)
         .setEnableMobSpawning(false) // Prevent mob from spawning (any condition)
 
         console.log(`Restrict mob: ${fullName}`)
@@ -20,11 +22,13 @@ EntityEvents.death(e => {
     const { entity } = e
 
     if (!entity.monster) return
+    if (!e.source) return
+    if (!e.source.actual) return
     if (!e.source.actual.player) return
     let player = e.source.actual
 
-    if (player && entity.type === "corundumguardian:corundum_guardian") {
-        AStages.addStageToPlayer('stage_warden', player)
+    if (player && entity.type === "minecraft:warden") {
+        AStages.addStageToPlayer(STAGES.WARDEN, player)
     }
 })
 
@@ -56,4 +60,9 @@ EntityEvents.death(e => {
 //     })
 
 //     if (check) event.cancel()
+// })
+
+// EntityEvents.spawned(e => {
+//     const { server, entity } = e
+//     entity.persistentData.difficulty_level = Math.floor(Math.random() * 100)
 // })
