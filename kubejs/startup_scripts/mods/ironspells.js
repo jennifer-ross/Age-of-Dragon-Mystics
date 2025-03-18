@@ -25,6 +25,11 @@ if (config) {
 
     ForgeEvents.onEvent('io.redspace.ironsspellbooks.api.events.SpellDamageEvent', e => {
         let amount = e.amount;
+
+        if(!amount || amount <= 0) {
+            return;
+        }
+
         let player = global.currentPlayer;
         let xp = PercentXPOnDamage * amount;
 
@@ -33,7 +38,17 @@ if (config) {
 
     ForgeEvents.onEvent('io.redspace.ironsspellbooks.api.events.SpellOnCastEvent', e => {
         let manaCost = e.manaCost;
+
+        if(!manaCost || manaCost <= 0) {
+            return;
+        }
+
         let spellLevel = e.spellLevel;
+
+        if(!spellLevel || spellLevel <= 0) {
+            return;
+        }
+
         let player = global.currentPlayer;
         let xp = PercentXPOnCast * (manaCost * spellLevel);
 
@@ -42,6 +57,11 @@ if (config) {
 
     ForgeEvents.onEvent('io.redspace.ironsspellbooks.api.events.SpellHealEvent', e => {
         let healAmount = e.healAmount;
+
+        if(!healAmount || healAmount <= 0) {
+            return;
+        }
+
         let player = global.currentPlayer;
         let xp = PercentXPOnHeal * healAmount;
 
@@ -50,6 +70,11 @@ if (config) {
 
     ForgeEvents.onEvent('io.redspace.ironsspellbooks.api.events.InscribeSpellEvent', e => {
         let spellData = e.spellData;
+
+        if(!healAmount) {
+            return;
+        }
+
         let player = global.currentPlayer;
         let xp = PercentXPOnInscribe * (spellData.getLevel() * 100);
 
