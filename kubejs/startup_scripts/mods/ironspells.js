@@ -71,7 +71,7 @@ if (config) {
     ForgeEvents.onEvent('io.redspace.ironsspellbooks.api.events.InscribeSpellEvent', e => {
         let spellData = e.spellData;
 
-        if(!healAmount) {
+        if(!spellData) {
             return;
         }
 
