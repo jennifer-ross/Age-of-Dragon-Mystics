@@ -30,4 +30,17 @@ ServerEvents.recipes(event => {
 	    1000
     );
 
+    event.shaped(
+        Item.of(LOH('bandage'), 1),
+        [
+          '  A',
+          ' B ', 
+          'A  '
+        ],
+        {
+          A: LOH('plaster'),
+          B: mc('glistering_melon_slice'),
+        }
+      );
+
 })
