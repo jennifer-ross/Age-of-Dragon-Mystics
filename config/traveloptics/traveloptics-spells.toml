@@ -22,6 +22,18 @@
 		#Limit the number of active 'Miniboss' summon spells to one at a time || Default: true
 		limit_miniboss_summon = true
 
+	[spells.death_laser]
+		#Should DeathLaser break blocks || Default: true
+		should_break_blocks = true
+		#Should DeathLaser spell deal magic damage (default boss behavior/Ignore armor/less integration with spell power & resist attributes) || Default: false
+		should_deal_magic_damage = false
+
+	[spells.abyssal_blast]
+		#Should Abyssal Blast break blocks || Default: true
+		should_break_blocks = true
+		#Should Abyssal Blast spell deal magic damage (default boss behavior/Ignore armor/less integration with spell power & resist attributes) || Default: false
+		should_deal_magic_damage = false
+
 #Staff, Spellbooks and other this kind of thing
 [staff_spellbooks]
 

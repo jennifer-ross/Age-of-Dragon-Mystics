@@ -116,7 +116,7 @@
       "saturation": 0.0,
       "effects": [
         {
-          "chance": 0.75,
+          "chance": 0.95,
           "effect": "legendarysurvivaloverhaul:thirst",
           "duration": 300,
           "amplifier": 0
@@ -131,7 +131,7 @@
       "saturation": 0.0,
       "effects": [
         {
-          "chance": 0.75,
+          "chance": 0.95,
           "effect": "legendarysurvivaloverhaul:thirst",
           "duration": 300,
           "amplifier": 0
@@ -146,7 +146,7 @@
       "saturation": 0.0,
       "effects": [
         {
-          "chance": 0.75,
+          "chance": 0.95,
           "effect": "legendarysurvivaloverhaul:thirst",
           "duration": 300,
           "amplifier": 0
@@ -161,7 +161,7 @@
       "saturation": 0.0,
       "effects": [
         {
-          "chance": 0.75,
+          "chance": 0.95,
           "effect": "legendarysurvivaloverhaul:thirst",
           "duration": 300,
           "amplifier": 0
@@ -240,7 +240,7 @@
       "saturation": 0.0,
       "effects": [
         {
-          "chance": 0.75,
+          "chance": 0.95,
           "effect": "legendarysurvivaloverhaul:thirst",
           "duration": 300,
           "amplifier": 0
@@ -265,7 +265,7 @@
       "saturation": 0.0,
       "effects": [
         {
-          "chance": 0.75,
+          "chance": 0.95,
           "effect": "legendarysurvivaloverhaul:thirst",
           "duration": 300,
           "amplifier": 0
@@ -312,6 +312,14 @@
     {
       "hydration": 16,
       "saturation": 16.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "ars_nouveau:sourceberry_bush" : [
+    {
+      "hydration": 2,
+      "saturation": 2.0,
       "effects": [],
       "nbt": {}
     }

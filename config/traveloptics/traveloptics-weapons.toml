@@ -6,7 +6,7 @@
 		#Durability || Default 2250
 		#Range: > 1
 		durability = 2500
-		#Damage || Default 23.0
+		#Damage || Default 21.0
 		#Range: 0.0 ~ 100.0
 		damage = 21.0
 		#Attack Speed || Default -3.0
@@ -88,7 +88,7 @@
 		#Durability || Default 2250
 		#Range: > 1
 		durability = 2500
-		#Damage || Default 23.0
+		#Damage || Default 19.0
 		#Range: 0.0 ~ 100.0
 		damage = 19.0
 		#Attack Speed || Default -3.0
@@ -199,4 +199,8 @@
 		#Oblivion Ray damage multiplier || Default 1.0
 		#Range: 1.0 ~ 5.0
 		oblivion_ray_multiplier = 1.0
+
+	[current_weapons.general]
+		#Should End-game weapons be breakable || Default: false
+		breakable_end_game_weapons = false
 

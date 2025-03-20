@@ -121,3 +121,7 @@
 		#Range: 0.0 ~ 20.0
 		armor_toughness = 4.0
 
+	[armors.general]
+		#Should End-game armors be breakable || Default: false
+		breakable_end_game_armors = false
+
