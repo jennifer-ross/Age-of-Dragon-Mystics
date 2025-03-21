@@ -110,6 +110,17 @@
         "value": 1024
       }
     },
+    "tipsylib:retaliation_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_portal": {
       "enabled": false,
       "min": {
@@ -408,6 +419,17 @@
       }
     },
     "additional_attributes:spell_type_blessing_of_life": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "tipsylib:retaliation_amount": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -726,6 +748,17 @@
         "value": 100
       }
     },
+    "tipsylib:lifesteal_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/ias_spellbooks/venomous_reborn": {
       "enabled": false,
       "min": {
@@ -902,6 +935,17 @@
         "value": 100
       }
     },
+    "tipsylib:lifesteal_heal_amount": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "irons_spellbooks:summon_damage": {
       "enabled": false,
       "min": {
@@ -914,6 +958,17 @@
       }
     },
     "additional_attributes:spell_type_summon_vex": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "tipsylib:dodge_chance": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1090,6 +1145,17 @@
       }
     },
     "additional_attributes:spell/traveloptics/aqua_missiles": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "tipsylib:critical_strike_chance": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2255,6 +2321,17 @@
         "value": 100
       }
     },
+    "tipsylib:rejuvenate_amount": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "additional_attributes:spell/traveloptics/aerial_collapse": {
       "enabled": false,
       "min": {
@@ -2651,6 +2728,17 @@
         "value": 100
       }
     },
+    "tipsylib:critical_strike_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_summon_polar_bear": {
       "enabled": false,
       "min": {
@@ -2685,6 +2773,17 @@
       }
     },
     "additional_attributes:spell/traveloptics/blackout": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "tipsylib:burning_retaliation_chance": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -4180,6 +4279,17 @@
         "value": 100
       }
     },
+    "tipsylib:burning_retaliation_length": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/chain_lightning": {
       "enabled": false,
       "min": {
@@ -4596,6 +4706,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "tipsylib:vulnerability_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "epicfight:offhand_impact": {
@@ -5137,6 +5258,17 @@
         "value": 100
       }
     },
+    "tipsylib:vulnerability_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "parcool:stamina_recovery": {
       "enabled": false,
       "min": {
@@ -5340,6 +5472,17 @@
       "min": {
         "default": -100,
         "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "tipsylib:rejuvenate_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 100,

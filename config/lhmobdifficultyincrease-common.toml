@@ -5,10 +5,10 @@
 	base_kill_quantity = 30
 	#The required number of enemies killed increases by a percentage for each level the difficulty level is raised.
 	#Range: 0.0 ~ 1.0
-	level_grow_base_kill_quantity = 0.02
+	level_grow_base_kill_quantity = 0.01
 	#When a player dies, the difficulty level decreases by a percentage.
 	#Range: 0.0 ~ 1.0
-	death_reduce_level = 0.2
+	death_reduce_level = 0.05
 	#Max difficulty level.
 	#Range: > 0
 	max_level = 100
@@ -30,22 +30,22 @@
 	grow_hp = 0.04
 	#Set the damage increase per level for the mob, based on a percentage increase from the base damage.
 	#Range: 0.0 ~ 10.0
-	grow_damage = 0.18
+	grow_damage = 0.1
 	#Set the armor value increase per level for the mob.
 	#Range: 0.0 ~ 1.0
-	increase_armor = 0.3
+	increase_armor = 0.4
 	#Set the armor toughness increase per level for the mob.
 	#Range: 0.0 ~ 1.0
-	increase_armorToughness = 0.1
+	increase_armorToughness = 0.5
 	#Set the knockback resistance increase per level for the mob.
 	#Range: 0.0 ~ 1.0
-	increase_knockBackResistance = 0.06
+	increase_knockBackResistance = 0.08
 	#Set the movement speed increase per level for the mob, based on a percentage increase from the base movement speed.
 	#Range: 0.0 ~ 1.0
 	grow_movementSpeed = 0.005
 	#Set the experience increase per level for the mob, based on a percentage increase from the base experience.
 	#Range: 0.0 ~ 10.0
-	grow_experience = 0.09
+	grow_experience = 0.3
 
 [additional]
 	#Allow equipment generation
@@ -53,7 +53,7 @@
 	#Allow equipment enchantment
 	is_enchantment = true
 	#Allow mob enhance ai
-	is_ai = true
+	is_ai = false
 
 ["ai common"]
 	#Minimum level required for zombies or skeletons to throw ender pearls.

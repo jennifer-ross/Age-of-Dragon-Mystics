@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
         ],
         {
           A: LOH('plaster'),
-          B: mc('glistering_melon_slice'),
+          B: mc('gold_nugget'),
         }
       );
 
