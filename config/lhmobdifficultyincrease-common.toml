@@ -30,13 +30,13 @@
 	grow_hp = 0.04
 	#Set the damage increase per level for the mob, based on a percentage increase from the base damage.
 	#Range: 0.0 ~ 10.0
-	grow_damage = 0.1
+	grow_damage = 0.05
 	#Set the armor value increase per level for the mob.
 	#Range: 0.0 ~ 1.0
-	increase_armor = 0.4
+	increase_armor = 2
 	#Set the armor toughness increase per level for the mob.
 	#Range: 0.0 ~ 1.0
-	increase_armorToughness = 0.5
+	increase_armorToughness = 1
 	#Set the knockback resistance increase per level for the mob.
 	#Range: 0.0 ~ 1.0
 	increase_knockBackResistance = 0.08
