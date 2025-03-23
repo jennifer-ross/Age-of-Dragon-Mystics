@@ -440,28 +440,16 @@
       {
         "mobs": [
           {
-            "type": "minecraft:zombie",
-            "equipment": "majruszsdifficulty:undead_army/wave_1_mob",
-            "count": 6
+            "type": "born_in_chaos_v1:siamese_skeletons",
+            "count": 3
           },
           {
-            "type": "minecraft:skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_1_mob",
-            "count": 6
-          },
-          {
-            "type": "minecraft:pig",
-            "equipment": "majruszsdifficulty:undead_army/wave_1_mob",
-            "count": 5
-          },
-          {
-            "type": "minecraft:skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_1_mob",
-            "count": 6
+            "type": "born_in_chaos_v1:spirit_guide",
+            "count": 3
           }
         ],
         "game_stage": "normal",
-        "exp": 10
+        "exp": 8
       },
       {
         "mobs": [
@@ -471,12 +459,7 @@
             "count": 6
           },
           {
-            "type": "minecraft:pig",
-            "equipment": "majruszsdifficulty:undead_army/wave_1_mob",
-            "count": 5
-          },
-          {
-            "type": "majruszsdifficulty:tank",
+            "type": "born_in_chaos_v1:dark_vortex",
             "equipment": "majruszsdifficulty:undead_army/wave_1_mob",
             "count": 3
           },
@@ -486,25 +469,19 @@
             "count": 4
           },
           {
-            "type": "minecraft:husk",
-            "equipment": "majruszsdifficulty:undead_army/wave_3_mob",
-            "count": 6
+            "type": "born_in_chaos_v1:dark_vortex",
+            "count": 2
           }
         ],
         "boss": {
-          "type": "born_in_chaos_v1:skeleton_thrasher",
-          "count": 2
+          "type": "born_in_chaos_v1:fallen_chaos_knight",
+          "count": 1
         },
         "game_stage": "normal",
         "exp": 24
       },
       {
         "mobs": [
-          {
-            "type": "majruszsdifficulty:tank",
-            "equipment": "majruszsdifficulty:undead_army/wave_2_mob",
-            "count": 4
-          },
           {
             "type": "minecraft:wither_skeleton",
             "equipment": "majruszsdifficulty:undead_army/wave_6_wither_skeleton",
@@ -521,181 +498,21 @@
             "count": 3
           },
           {
-            "type": "minecraft:pig",
-            "equipment": "majruszsdifficulty:undead_army/wave_1_mob",
-            "count": 5
+            "type": "born_in_chaos_v1:fallen_chaos_knight",
+            "count": 3
           }
         ],
         "game_stage": "nether",
         "exp": 16
       },
       {
-        "mobs": [
-          {
-            "type": "minecraft:zombie",
-            "equipment": "majruszsdifficulty:undead_army/wave_2_mob",
-            "count": 2
-          },
-          {
-            "type": "minecraft:wither_skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_6_wither_skeleton",
-            "count": 2
-          },
-          {
-            "type": "born_in_chaos_v1:fallen_chaos_knight",
-            "equipment": "majruszsdifficulty:undead_army/wave_2_mob",
-            "count": 3
-          },
-          {
-            "type": "minecraft:wither_skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_6_wither_skeleton",
-            "count": 4
-          }
-        ],
+        "mobs": [],
         "boss": {
           "type": "corundumguardian:corundum_guardian",
           "count": 1
         },
         "game_stage": "nether",
         "exp": 16
-      },
-      {
-        "mobs": [
-          {
-            "type": "minecraft:zombie",
-            "equipment": "majruszsdifficulty:undead_army/wave_4_mob",
-            "count": 2
-          },
-          {
-            "type": "minecraft:wither_skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_4_mob",
-            "count": 1
-          },
-          {
-            "type": "minecraft:skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_4_skeleton",
-            "count": 2
-          },
-          {
-            "type": "minecraft:wither_skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_4_mob",
-            "count": 1
-          },
-          {
-            "type": "majruszsdifficulty:tank",
-            "count": 1
-          },
-          {
-            "type": "minecraft:husk",
-            "equipment": "majruszsdifficulty:undead_army/wave_4_mob",
-            "count": 3
-          },
-          {
-            "type": "minecraft:wither_skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_4_mob",
-            "count": 1
-          },
-          {
-            "type": "minecraft:stray",
-            "equipment": "majruszsdifficulty:undead_army/wave_4_skeleton",
-            "count": 3
-          },
-          {
-            "type": "minecraft:wither_skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_4_mob",
-            "count": 1
-          }
-        ],
-        "game_stage": "expert",
-        "exp": 32
-      },
-      {
-        "mobs": [
-          {
-            "type": "minecraft:zombie",
-            "equipment": "majruszsdifficulty:undead_army/wave_5_mob",
-            "count": 1
-          },
-          {
-            "type": "minecraft:skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_5_skeleton",
-            "count": 1
-          },
-          {
-            "type": "minecraft:stray",
-            "equipment": "majruszsdifficulty:undead_army/wave_5_skeleton",
-            "count": 3
-          },
-          {
-            "type": "minecraft:wither_skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_5_mob",
-            "count": 2
-          },
-          {
-            "type": "majruszsdifficulty:tank",
-            "count": 1
-          },
-          {
-            "type": "minecraft:husk",
-            "equipment": "majruszsdifficulty:undead_army/wave_5_mob",
-            "count": 3
-          },
-          {
-            "type": "minecraft:wither_skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_5_mob",
-            "count": 2
-          }
-        ],
-        "boss": {
-          "type": "majruszsdifficulty:cerberus",
-          "count": 1
-        },
-        "game_stage": "expert",
-        "exp": 40
-      },
-      {
-        "mobs": [
-          {
-            "type": "minecraft:zombie",
-            "equipment": "majruszsdifficulty:undead_army/wave_6_mob",
-            "count": 1
-          },
-          {
-            "type": "minecraft:skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_6_skeleton",
-            "count": 1
-          },
-          {
-            "type": "majruszsdifficulty:tank",
-            "count": 1
-          },
-          {
-            "type": "minecraft:stray",
-            "equipment": "majruszsdifficulty:undead_army/wave_6_skeleton",
-            "count": 1
-          },
-          {
-            "type": "minecraft:husk",
-            "equipment": "majruszsdifficulty:undead_army/wave_6_mob",
-            "count": 1
-          },
-          {
-            "type": "minecraft:wither_skeleton",
-            "equipment": "majruszsdifficulty:undead_army/wave_6_wither_skeleton",
-            "count": 1
-          },
-          {
-            "type": "majruszsdifficulty:cerberus",
-            "count": 1
-          }
-        ],
-        "boss": {
-          "type": "majruszsdifficulty:giant",
-          "equipment": "majruszsdifficulty:undead_army/wave_6_mob",
-          "count": 1
-        },
-        "game_stage": "master",
-        "exp": 48
       }
     ]
   },
