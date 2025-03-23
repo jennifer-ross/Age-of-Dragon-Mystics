@@ -33,7 +33,7 @@
 	grow_damage = 0.05
 	#Set the armor value increase per level for the mob.
 	#Range: 0.0 ~ 1.0
-	increase_armor = 2
+	increase_armor = 1.0
 	#Set the armor toughness increase per level for the mob.
 	#Range: 0.0 ~ 1.0
 	increase_armorToughness = 1
