@@ -1,0 +1,7 @@
+#Decide whether to clear entity in range
+"Remove in Group" = false
+#simply make death animation disappear
+"Disable death animation" = true
+#make the process of absorbing xp fast
+"Fast experience absorb" = false
+

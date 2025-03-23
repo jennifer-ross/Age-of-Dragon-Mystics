@@ -27,7 +27,7 @@ EntityEvents.death(e => {
     if (!e.source.actual.player) return
     let player = e.source.actual
 
-    if (player && entity.type === "minecraft:warden") {
+    if (player && entity.type === "corundumguardian:corundum_guardian") {
         AStages.addStageToPlayer(STAGES.WARDEN, player)
     }
 })

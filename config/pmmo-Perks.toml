@@ -279,63 +279,63 @@
 			perk = "pmmo:attribute"
 			attribute = "irons_spellbooks:fire_spell_power"
 			skill = "magic"
-			per_level = 0.8
+			per_level = 1.2
 			max_boost = 30.0
 
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "pmmo:attribute"
 			attribute = "irons_spellbooks:ice_spell_power"
 			skill = "magic"
-			per_level = 0.8
+			per_level = 1.2
 			max_boost = 30.0
 
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "pmmo:attribute"
 			attribute = "irons_spellbooks:lightning_spell_power"
 			skill = "magic"
-			per_level = 0.8
+			per_level = 1.2
 			max_boost = 30.0
 
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "pmmo:attribute"
 			attribute = "irons_spellbooks:holy_spell_power"
 			skill = "magic"
-			per_level = 0.8
+			per_level = 1.2
 			max_boost = 30.0
 
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "pmmo:attribute"
 			attribute = "irons_spellbooks:ender_spell_power"
 			skill = "magic"
-			per_level = 0.8
+			per_level = 1.2
 			max_boost = 30.0
 
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "pmmo:attribute"
 			attribute = "irons_spellbooks:blood_spell_power"
 			skill = "magic"
-			per_level = 0.8
+			per_level = 1.2
 			max_boost = 30.0
 
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "pmmo:attribute"
 			attribute = "irons_spellbooks:evocation_spell_power"
 			skill = "magic"
-			per_level = 0.8
+			per_level = 1.2
 			max_boost = 30.0
 
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "pmmo:attribute"
 			attribute = "irons_spellbooks:eldritch_spell_power"
 			skill = "magic"
-			per_level = 0.8
+			per_level = 1.2
 			max_boost = 30.0
 
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "pmmo:attribute"
 			attribute = "irons_spellbooks:nature_spell_power"
 			skill = "magic"
-			per_level = 0.8
+			per_level = 1.2
 			max_boost = 30.0
 
 		[[Perks.For_Event.SKILL_UP]]
