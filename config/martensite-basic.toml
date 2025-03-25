@@ -1,5 +1,5 @@
 #the distance from player that martensite start working
-Radius = 24.0
+Radius = 20.0
 #the lowest chance that entity tick
 "Minimal Chance" = 0.1
 #Use modulo calculation to skip entity tick

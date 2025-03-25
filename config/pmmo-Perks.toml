@@ -117,7 +117,7 @@
 			perk = "pmmo:attribute"
 			skill = "endurance"
 			attribute = "minecraft:generic.max_health"
-			per_level = 0.5
+			per_level = 0.25
 			max_boost = 50.0
 
 		[[Perks.For_Event.SKILL_UP]]

@@ -11,7 +11,7 @@
 	#Minimum distance from spawn a Tower can be measured in chunks (Applies to X and Z). Default: 25 chunks 
 	firstTowerDistance = 25
 	#Whether to include acceptable Terralith biomes during the tower's Biome check.
-	terralith = false
+	terralith = true
 	#Whether to include acceptable Biomes of Plenty biomes during the tower's Biome check.
 	biomesofPlenty = false
 	#Whether to include acceptable Oh The Biomes You'll Go biomes during the tower's Biome check.

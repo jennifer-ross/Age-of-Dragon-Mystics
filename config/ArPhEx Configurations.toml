@@ -21,6 +21,8 @@
 	"Disable Tormentor" = false
 	#Disabled by default. If enabled, most mobs will become able to spawn in any dimension, including dimensions from other mods - may cause issues with some mod dimensions.
 	"Spawn in other dimensions" = false
+	#By default, the Tormentor can spawn naturally once you defeat the first three bosses. At this point, you probably won't be ready yet to fight it, and so will be forced to seal it and locate a crawling portal (all intentional). Set to false to prevent this, and ensure the Tormentor can only spawn from being summoned. The earlier - Boss natural spawning - config option has the same effect, but also controls other bosses.
+	"Tormentor initial natural spawning" = true
 
 [Difficulty]
 	#By default, the stalker bosses have hundreds of health points. Choose true to decrease their maximum to just 60 health. Avoid decimal and negative numbers.
@@ -41,4 +43,10 @@
 	"Structure generation toggle" = true
 	#Keep enabled if you want to use the bonus rendering system for the Tormentor, featuring infinite render distance for the entity along with modifying fog distance accordingly, plus fog colour when nearby
 	"Special Tormentor rendering" = true
+	#The Tormentor can occasionally have a chance to respond to chat messages that mention its name, with a threatening message of its own. There are thirty possible messages. You can add one of your own with this setting.
+	"Bonus Tormentor Chat Message" = "I am here"
+	#The Tormented Wrath is an explosive post-Tormentor weapon that can shoot more and more powerful explosives the more times its user has killed the final Tormentor boss. You can limit the charge level here (default is 200, matching with the maximum amount of Tormentor kills that can be registered)
+	"Limit Tormented Wrath Power" = 200.0
+	#Disable to limit the staff's ability to walk through walls if it breaks something in your map or modpack
+	"Allow Ethereal Staff wall bypassing" = true
 
