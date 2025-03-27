@@ -30,7 +30,7 @@
 	grow_hp = 0.04
 	#Set the damage increase per level for the mob, based on a percentage increase from the base damage.
 	#Range: 0.0 ~ 10.0
-	grow_damage = 0.20
+	grow_damage = 0.2
 	#Set the armor value increase per level for the mob.
 	#Range: 0.0 ~ 1.0
 	increase_armor = 1.0

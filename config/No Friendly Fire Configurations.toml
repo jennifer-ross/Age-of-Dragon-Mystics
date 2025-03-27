@@ -1,0 +1,5 @@
+
+[no_friendly_fire]
+	#Set to true to disable all players from attacking pets, unless they're crouching, even if not tamed directly by that player
+	limit_all_player_attacks = false
+
