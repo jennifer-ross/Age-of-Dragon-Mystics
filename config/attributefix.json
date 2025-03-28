@@ -4598,17 +4598,6 @@
         "value": 100
       }
     },
-    "undead_revamp2:cheroattackspeed": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 20,
-        "value": 20
-      }
-    },
     "celestisynth:celestial_damage": {
       "enabled": false,
       "min": {
@@ -4618,6 +4607,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "undead_revamp2:cheroattackspeed": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 20,
+        "value": 20
       }
     },
     "additional_attributes:innate_spell/traveloptics/blood_howl": {
