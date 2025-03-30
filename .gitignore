@@ -21,6 +21,7 @@ usercache.json
 usernamecache.json
 enigmatic_persistence.dat
 mods/.connector/*
+mods/.index/*
 .bobby
 ct_dumps
 TrashSlotSaveState.json
@@ -33,3 +34,4 @@ minecraftinstance.json
 *.rar
 servers.dat
 servers.dat_old
+.idea
