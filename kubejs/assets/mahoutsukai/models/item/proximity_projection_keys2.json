@@ -1,0 +1,38 @@
+{
+  "loader": "forge:composite",
+  "children": {
+    "first": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "mahoutsukai:item/red_key_64"
+      },
+      "transform": {
+        "rotation": [{"y": 200}],
+        "scale": [1, 1, 1],
+        "translation": [-1, -0.7, -0.3]
+      }
+    },
+    "second": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "mahoutsukai:item/red_key_64"
+      },
+      "transform": {
+        "rotation": [{"y": 220}],
+        "scale": [1, 1, 1],
+        "translation": [-1, -0.7, -5]
+      }
+    },
+    "third": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "mahoutsukai:item/red_key_64"
+      },
+      "transform": {
+        "rotation": [{"y": 180}],
+        "scale": [1,1 ,1],
+        "translation": [-1, -0.7, 5]
+      }
+    }
+  }
+}

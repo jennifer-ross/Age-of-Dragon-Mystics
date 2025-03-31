@@ -10,7 +10,7 @@ schematics
 screenshots
 server-resource-packs
 *.dll
-*.zip
+/*.zip
 *.log
 *.png
 observable_announce
@@ -31,8 +31,13 @@ supportercache.json
 .qmenu_opened.marker
 blueprints/*
 minecraftinstance.json
-*.rar
+/*.rar
 servers.dat
 servers.dat_old
 .idea
 kubejs/README.txt
+
+!resourcepacks/*.zip
+!resourcepacks/*.rar
+!shaderpacks/*.zip
+!shaderpacks/*.rar
