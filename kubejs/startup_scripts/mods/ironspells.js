@@ -1,3 +1,7 @@
+// priority: 300
+// requires: ironsspellbooks
+// requires: pmmo
+
 let configPath = 'kubejs/config/iron_spells_pmmo_compat.json';
 let config = JsonIO.read(configPath);
 

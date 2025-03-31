@@ -1,46 +1,26 @@
-const $Player = global.Player
-
-const LookType = {
-    Entity: "entity",
-    Block: "block" 
-}
+// priority: 300
+// requires: epicfight
 
 const PlayerMode = {
     Battle: "BATTLE",
     Mining: "MINING",
 }
 
-const DistanceModifier = 1
+let $ClientEngine;
 
-/**
- * 
- * @param {$Player} player 
- * @returns {LookType.Entity | LookType.Block}
- */
-function PlayerLookAt(player) {
-    const renderDistance = Client.options.renderDistance().get();
-    const trace = player.rayTrace(renderDistance + DistanceModifier, false);
-
-    if (trace.entity && trace.entity.living) {
-        return LookType.Entity;
-    }
-
-    if (trace.block) {
-        return LookType.Block;
-    }
-}
-
-ClientEvents.tick(event => {
+global.EventsHandler.addClientEvent('ClientEvents.tick', /** @param {Internal.ClientEventJS} e */  e => {
     let player = Client.player;
+    let localPlayerUtils = global.KUtils.LocalPlayer;
 
-    if (!player) {
-        return;
+    if (!player || !player.player) { return; }
+    if (player.age % 20 !== 0) { return; }
+
+    let lookType = localPlayerUtils.playerLookAt(player, false);
+
+    if(!$ClientEngine) {
+        $ClientEngine = Java.loadClass('yesman.epicfight.client.ClientEngine').getInstance();
     }
 
-    if (player.age < 20) return;
-
-    let lookType = PlayerLookAt(player)
-    let $ClientEngine = Java.loadClass('yesman.epicfight.client.ClientEngine').getInstance();
     let playerPatch =  $ClientEngine.controllEngine.getPlayerPatch();
 
     if (!playerPatch) {
@@ -48,19 +28,18 @@ ClientEvents.tick(event => {
     }
 
     let handItem = player.getHandSlots();
-    let rightHand = handItem[0];
-    let leftHand = handItem[1];
+    let [rightHand, leftHand] = handItem;
 
     let isRightHandDamageable = rightHand.damageableItem;
     let isLeftHandDamageable = leftHand.damageableItem;
     let isPickaxe = rightHand.displayName.toString().includes("_pickaxe");
     let isAir = rightHand.displayName.toString().includes("air");
 
-    if (lookType === LookType.Entity && (isRightHandDamageable || isLeftHandDamageable || isAir) && !isPickaxe && !playerPatch.isChargingSkill() && !playerPatch.isBattleMode()) {
+    if (lookType === localPlayerUtils.LookType.Entity && (isRightHandDamageable || isLeftHandDamageable || isAir) && !isPickaxe && !playerPatch.isChargingSkill() && !playerPatch.isBattleMode()) {
         playerPatch.toMode(PlayerMode.Battle, true);
     }
 
-    if (lookType === LookType.Block && !isRightHandDamageable && !isLeftHandDamageable && playerPatch.isBattleMode() && !playerPatch.isChargingSkill()) {
+    if (lookType === localPlayerUtils.LookType.Block && !isRightHandDamageable && !isLeftHandDamageable && playerPatch.isBattleMode() && !playerPatch.isChargingSkill()) {
         playerPatch.toMode(PlayerMode.Mining, true);
     }
 })

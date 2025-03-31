@@ -1,29 +1,31 @@
-ServerEvents.recipes(event => {
-    let mc = (id) => `minecraft:${id}`;
-    let ars = (id) => `ars_nouveau:${id}`;
-    let cr = (id) => `create:${id}`;
+// priority: 300
+// requires: ars_nouveau
 
-    event.recipes.ars_nouveau.imbuement(
-        
-       ars('source_gem'),
-       mc('feather'), // output
+let ns = global.Namespace;
+
+global.EventsHandler.addServerEvent('ServerEvents.recipes', /** @param {Internal.RecipesEventJS} e */ e => {
+    let ars_nouveau = e.recipes.ars_nouveau;
+
+    ars_nouveau.imbuement(
+        ns.ars('source_gem'),
+        ns.mc('feather'), // output
         1000, // source cost
         [
-            ars('source_gem'),// input item
-            ars('air_essence'),
-            mc('feather'),
+            ns.ars('source_gem'),// input item
+            ns.ars('air_essence'),
+            ns.mc('feather'),
         ]
-    );   
+    );
 
-    event.recipes.ars_nouveau.enchanting_apparatus(
+    ars_nouveau.enchanting_apparatus(
         [
-           cr('zinc_ingot'),
-           cr('zinc_ingot'),
-           ars('manipulation_essence'),
-           ars('source_gem'),
-        ], 
-	    mc('copper_ingot'), // reagent
-	    cr('brass_ingot'), // output
-	    1000
-    )    
-})
+            ns.cr('zinc_ingot'),
+            ns.cr('zinc_ingot'),
+            ns.ars('manipulation_essence'),
+            ns.ars('source_gem'),
+        ],
+        ns.mc('copper_ingot'), // reagent
+        ns.cr('brass_ingot'), // output
+        1000
+    )
+});

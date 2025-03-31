@@ -1,46 +1,45 @@
-ServerEvents.recipes(event => {
-    let mc = (id) => `minecraft:${id}`;
-    let ars = (id) => `ars_nouveau:${id}`;
-    let ter = (id) => `terramity:${id}`;
-    let LOH = (id) => `legendarysurvivaloverhaul:${id}`;
+// priority: 300
+// requires: ars_nouveau
 
+let ns = global.Namespace;
 
+global.EventsHandler.addServerEvent('ServerEvents.recipes', /** @param {Internal.RecipesEventJS} e */ e => {
+    let ars_nouveau = e.recipes.ars_nouveau;
 
-    event.recipes.ars_nouveau.enchanting_apparatus(
+    ars_nouveau.enchanting_apparatus(
         [
-           ter('fairy_dust'),
-           ter('fairy_dust'),
-           ter('fairy_dust'),
-           ars('manipulation_essence'),
-        ], 
-	    LOH('ice_fern_seeds'), // reagent
-	    LOH('sun_fern_seeds'), // output
-	    1000
-    );
-    
-    event.recipes.ars_nouveau.enchanting_apparatus(
-        [
-           ter('fairy_dust'),
-           ter('fairy_dust'),
-           ter('fairy_dust'),
-           ars('manipulation_essence'),
-        ], 
-	    LOH('sun_fern_seeds'), // reagent
-	    LOH('ice_fern_seeds'), // output
-	    1000
+            ns.ter('fairy_dust'),
+            ns.ter('fairy_dust'),
+            ns.ter('fairy_dust'),
+            ns.ars('manipulation_essence'),
+        ],
+        ns.loh('ice_fern_seeds'), // reagent
+        ns.loh('sun_fern_seeds'), // output
+        1000
     );
 
-    event.shaped(
-        Item.of(LOH('bandage'), 1),
+    ars_nouveau.enchanting_apparatus(
         [
-          '  A',
-          ' B ', 
-          'A  '
+            ns.ter('fairy_dust'),
+            ns.ter('fairy_dust'),
+            ns.ter('fairy_dust'),
+            ns.ars('manipulation_essence'),
+        ],
+        ns.loh('sun_fern_seeds'), // reagent
+        ns.loh('ice_fern_seeds'), // output
+        1000
+    );
+
+    e.shaped(
+        Item.of(ns.loh('bandage'), 1),
+        [
+            '  A',
+            ' B ',
+            'A  '
         ],
         {
-          A: LOH('plaster'),
-          B: mc('gold_nugget'),
+            A: ns.loh('plaster'),
+            B: ns.loh('glistering_melon_slice'),
         }
-      );
-
-})
+    );
+});

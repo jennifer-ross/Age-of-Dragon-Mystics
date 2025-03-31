@@ -59,6 +59,8 @@
 				horse = true
 				mule = true
 				mooshroom = true
+				drowned = true
+				turtle = true
 
 			[light_sources.settings.entities.ars_nouveau]
 				drygmy = true
@@ -83,6 +85,8 @@
 				bamboo_creeper = true
 				cave_creeper = true
 				savannah_creeper = true
+				snowy_creeper = true
+				swamp_creeper = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				dark_vortex = true
@@ -111,6 +115,7 @@
 				staffof_magic_arrows_2_projectile = true
 				skeleton_demoman = true
 				firelight_not_despawn = true
+				zombie_fisherman = true
 
 			[light_sources.settings.entities.mokels_bossfight_saphyra]
 				saphyra_spawn = true
@@ -149,6 +154,11 @@
 				cockatrice = true
 				troll = true
 				ice_dragon = true
+				fire_dragon = true
+				dragon_multipart = true
+				hippocampus = true
+				hydra_multipart = true
+				hydra = true
 
 			[light_sources.settings.entities.guardvillagers]
 				guard = true

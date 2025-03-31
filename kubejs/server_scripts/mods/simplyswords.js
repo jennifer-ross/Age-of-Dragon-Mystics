@@ -1,20 +1,18 @@
-ServerEvents.recipes(e => {
-    // -- MOD NAMESPACE UTILITY FUNCTIONS -- //
+// priority: 300
 
-    let gc = (id) => `geocluster:${id}`;
-    let ss = (id) => `simplyswords:${id}`;
-    let rfm = (id) => `refm:${id}`;
+let ns = global.Namespace;
 
+global.EventsHandler.addServerEvent('ServerEvents.recipes', /** @param {Internal.RecipesEventJS} e */ e => {
     // e.remove({mod: 'geocluster', not: {id: gc('prospectors_pick') }});
     // e.remove({mod: 'geocluster', not: {id: sh('prospectors_pick') }});
-    e.remove({ output: ss('netherite_cutlass') });
-    e.remove({ output: ss('diamond_cutlass') });
-    e.remove({ output: ss('gold_cutlass') });
-    e.remove({ output: ss('iron_cutlass') });
+    e.remove({output: ns.ss('netherite_cutlass')});
+    e.remove({output: ns.ss('diamond_cutlass')});
+    e.remove({output: ns.ss('gold_cutlass')});
+    e.remove({output: ns.ss('iron_cutlass')});
 
     // REFM
-    e.remove({ output: rfm("diamond_rapier") });
-    e.remove({ output: rfm("netherite_rapier") });
-    e.remove({ output: rfm("gold_rapier") });
-    e.remove({ output: rfm("iron_rapier") });
+    e.remove({output: ns.rfm("diamond_rapier")});
+    e.remove({output: ns.rfm("netherite_rapier")});
+    e.remove({output: ns.rfm("gold_rapier")});
+    e.remove({output: ns.rfm("iron_rapier")});
 });
