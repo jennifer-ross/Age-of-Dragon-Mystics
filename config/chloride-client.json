@@ -1,7 +1,7 @@
 {
   "modpackMode": false,
   "fullScreen": "WINDOWED",
-  "fpsDisplayMode": "SIMPLE",
+  "fpsDisplayMode": "OFF",
   "fpsDisplayGravity": "LEFT",
   "fpsDisplaySystemMode": "OFF",
   "fpsDisplayMargin": 12,
@@ -35,8 +35,8 @@
   "entityDistanceCulling": true,
   "entityCullingDistanceX": 4096,
   "entityCullingDistanceY": 32,
-  "monsterDistanceCulling": false,
-  "monsterCullingDistanceX": 16384,
+  "monsterDistanceCulling": true,
+  "monsterCullingDistanceX": 4096,
   "monsterCullingDistanceY": 64,
   "entityWhitelist": [],
   "monsterWhitelist": [

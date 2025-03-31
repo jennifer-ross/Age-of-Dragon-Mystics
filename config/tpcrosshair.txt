@@ -1,0 +1,5 @@
+version = 1
+enableIn3rdPerson = true
+enableIn3rdPersonFront = false
+enableBowDrawIndicator = true
+enableTridentChargeIndicator = true
