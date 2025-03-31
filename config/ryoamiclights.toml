@@ -61,6 +61,12 @@
 				mooshroom = true
 				drowned = true
 				turtle = true
+				piglin = true
+				strider = true
+				furnace_minecart = true
+				blaze = true
+				magma_cube = true
+				piglin_brute = true
 
 			[light_sources.settings.entities.ars_nouveau]
 				drygmy = true
@@ -80,6 +86,8 @@
 				green_fairy = true
 				blue_fairy = true
 				pink_fairy = true
+				echo_bug = true
+				duskrok = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				bamboo_creeper = true
@@ -116,6 +124,8 @@
 				skeleton_demoman = true
 				firelight_not_despawn = true
 				zombie_fisherman = true
+				firelight = true
+				supreme_bonescaller = true
 
 			[light_sources.settings.entities.mokels_bossfight_saphyra]
 				saphyra_spawn = true
@@ -126,6 +136,7 @@
 
 			[light_sources.settings.entities.create]
 				stationary_contraption = true
+				contraption = true
 
 			[light_sources.settings.entities.illageandspillage]
 				imp = true
@@ -149,6 +160,14 @@
 				spider_brood = true
 				spider_jump = true
 				ant_arsonist = true
+				roach_riverspawn = true
+				blood_worm = true
+				scorpion_striker = true
+				scorpion_larvae = true
+				long_legs_fly = true
+				centipede_stalker = true
+				centipede_evictor_larvae = true
+				mosquito_morbidity = true
 
 			[light_sources.settings.entities.iceandfire]
 				cockatrice = true
@@ -168,7 +187,31 @@
 
 			[light_sources.settings.entities.quark]
 				glass_frame = true
+				wraith = true
+				foxhound = true
 
 			[light_sources.settings.entities.supplementaries]
 				hat_stand = true
+
+			[light_sources.settings.entities.forbidden_arcanus]
+				lost_soul = true
+
+			[light_sources.settings.entities.netherexp]
+				apparition = true
+				vessel = true
+				wisp = true
+
+			[light_sources.settings.entities.difficult_spawners]
+				evil_spirit = true
+
+			[light_sources.settings.entities.cataclysm]
+				netherite_ministrosity = true
+				netherite_monstrosity = true
+				screen_shake = true
+
+			[light_sources.settings.entities.legendary_monsters]
+				skeletosaurus = true
+
+			[light_sources.settings.entities.tombstone]
+				grave_guardian = true
 
