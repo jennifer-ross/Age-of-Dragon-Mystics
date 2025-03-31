@@ -1,0 +1,16 @@
+{
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -0.75
+    ],
+    "number": 3,
+    "size": [
+      0.4,
+      0.8,
+      2.0
+    ]
+  },
+  "type": "wom:torment"
+}

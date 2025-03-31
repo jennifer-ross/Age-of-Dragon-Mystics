@@ -550,5 +550,11 @@
   },
   "betternether:nether_ruby_helmet": {
     "temperature": 1.0
+  },
+  "terramity:flameguard_pendant": {
+    "heat_resistance": 20.0
+  },
+  "terramity:lava_locket": {
+    "heat_resistance": 20.0
   }
 }

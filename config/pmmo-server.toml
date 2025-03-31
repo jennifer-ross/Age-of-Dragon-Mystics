@@ -77,7 +77,7 @@
 		"Power Base" = 1.104088404342588
 		#What is the x in: [Base XP] * ([Power Base]^(x * level))
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Per Level" = 1.35
+		"Per Level" = 1.85
 
 #Should requirements apply for the applicable action type
 [Requirements]
