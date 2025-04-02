@@ -23,7 +23,7 @@
 	randomTickSpeedEnabled = true
 	#Defines the max. speed of crops grow, leaf decay, redstone, ... per chunk
 	#Range: 1 ~ 256
-	randomTickSpeed = 3
+	randomTickSpeed = 20
 
 ["Block Explodes"]
 	#Enable/Disable block explodes adjustments.

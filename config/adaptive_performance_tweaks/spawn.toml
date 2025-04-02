@@ -8,12 +8,12 @@
 	#General list of ignored dimensions.
 	spawnIgnoreDimensionList = ["minecraft:the_end"]
 	#Enable/Disable more aggressive and strict spawn limitations.
-	spawnAggressiveMode = false
+	spawnAggressiveMode = true
 
 ["Chunk Optimization"]
 	#Allows to spawn at least one mob (regardless of the type) per selected chunk to avoid side effects.A value of 9 means every 9 chunk request will be allowed. Use 0 to disable this optimization.
 	#Range: 0 ~ 256
-	friendlyChunkSpawnRate = 9
+	friendlyChunkSpawnRate = 16
 
 ["View Area"]
 	#Enable/Disable player based view area optimization.
@@ -24,13 +24,13 @@
 	spawnLimitationEnabled = true
 	#Blocks every x spawn to avoid an over population with the limited spawn area. Use 0 to disable this optimization.
 	#Range: 0 ~ 100
-	spawnLimitationLimiter = 16
+	spawnLimitationLimiter = 128
 	#Defines the max. number of entities of a specific type, which could spawn within the player view area. Use 0 to disable this optimization.
 	#Range: 0 ~ 256
-	spawnLimitationMaxMobsPerPlayer = 32
+	spawnLimitationMaxMobsPerPlayer = 64
 	#Defines the max. number of entities of a specific type, which could spawn within a single world. Use 0 to disable this optimization.
 	#Range: 0 ~ 1024
-	spawnLimitationMaxMobsPerWorld = 128
+	spawnLimitationMaxMobsPerWorld = 1024
 	#Defines the max. number of entities of a specific type, which could spawn within the server. Use 0 to disable this optimization.
 	#Range: 0 ~ 1024
 	spawnLimitationMaxMobsPerServer = 512

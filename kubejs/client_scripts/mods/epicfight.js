@@ -13,7 +13,8 @@ global.EventsHandler.addClientEvent('ClientEvents.tick', /** @param {Internal.Cl
     let localPlayerUtils = global.KUtils.LocalPlayer;
 
     if (!player || !player.player) { return; }
-    if (player.age % 20 !== 0) { return; }
+    // Every 5 ticks
+    if (player.age % 5 !== 0) { return; }
 
     let lookType = localPlayerUtils.playerLookAt(player, false);
 

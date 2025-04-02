@@ -5,7 +5,7 @@
 	optimizePlayerLogin = true
 	#Timeout in seconds for the player validation.
 	#Range: 16 ~ 300
-	playerLoginValidationTimeout = 90
+	playerLoginValidationTimeout = 360
 
 ["Player Protection"]
 	#Protect player during login within the validation timeout.
