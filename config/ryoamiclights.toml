@@ -87,6 +87,7 @@
 				axolotl = true
 				silverfish = true
 				pufferfish = true
+				sniffer = true
 
 			[light_sources.settings.entities.ars_nouveau]
 				drygmy = true
@@ -100,6 +101,7 @@
 
 			[light_sources.settings.entities.mowziesmobs]
 				ferrous_wroughtnaut = true
+				umvuthana_follower_raptor = true
 
 			[light_sources.settings.entities.irons_spellbooks]
 				necromancer = true
@@ -128,6 +130,7 @@
 				onyx_blast_projectile_projectile = true
 				dungeon_sentry = true
 				dungeon_effigy = true
+				uvogre = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				bamboo_creeper = true
@@ -136,6 +139,8 @@
 				snowy_creeper = true
 				swamp_creeper = true
 				hills_creeper = true
+				spruce_creeper = true
+				beach_creeper = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				dark_vortex = true
@@ -178,6 +183,11 @@
 				lifestealer = true
 				zombie_lumberjack = true
 				dire_hound_leader = true
+				krampus_henchman = true
+				siamese_skeletonsright = true
+				siamese_skeletonsleft = true
+				staffof_blindness_projectile = true
+				missionary_charge = true
 
 			[light_sources.settings.entities.mokels_bossfight_saphyra]
 				saphyra_spawn = true
@@ -188,6 +198,8 @@
 				acolyte = true
 				corrupted_pillager = true
 				corrupted_vindicator = true
+				revenant = true
+				ghoul = true
 
 			[light_sources.settings.entities.create]
 				stationary_contraption = true
@@ -232,6 +244,10 @@
 				beetle_bulwark = true
 				long_legs_tiny = true
 				long_legs = true
+				spider_larvae_tiny = true
+				dragonfly_dreadnought = true
+				beetle_tick_mite = true
+				millipede_marauder = true
 
 			[light_sources.settings.entities.iceandfire]
 				cockatrice = true
@@ -248,6 +264,11 @@
 				siren = true
 				ice_dragon_charge = true
 				fire_dragon_charge = true
+				lightning_dragon = true
+				stymphalian_feather = true
+				pixie = true
+				cyclops = true
+				cylcops_multipart = true
 
 			[light_sources.settings.entities.guardvillagers]
 				guard = true
@@ -263,9 +284,11 @@
 				toretoise = true
 				stoneling = true
 				shiba = true
+				forgotten = true
 
 			[light_sources.settings.entities.supplementaries]
 				hat_stand = true
+				dispenser_minecart = true
 
 			[light_sources.settings.entities.forbidden_arcanus]
 				lost_soul = true
@@ -283,6 +306,7 @@
 				netherite_monstrosity = true
 				screen_shake = true
 				laser_beam = true
+				deepling_angler = true
 
 			[light_sources.settings.entities.legendary_monsters]
 				skeletosaurus = true
@@ -300,10 +324,13 @@
 
 			[light_sources.settings.entities.plenty_of_golems]
 				first_of_basalt_statue = true
+				ancient_of_prismarine_statue = true
 
 			[light_sources.settings.entities.majruszsdifficulty]
 				cursed_armor = true
 				illusioner = true
+				tank = true
+				creeperling = true
 
 			[light_sources.settings.entities.celestisynth]
 				star_monolith = true
@@ -321,4 +348,14 @@
 			[light_sources.settings.entities.ba_bt]
 				land_obelisk = true
 				land_monolith = true
+
+			[light_sources.settings.entities.regions_unexplored]
+				boat = true
+
+			[light_sources.settings.entities.alexscaves]
+				subterranodon = true
+				vallumraptor = true
+				grottoceratops = true
+				relicheirus = true
+				trilocaris = true
 
