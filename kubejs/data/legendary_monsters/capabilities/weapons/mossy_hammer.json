@@ -1,0 +1,11 @@
+{
+    "type": "hammer:hammer1",
+    "attributes": {
+        "common": {
+            "armor_negation": 7,
+                "impact": 3,
+            "max_strikes": 2,
+            "speed_bonus": 0.3
+        }
+    }
+ }

@@ -660,17 +660,6 @@
         "value": 100
       }
     },
-    "epicfight:offhand_attack_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "legendarysurvivaloverhaul:permanent_heart": {
       "enabled": false,
       "min": {
@@ -680,6 +669,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "epicfight:offhand_attack_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "expanded_combat:heat_dmg": {

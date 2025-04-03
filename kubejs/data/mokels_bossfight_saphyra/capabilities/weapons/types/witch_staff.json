@@ -1,0 +1,50 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.8
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.75
+    ]
+  },
+  "hit_particle": "epicfight:hit_blunt",
+  "hit_sound": "epicfight:entity.hit.blunt",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "cdmoveset:biped/new/katana/hold_katana",
+      "run": "cdmoveset:biped/new/katana/run_katana",
+      "block": "epicfight:biped/skill/guard_longsword",
+      "sneak": "epicfight:biped/living/hold_tachi",
+      "swim": "epicfight:biped/living/hold_longsword",
+      "kneel": "epicfight:biped/living/hold_longsword",
+      "walk": "cdmoveset:biped/new/katana/walk_unsheath"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "two_hand",
+    "cases": []
+  },
+  "combos": {
+    "two_hand": [
+      "cdmoveset:biped/new/sword/sword_onehand_auto_1",
+      "epicfight:biped/combat/longsword_auto2",
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_3",
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_4",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_twohand_auto_1",
+      "epicfight:biped/combat/trident_auto2",
+      "cdmoveset:biped/new/spear/spear_dash",
+      "cdmoveset:biped/new/yamato/yamato_airslash"
+    ]
+  },
+  "category": "sword",
+  "innate_skills": {
+    "two_hand": "cdmoveset:sword_slash"
+  },
+  "usable_in_offhand": false
+}

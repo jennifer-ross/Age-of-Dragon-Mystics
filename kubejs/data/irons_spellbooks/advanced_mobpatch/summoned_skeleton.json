@@ -1,0 +1,2245 @@
+{
+    "model": "epicfight:entity/biped",
+    "armature": "epicfight:entity/biped",
+    "renderer": "minecraft:skeleton",
+    "isHumanoid": true,
+    "faction": "undead",
+    "attributes": {
+        "impact": 0,          
+        "armor_negation": 5.0,    
+        "max_strikes": 3,        
+        "chasing_speed": 1.0,    
+        "max_stamina": 100, 
+         "stamina_regan_multiply": 1.0,    
+        "stamina_regan_delay": 300,  
+         "has_stun_reduction":true, 
+         "max_stun_shield": 0,    
+         "stun_shield_regan_multiply":0, 
+         "stun_shield_regan_delay": 0,   
+         "stamina_lose_multiply": 1.5,  
+         "attack_radius": 1.5
+    },
+    "default_livingmotions": {
+        "idle": "epicfight:biped/living/idle",
+        "walk": "epicfight:biped/living/walk",
+        "chase": "epicfight:biped/living/walk",
+        "mount": "epicfight:biped/living/mount",
+        "fall": "epicfight:biped/living/fall",
+        "death": "epicfight:biped/living/death"
+    },
+	"humanoid_weapon_motions": [  
+              { 
+                  "weapon_categories": ["fist"],  
+                  "style":"common", 
+                  "livingmotions": {
+                        "chase": "epicfight:biped/living/run",  
+                        "walk": "epicfight:biped/living/walk"    
+                  }
+              },
+              {
+                  "weapon_categories": ["axe", "pickaxe", "shovel", "sword"],
+                  "style":"common",
+                  "livingmotions": {
+                       "chase": "epicfight:biped/living/walk",
+                       "walk": "epicfight:biped/living/walk"
+                  }
+              },
+              {
+                  "weapon_categories": ["hoe"],
+                  "style":"common",
+                  "livingmotions": {
+                       "chase": "epicfight:biped/living/walk",
+                       "walk": "epicfight:biped/living/walk"
+                  }
+              },
+              { 
+                  "weapon_categories": ["spear", "trident", "tachi"],
+                  "style":"common", 
+                  "livingmotions": {
+                       "chase": "epicfight:biped/living/walk_spear",
+                       "walk": "epicfight:biped/living/walk_spear"
+                  }
+              },
+              { 
+                  "weapon_categories": ["greatsword"],
+                  "style":"common", 
+                  "livingmotions": {
+                       "chase": "epicfight:biped/living/walk_greatsword",
+                       "walk": "epicfight:biped/living/walk_greatsword"
+                  }
+              },
+              { 
+                  "weapon_categories": ["longsword"],
+                  "style":"common", 
+                  "livingmotions": {
+                       "chase": "epicfight:biped/living/walk_longsword",
+                       "walk": "epicfight:biped/living/walk_longsword"
+                  }
+              },
+              { 
+                  "weapon_categories": ["uchigatana"],
+                  "style":"common", 
+                  "livingmotions": {
+                       "chase": "epicfight:biped/living/walk_uchigatana",
+                       "walk": "epicfight:biped/living/walk_uchigatana"
+                  }
+              },
+              { 
+                  "weapon_categories": ["sword"],
+                  "style":"two_hand", 
+                  "livingmotions": {
+                       "chase": "epicfight:biped/living/walk",
+                       "walk": "epicfight:biped/living/walk"
+                  }
+              }
+],
+	"custom_guard_motion": [    
+	    {
+             "weapon_categories": ["pickaxe", "shovel"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.4,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.4,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.2,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["axe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.3,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.3,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["fist"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.1,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.1,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["sword"],
+            "style": "two_hand",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.18,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.18,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["sword"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.8,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.8,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["spear"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.22,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["trident"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.22,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+        {
+             "weapon_categories": ["greatsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_greatsword",
+             "stamina_cost_multiply": 0.25,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.25,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["uchigatana"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_uchigatana",
+             "stamina_cost_multiply": 0.2,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.2,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+             "weapon_categories": ["longsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_longsword",
+             "stamina_cost_multiply": 0.2,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.2,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["tachi"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_longsword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.2,
+			"parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+       }
+    ],
+    "stun_animations": {
+        "short": "epicfight:biped/combat/hit_short",
+        "long": "epicfight:biped/combat/hit_long",
+        "knockdown": "epicfight:biped/combat/knockdown",
+        "fall": "epicfight:biped/living/landing",
+		"neutralize": "epicfight:biped/skill/guard_break1"
+    },
+    "combat_behavior": [
+		{
+			"weapon_categories": ["fist"],
+			"style": "common",
+			"behavior_series": [
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "wom:biped/skill/moonless_guard_hit_1",
+							"counter_cost": 10, 		
+							"counter_chance": 1, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "wom:biped/skill/moonless_guard_hit_2",
+							"counter_cost": 10, 		
+							"counter_chance": 1, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "wom:biped/combat/enderblaster_onehand_dash", 
+							"counter_cost": 10, 		
+							"counter_chance": 0.5, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "wom:biped/skill/roll_backward", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "wom:biped/skill/roll_right", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "wom:biped/skill/roll_left", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},   {"predicate":"epicfight:within_distance", "min": 5.0, "max": 7.0}
+					],
+					"animation": "wom:biped/skill/dodgemaster_back", 			
+					"play_speed": 1.0, 								
+					"stamina": 10,	
+					"convert_time": 0.1,										
+					"command_list": [									
+						{"time":0.1, "command":"scoreboard players set @s hua 1", "execute_at_target":false},
+						{"time":0.1, "command":"scoreboard players set @s mfjs 1", "execute_at_target":true}
+					]
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+					],
+					"animation": "wom:biped/combat/staff_dash", 			
+					"play_speed": 0.8, 								
+					"stamina": 10
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "wom:biped/combat/staff_auto_2", 			
+				"play_speed": 0.8, 								
+				"stamina": 10
+		},
+		{
+			"conditions": [
+				{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+			],
+			"animation": "wom:biped/combat/enderblaster_onehand_auto_2", 			
+			"play_speed": 0.8, 								
+			"stamina": 10,	
+			"convert_time": 0.2
+	},
+	{
+		"conditions": [
+			{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+		],
+		"animation": "wom:biped/combat/enderblaster_onehand_dash", 			
+		"play_speed": 0.8, 								
+		"stamina": 10
+},
+{
+	"conditions": [
+		{"predicate": "epicfight:health", "health":0.5, "comparator":  "less_ratio"}, {"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 10.0}
+	],
+	"animation": "wom:biped/skill/herrscher_guard_hit", 			
+	"play_speed": 1, 								
+	"stamina": 10,										
+	"command_list": [									
+		{"time":0.3, "command":"scoreboard players set @s lxzj2 1", "execute_at_target":false}
+	],
+	"convert_time": -0.1
+}
+				]                 
+			},
+			{
+				"weight": 100,
+				"canBeInterrupted": false,
+				"looping": false,
+				"behaviors": [		
+			
+{
+	"conditions": [
+		{"predicate":"indestructible:guard_break", "invert": false}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 10.0}
+	],
+	"animation": "wom:biped/skill/herrscher_guard_hit", 			
+	"play_speed": 1, 								
+	"stamina": 10,										
+	"command_list": [									
+		{"time":0.3, "command":"scoreboard players set @s lxzj2 1", "execute_at_target":false}
+	],
+	"convert_time": -0.1
+}
+				]                 
+			},
+			{
+				"weight": 100,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 600,
+				"behaviors": [		
+			
+{
+	"conditions": [
+		{"predicate": "epicfight:health", "health":0.5, "comparator":  "less_ratio"}, {"predicate":"indestructible:using_item", "edible": false}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 10.0}
+	],
+	"animation": "wom:biped/skill/herrscher_guard_hit", 			
+	"play_speed": 1, 								
+	"stamina": 10,										
+	"command_list": [									
+		{"time":0.3, "command":"scoreboard players set @s lxzj2 1", "execute_at_target":false}
+	],
+	"convert_time": -0.1
+}
+				]                 
+			}
+			]
+			
+        },
+		{
+			"weapon_categories": ["axe", "hoe", "shovel","pickaxe"],
+			"style": "common",
+			"behavior_series": [
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_sword",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_backward", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_right", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_left", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/combat/axe_auto1", 		
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "epicfight:biped/combat/axe_auto2", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+		{
+			"conditions": [
+				{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+			],
+			"animation": "epicfight:biped/combat/axe_dash", 			
+			"play_speed": 0.8, 								
+			"stamina": 10,	
+			"convert_time": 0.2
+	}
+				]                 
+			}
+			]
+			
+        },
+		{
+			"weapon_categories": ["sword"],
+			"style": "common",
+			"behavior_series": [
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_sword",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_backward", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_right", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_left", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "cdmoveset:biped/new/sword/sword_onehand_auto_1", 		
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "cdmoveset:biped/new/sword/sword_onehand_auto_2", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "cdmoveset:biped/new/sword/sword_onehand_auto_3", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+		{
+			"conditions": [
+				{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+			],
+			"animation": "cdmoveset:biped/new/sword/sword_onehand_auto_4", 	
+			"play_speed": 0.8, 								
+			"stamina": 10,	
+			"convert_time": 0.2
+	}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 100,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "cdmoveset:biped/new/sword_slash", 		
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 220,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 4.0, "max": 8.0}
+					],
+					"animation": "epicfight:biped/skill/sweeping_edge", 		
+					"play_speed": 0.8, 								
+					"stamina": 15,
+					"convert_time": 0.2
+			}
+				]                 
+			}
+			]
+			
+        },
+		{
+			"weapon_categories": ["longsword"],
+			"style": "common",
+			"behavior_series": [
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_longsword",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_longsword_hit_active1",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_longsword_hit_active2",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_backward", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_right", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_left", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "cdmoveset:biped/new/longsword/longsword_twohand_auto_1", 		
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "cdmoveset:biped/new/longsword/longsword_twohand_auto_2", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "cdmoveset:biped/new/longsword/longsword_twohand_auto_3", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+		{
+			"conditions": [
+				{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+			],
+			"animation": "cdmoveset:biped/new/longsword/longsword_twohand_auto_4", 	
+			"play_speed": 0.8, 								
+			"stamina": 10,	
+			"convert_time": 0.2
+	}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/combat/longsword_liechtenauer_auto1", 		
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "epicfight:biped/combat/longsword_liechtenauer_auto2", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "epicfight:biped/combat/longsword_liechtenauer_auto3", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 80,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 3.0, "max": 6.0}
+					],
+					"animation": "cdmoveset:biped/new/longsword/longsword_dash", 		
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			}
+				]                 
+			}
+			]
+			
+        },
+		{
+			"weapon_categories": ["greatsword"],
+			"style": "common",
+			"behavior_series": [
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_greatsword",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_greatsword_hit",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_backward", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_right", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_left", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "cdmoveset:biped/new/dual_greatsword/combat/greatsword_twohand_auto_1", 		
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "cdmoveset:biped/new/dual_greatsword/combat/greatsword_twohand_auto_2", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "cdmoveset:biped/new/dual_greatsword/combat/greatsword_twohand_auto_3", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/combat/greatsword_auto1", 		
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "epicfight:biped/combat/greatsword_auto2", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 80,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 3.0, "max": 5.0}
+					],
+					"animation": "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dash", 		
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			}
+				]                 
+			},
+			{
+				"weight": 1.0,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 240,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 8.0}
+					],
+					"animation": "cdmoveset:biped/new/wind_slash", 		
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			}
+				]                 
+			}
+			]
+			
+        },
+		{
+			"weapon_categories": ["dagger"],
+			"style": "common",
+			"behavior_series": [
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_sword",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_backward", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_right", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_left", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/combat/dagger_auto1", 		
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "epicfight:biped/combat/dagger_auto2", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "epicfight:biped/combat/dagger_auto3", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "cdmoveset:biped/new/dagger/dagger_dual_auto1", 	
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "cdmoveset:biped/new/dagger/dagger_dual_auto3", 	
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		}
+				]                 
+			},
+			{
+				"weight": 1.3,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 180,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 2.5, "max": 6.0}
+					],
+					"animation": "cdmoveset:biped/new/dagger/skill/blade_rush_first", 	
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			}
+				]                 
+			},
+			{
+				"weight": 1.3,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 200,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 2.5, "max": 6.0}
+					],
+					"animation": "cdmoveset:biped/new/dagger/skill/blade_rush_second", 
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			}
+				]                 
+			},
+			{
+				"weight": 1.3,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 220,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 2.5, "max": 6.0}
+					],
+					"animation": "cdmoveset:biped/new/dagger/skill/blade_rush_third", 	
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			}
+				]                 
+			},
+			{
+				"weight": 1.3,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 240,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 2.5, "max": 6.0}
+					],
+					"animation": "cdmoveset:biped/new/dagger/skill/blade_rush_finisher", 
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			}
+				]                 
+			}
+			]
+			
+        },
+		{
+			"weapon_categories": ["spear"],
+			"style": "common",
+			"behavior_series": [
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_spear",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_spear_hit",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_backward", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_right", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_left", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "cdmoveset:biped/new/spear/spear_twohand_auto1", 	
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "cdmoveset:biped/new/spear/spear_twohand_auto2", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+					"animation": "cdmoveset:biped/new/spear/spear_onehand_auto", 			
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 100,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 2.0, "max": 5.0}
+					],
+					"animation": "cdmoveset:biped/new/spear/spear_dash", 		
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			}
+				]                 
+			},
+			{
+				"weight": 1.0,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 200,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 4.0, "max": 8.0}
+					],
+					"animation": "cdmoveset:biped/new/spear_slash", 		
+					"play_speed": 0.8, 								
+					"stamina": 15,
+					"convert_time": 0.2
+			}
+				]                 
+			}
+			]
+			
+        },
+		{
+			"weapon_categories": ["tachi"],
+			"style": "common",
+			"behavior_series": [
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_longsword",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_longsword_hit_active1",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_longsword_hit_active2",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_backward", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_right", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_left", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "cdmoveset:biped/new/longsword/tachi_twohand_auto_1", 
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "cdmoveset:biped/new/longsword/tachi_twohand_auto_2", 
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "cdmoveset:biped/new/longsword/tachi_twohand_auto_3", 
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+		{
+			"conditions": [
+				{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+			],
+			"animation": "cdmoveset:biped/new/longsword/tachi_twohand_auto_4", 	
+			"play_speed": 0.8, 								
+			"stamina": 10,	
+			"convert_time": 0.2
+	}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "cdmoveset:biped/new/dual_tachi/uchigatana_auto1", 	
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "cdmoveset:biped/new/dual_tachi/uchigatana_auto2", 	
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "cdmoveset:biped/new/dual_tachi/uchigatana_auto3", 	
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "cdmoveset:biped/new/dual_tachi/uchigatana_auto4", 	
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "cdmoveset:biped/new/dual_tachi/uchigatana_auto5", 	
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 80,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 3.0, "max": 6.0}
+					],
+					"animation": "cdmoveset:biped/new/dual_tachi/uchigatana_dash", 	
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			}
+				]                 
+			}
+			]
+	
+        },
+		{
+			"weapon_categories": ["trident"],
+			"style": "common",
+			"behavior_series": [
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_spear",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_spear_hit",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_backward", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_right", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_left", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/combat/trident_auto1", 
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "epicfight:biped/combat/trident_auto2", 
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "epicfight:biped/combat/trident_auto3", 
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 80,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 2.0, "max": 5.0}
+					],
+					"animation": "epicfight:biped/combat/tool_dash", 	
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 180,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 4.0, "max": 6.0}
+					],
+					"animation": "epicfight:biped/skill/tsunami", 	
+					"play_speed": 0.7, 								
+					"stamina": 15,
+					"convert_time": 0.2
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 240,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 6.0, "max": 8.0}
+					],
+					"animation": "epicfight:biped/skill/tsunami_reinforced", 	
+					"play_speed": 0.6, 								
+					"stamina": 20,
+					"convert_time": 0.2
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 300,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 9.0},  {"predicate": "epicfight:health", "health":0.3, "comparator":  "less_ratio"}
+					],
+					"animation": "epicfight:biped/skill/wrathful_lighting", 	
+					"play_speed": 0.7, 								
+					"stamina": 30,
+					"convert_time": 0.2
+			}
+				]                 
+			}
+			]
+	
+        },
+		{
+			"weapon_categories": ["uchigatana"],
+			"style": "common",
+			"behavior_series": [
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_uchigatana",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [					
+						{
+							"conditions": [
+								{"predicate":"epicfight:within_eye_height"}, {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 50, 			
+							"counter": "epicfight:biped/skill/guard_uchigatana_hit",
+							"counter_cost": 10, 		
+							"counter_chance": 0.3, 			
+							"counter_speed": 1,
+							"convert_time": -0.1		
+						}
+                    ]                 
+				},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_backward", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_right", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 20,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true},  {"predicate":"indestructible:attack_level", "min": 1, "max": 1}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/skill/step_left", 			
+					"play_speed": 1.1, 								
+					"stamina": 10,	
+					"convert_time": -0.1
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "cdmoveset:biped/new/katana/katana_auto1", 
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "cdmoveset:biped/new/katana/katana_auto2", 
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "cdmoveset:biped/new/katana/katana_auto3", 
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "epicfight:biped/combat/uchigatana_auto1", 
+					"play_speed": 0.8, 								
+					"stamina": 10,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "epicfight:biped/combat/uchigatana_auto2", 
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 3.0}
+				],
+				"animation": "epicfight:biped/combat/uchigatana_auto3", 
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": false,
+				"looping": false,
+				"cooldown": 170,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 3.0, "max": 6.0}
+					],
+					"animation": "cdmoveset:biped/new/katana/katana_sheath_auto", 	
+					"play_speed": 0.8, 								
+					"stamina": 5,
+					"convert_time": 0.2
+			},
+			{
+				"conditions": [
+					{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 3.0, "max": 6.0}
+				],
+				"animation": "cdmoveset:biped/new/katana/katana_sheath_dash", 	
+				"play_speed": 0.8, 								
+				"stamina": 10,	
+				"convert_time": 0.2
+		}
+				]                 
+			},
+			{
+				"weight": 1.0,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 200,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 0.0, "max": 4.0}
+					],
+					"animation": "cdmoveset:biped/new/katana/skill/fatal_draw", 	
+					"play_speed": 0.8, 								
+					"stamina": 15,
+					"convert_time": 0.2
+			}
+				]                 
+			},
+			{
+				"weight": 1.5,
+				"canBeInterrupted": true,
+				"looping": false,
+				"cooldown": 260,
+				"behaviors": [		
+			{
+					"conditions": [
+						{"predicate":"indestructible:guard_break", "invert": true}, {"predicate":"epicfight:within_eye_height"},  {"predicate":"epicfight:within_distance", "min": 5.0, "max": 8.0}
+					],
+					"animation": "cdmoveset:biped/new/katana/skill/fatal_draw_dash", 	
+					"play_speed": 0.7, 								
+					"stamina": 20,
+					"convert_time": 0.2
+			}
+				]                 
+			}
+			]
+	
+        }
+    ]
+}

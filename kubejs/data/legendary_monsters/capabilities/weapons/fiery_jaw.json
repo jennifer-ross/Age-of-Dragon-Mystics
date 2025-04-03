@@ -1,0 +1,17 @@
+{
+	"type": "epicfight:fist",
+	"attributes": {
+		"one_hand": {
+			"armor_negation": 20,
+  			"impact": 1.8,
+			"max_strikes": 1,
+			"speed_bonus": 6
+		},
+		"two_hand": {
+			"armor_negation": 20,
+  			"impact": 1.8,
+			"max_strikes": 2,
+			"speed_bonus": 6
+		}
+	}
+}

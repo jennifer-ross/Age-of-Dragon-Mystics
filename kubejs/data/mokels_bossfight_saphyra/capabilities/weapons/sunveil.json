@@ -1,0 +1,11 @@
+{
+    "type": "dagger:dagger2",
+    "attributes": {
+        "common": {
+            "armor_negation": 7,
+                "impact": 3.8,
+            "max_strikes": 3,
+            "speed_bonus": 0
+        }
+    }
+ }

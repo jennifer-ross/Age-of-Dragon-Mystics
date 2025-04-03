@@ -1,0 +1,11 @@
+{
+    "type": "wom:moonless",
+    "attributes": {
+        "common": {
+            "armor_negation": 10,
+                "impact": 2,
+            "max_strikes": 4,
+            "speed_bonus": 0
+        }
+    }
+ }

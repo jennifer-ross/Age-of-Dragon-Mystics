@@ -1,0 +1,11 @@
+{
+	"type": "epicacg:battle_scythe",
+	"attributes": {
+		"common": {
+			"armor_negation": 0.0,
+  			"impact": 2,
+			"max_strikes": 4,
+			"speed_bonus": -0.5
+		}
+	}
+}

@@ -67,12 +67,36 @@
 				blaze = true
 				magma_cube = true
 				piglin_brute = true
+				ghast = true
+				zoglin = true
+				stray = true
+				evoker_fangs = true
+				snowball = true
+				small_fireball = true
+				cod = true
+				tnt_minecart = true
+				chest_minecart = true
+				wandering_trader = true
+				trader_llama = true
+				cave_spider = true
+				shulker = true
+				fox = true
+				fireball = true
+				minecart = true
+				frog = true
+				axolotl = true
+				silverfish = true
+				pufferfish = true
 
 			[light_sources.settings.entities.ars_nouveau]
 				drygmy = true
 				starbuncle = true
 				whirlisprig = true
 				gift_starby = true
+				spell_proj = true
+				follow_proj = true
+				flying_item = true
+				bookwyrm = true
 
 			[light_sources.settings.entities.mowziesmobs]
 				ferrous_wroughtnaut = true
@@ -81,6 +105,12 @@
 				necromancer = true
 				archevoker = true
 				priest = true
+				lightning_lance = true
+				icicle = true
+				magic_missile = true
+				summoned_zombie = true
+				ball_lightning = true
+				apothecarist = true
 
 			[light_sources.settings.entities.terramity]
 				green_fairy = true
@@ -88,6 +118,16 @@
 				pink_fairy = true
 				echo_bug = true
 				duskrok = true
+				gatmancer = true
+				conjurling = true
+				thunker = true
+				megabite = true
+				simple_turret = true
+				holy_round_projectile_projectile = true
+				anti_gravity_round_projectile_projectile = true
+				onyx_blast_projectile_projectile = true
+				dungeon_sentry = true
+				dungeon_effigy = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				bamboo_creeper = true
@@ -95,6 +135,7 @@
 				savannah_creeper = true
 				snowy_creeper = true
 				swamp_creeper = true
+				hills_creeper = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				dark_vortex = true
@@ -126,6 +167,17 @@
 				zombie_fisherman = true
 				firelight = true
 				supreme_bonescaller = true
+				bone_imp = true
+				barrel_zombie = true
+				missioner = true
+				bloody_gadfly = true
+				thornshell_crab = true
+				nightmare_stalker = true
+				maggot = true
+				glutton_fish = true
+				lifestealer = true
+				zombie_lumberjack = true
+				dire_hound_leader = true
 
 			[light_sources.settings.entities.mokels_bossfight_saphyra]
 				saphyra_spawn = true
@@ -133,6 +185,9 @@
 			[light_sources.settings.entities.graveyard]
 				skeleton_creeper = true
 				nightmare = true
+				acolyte = true
+				corrupted_pillager = true
+				corrupted_vindicator = true
 
 			[light_sources.settings.entities.create]
 				stationary_contraption = true
@@ -168,6 +223,15 @@
 				centipede_stalker = true
 				centipede_evictor_larvae = true
 				mosquito_morbidity = true
+				small_web = true
+				web_funnel = true
+				scorpioid_chaser_hallucination = true
+				bar = true
+				maggot_larvae = true
+				butterfly_bewitcher = true
+				beetle_bulwark = true
+				long_legs_tiny = true
+				long_legs = true
 
 			[light_sources.settings.entities.iceandfire]
 				cockatrice = true
@@ -178,6 +242,12 @@
 				hippocampus = true
 				hydra_multipart = true
 				hydra = true
+				stymphalian_bird = true
+				stymphalian_arrow = true
+				sea_serpent = true
+				siren = true
+				ice_dragon_charge = true
+				fire_dragon_charge = true
 
 			[light_sources.settings.entities.guardvillagers]
 				guard = true
@@ -189,6 +259,10 @@
 				glass_frame = true
 				wraith = true
 				foxhound = true
+				soul_bead = true
+				toretoise = true
+				stoneling = true
+				shiba = true
 
 			[light_sources.settings.entities.supplementaries]
 				hat_stand = true
@@ -208,10 +282,43 @@
 				netherite_ministrosity = true
 				netherite_monstrosity = true
 				screen_shake = true
+				laser_beam = true
 
 			[light_sources.settings.entities.legendary_monsters]
 				skeletosaurus = true
 
 			[light_sources.settings.entities.tombstone]
 				grave_guardian = true
+				spectral_bite = true
+
+			[light_sources.settings.entities.legendarycreatures]
+				nether_wisp = true
+				nether_wisp_purse = true
+
+			[light_sources.settings.entities.relics]
+				spore = true
+
+			[light_sources.settings.entities.plenty_of_golems]
+				first_of_basalt_statue = true
+
+			[light_sources.settings.entities.majruszsdifficulty]
+				cursed_armor = true
+				illusioner = true
+
+			[light_sources.settings.entities.celestisynth]
+				star_monolith = true
+
+			[light_sources.settings.entities.eeeabsmobs]
+				guling_sentinel = true
+
+			[light_sources.settings.entities.vinery]
+				mule = true
+				wandering_winemaker = true
+
+			[light_sources.settings.entities.traveloptics]
+				aqua_grandmaster = true
+
+			[light_sources.settings.entities.ba_bt]
+				land_obelisk = true
+				land_monolith = true
 
