@@ -55,4 +55,19 @@ global.EventsHandler.addServerEvent('ServerEvents.recipes', /** @param {Internal
             D: ns.apo('gem_dust'),
         }
     )
+    
+    e.remove({ output: ns.mc('netherite_ingot') })
+
+    e.shaped(
+        Item.of(ns.mc('netherite_ingot'), 1),
+        [
+            'AAA',
+            'ABB',
+            'BBB'
+        ],
+        {
+            A: ns.arcana('deorum_ingot'),
+            B: ns.mc('netherite_scrap'),
+        }
+    )
 });

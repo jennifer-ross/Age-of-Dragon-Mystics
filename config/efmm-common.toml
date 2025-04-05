@@ -1,0 +1,9 @@
+#Server Max Response Interval
+#服务器响应下发模型请求间隔
+#Range: > 0
+max_response_interval = 120
+#Max Positions Count of Model
+#允许接收的模型的最大的顶点数
+#Range: > 0
+max_positions_count = 11451
+

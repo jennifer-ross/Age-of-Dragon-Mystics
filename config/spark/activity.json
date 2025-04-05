@@ -193,18 +193,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/Y8lcSGXDbo"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Pr1ncessFox",
-      "uniqueId": "02d94b37-9847-45cd-b2cd-3ea3a7427fcb"
-    },
-    "time": 1738584357651,
-    "type": "Profiler (live)",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/qBVa6aytZv"
-    }
   }
 ]

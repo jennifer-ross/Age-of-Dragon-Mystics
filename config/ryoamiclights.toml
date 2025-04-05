@@ -88,6 +88,7 @@
 				silverfish = true
 				pufferfish = true
 				sniffer = true
+				wolf = true
 
 			[light_sources.settings.entities.ars_nouveau]
 				drygmy = true
@@ -102,6 +103,7 @@
 			[light_sources.settings.entities.mowziesmobs]
 				ferrous_wroughtnaut = true
 				umvuthana_follower_raptor = true
+				grottol = true
 
 			[light_sources.settings.entities.irons_spellbooks]
 				necromancer = true
@@ -131,6 +133,10 @@
 				dungeon_sentry = true
 				dungeon_effigy = true
 				uvogre = true
+				unholy_lance_projectile = true
+				virtue = true
+				holy_round_projectile_no_gravity = true
+				holy_beam = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				bamboo_creeper = true
@@ -289,6 +295,7 @@
 			[light_sources.settings.entities.supplementaries]
 				hat_stand = true
 				dispenser_minecart = true
+				red_merchant = true
 
 			[light_sources.settings.entities.forbidden_arcanus]
 				lost_soul = true

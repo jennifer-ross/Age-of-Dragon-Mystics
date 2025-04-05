@@ -722,7 +722,8 @@
 			"ecto_slab": {},
 			"banshee": {},
 			"stampede": {},
-			"carcass": {}
+			"carcass": {},
+			"false_carcass": {}
 		},
 		"irons_spellbooks": {
 			"wisp": {},
