@@ -1230,6 +1230,15 @@
 			"prisoner_skull": {},
 			"royal_skull": {},
 			"counselor_skull": {}
+		},
+		"screamfromthecold": {
+			"wendigo": {}
+		},
+		"fromtheshadows": {
+			"nehemoth": {},
+			"froglin": {},
+			"bulldrogioth": {},
+			"cleric": {}
 		}
 	}
 }

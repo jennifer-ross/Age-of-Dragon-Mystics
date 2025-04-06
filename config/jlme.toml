@@ -238,9 +238,9 @@
 	#Max level of enchantment
 	"Max Level" = 4
 	#Percentage of damage per level
-	"Level Damage Increase" = 0.01
+	"Level Damage Increase" = 0.005
 	#Base percentage damage
-	"Base Damage Increase" = 0.03
+	"Base Damage Increase" = 0.0
 	#Max damage bonus possible
 	"Max damage" = 10.0
 
