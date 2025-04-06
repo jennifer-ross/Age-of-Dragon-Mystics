@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "createoreexcavation:raw_redstone"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "minecraft:redstone",
+      "chance": 0.35
+    },
+    {
+      "item": "minecraft:redstone",
+      "chance": 0.05
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+	"type": "ars_nouveau:armor_upgrade",
+	"pedestalItems": [
+		{
+			"item": {
+				"tag": "forge:ender_pearls"
+			}
+		},
+		{
+			"item": {
+				"tag": "forge:ender_pearls"
+			}
+		},
+		{
+			"item": {
+				"tag": "terramity:iridescent_shrad_block"
+			}
+		},
+		{
+			"item": {
+				"item": "born_in_chaos_v1:armor_plate_from_dark_metal"
+			}
+		}
+	],
+	"sourceCost": 5000,
+	"tier": 2
+}
