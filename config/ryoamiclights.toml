@@ -89,6 +89,9 @@
 				pufferfish = true
 				sniffer = true
 				wolf = true
+				rabbit = true
+				snow_golem = true
+				egg = true
 
 			[light_sources.settings.entities.ars_nouveau]
 				drygmy = true
@@ -99,6 +102,7 @@
 				follow_proj = true
 				flying_item = true
 				bookwyrm = true
+				wilden_guardian = true
 
 			[light_sources.settings.entities.mowziesmobs]
 				ferrous_wroughtnaut = true
@@ -194,6 +198,7 @@
 				siamese_skeletonsleft = true
 				staffof_blindness_projectile = true
 				missionary_charge = true
+				diamond_termite = true
 
 			[light_sources.settings.entities.mokels_bossfight_saphyra]
 				saphyra_spawn = true
@@ -254,6 +259,8 @@
 				dragonfly_dreadnought = true
 				beetle_tick_mite = true
 				millipede_marauder = true
+				moth_moontracker = true
+				dungeon_trigger = true
 
 			[light_sources.settings.entities.iceandfire]
 				cockatrice = true
@@ -275,6 +282,7 @@
 				pixie = true
 				cyclops = true
 				cylcops_multipart = true
+				multipart = true
 
 			[light_sources.settings.entities.guardvillagers]
 				guard = true
@@ -325,6 +333,7 @@
 			[light_sources.settings.entities.legendarycreatures]
 				nether_wisp = true
 				nether_wisp_purse = true
+				corpse_eater = true
 
 			[light_sources.settings.entities.relics]
 				spore = true
@@ -338,6 +347,7 @@
 				illusioner = true
 				tank = true
 				creeperling = true
+				cerberus = true
 
 			[light_sources.settings.entities.celestisynth]
 				star_monolith = true
@@ -365,4 +375,19 @@
 				grottoceratops = true
 				relicheirus = true
 				trilocaris = true
+
+			[light_sources.settings.entities.dungeons_plus]
+				soul_fireball = true
+
+			[light_sources.settings.entities.screamfromthecold]
+				wendigo = true
+
+			[light_sources.settings.entities.fromtheshadows]
+				froglin = true
+
+			[light_sources.settings.entities.dungeons_and_combat]
+				hermit_witch = true
+
+			[light_sources.settings.entities.dummmmmmy]
+				target_dummy = true
 

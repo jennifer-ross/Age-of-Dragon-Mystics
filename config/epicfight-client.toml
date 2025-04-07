@@ -19,7 +19,7 @@
 	max_hit_projectiles = 30
 	aiming_correction = true
 	show_epicfight_attributes = true
-	use_animation_shader = true
+	use_animation_shader = false
 	first_person_model = true
 
 	[ingame.ui]

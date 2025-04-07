@@ -183,13 +183,13 @@
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "ars_scalaes:mana_boost"
 			skill = "magic"
-			per_level = 20.0
+			per_level = 80.0
 			max_boost = 3000.0
 
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "ars_scalaes:mana_regen"
 			skill = "magic"
-			per_level = 1
+			per_level = 0.25
 			max_boost = 100.0
 
 		[[Perks.For_Event.SKILL_UP]]
