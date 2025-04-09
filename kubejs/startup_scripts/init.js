@@ -4,6 +4,7 @@ const $UUIDUtil = Java.loadClass('net.minecraft.core.UUIDUtil');
 const $UUID = Java.loadClass('java.util.UUID');
 const $Attributes = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes');
 const $AttributeModifier = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier');
+const $Registry = Java.loadClass('net.minecraft.core.registries.Registries')
 const $IronSpellsAttributeRegistry = Java.loadClass('io.redspace.ironsspellbooks.api.registry.AttributeRegistry');
 
 /**
@@ -125,21 +126,68 @@ global.Namespace = {
  * */
 global.KUtils = {
     /**
+     * Utils for Structures
+     **/
+    Structure: {
+        /**
+         *  @param {Internal.Level} level
+         *  @param {BlockPos} blockPos
+         *  @returns {array<string>}
+         * */
+        getStructures: (level, blockPos) => {
+            if (!blockPos || !level) { return []; }
+
+            const structureManager = level.structureManager();
+            const all = structureManager.getAllStructuresAt(blockPos);
+            const structures = [];
+            const registry = structureManager.registryAccess().registryOrThrow($Registry.STRUCTURE);
+            all.forEach(key => structures.push(registry.getKey(key)));
+
+            return structures;
+        }
+    },
+
+    /**
+     * Utils for Numbers
+     **/
+    Number: {
+        /**
+         *  @param {number} min
+         *  @param {number} max
+         *  @returns {number}
+         * */
+        randomFloat: (min, max) => Math.random() * (max - min) + min,
+    },
+
+    /**
      * Utils for Attributes
      **/
     Attribute: {
+        /**
+         *
+         */
         all: {},
+        /**
+         *
+         */
         Type: {
+            // Minecraft attributes
             MAX_HEALTH: 'minecraft:generic.max_health',
-            ATTACK_DAMAGE: 'minecraft:generic.max_health',
-            MOVEMENT_SPEED: 'minecraft:generic.max_health',
-            ATTACK_KNOCKBACK: 'minecraft:generic.max_health',
-            ARMOR: 'minecraft:generic.max_health',
-            ARMOR_TOUGHNESS: 'minecraft:generic.max_health',
-            KNOCKBACK_RESISTANCE: 'minecraft:generic.max_health',
+            ATTACK_DAMAGE: 'minecraft:generic.attack_damage',
+            MOVEMENT_SPEED: 'minecraft:generic.movement_speed',
+            ATTACK_KNOCKBACK: 'minecraft:generic.attack_knockback',
+            ARMOR: 'minecraft:generic.armor',
+            ARMOR_TOUGHNESS: 'minecraft:generic.armor_toughness',
+            KNOCKBACK_RESISTANCE: 'minecraft:generic.knockback_resistance',
+
+            // Irons Spell Books attributes
             FIRE_MAGIC_RESIST: 'irons_spellbooks:fire_magic_resist',
         },
+        /**
+         *
+         */
         Name: {
+            // Minecraft attributes
             MAX_HEALTH: 'Difficulty Health Scaling',
             ATTACK_DAMAGE: 'Difficulty Damage Scaling',
             MOVEMENT_SPEED: 'Difficulty Movement Speed Scaling',
@@ -148,10 +196,18 @@ global.KUtils = {
             ARMOR_TOUGHNESS: 'Difficulty Armor Toughness Scaling',
             KNOCKBACK_RESISTANCE: 'Difficulty Knockback Resistance Scaling',
 
+            // Irons Spell Books attributes
             FIRE_MAGIC_RESIST: 'Difficulty Fire Magic Resist Scaling',
         },
-        ReversType: {},
+        /**
+         *
+         */
+        ReversType: [],
+        /**
+         *
+         */
         UUID: {
+            // Minecraft attributes
             MAX_HEALTH: $UUID.randomUUID(),
             ATTACK_DAMAGE: $UUID.randomUUID(),
             MOVEMENT_SPEED: $UUID.randomUUID(),
@@ -160,9 +216,14 @@ global.KUtils = {
             ARMOR_TOUGHNESS: $UUID.randomUUID(),
             KNOCKBACK_RESISTANCE: $UUID.randomUUID(),
 
+            // Irons Spell Books attributes
             // FIRE_MAGIC_RESIST: $UUID.randomUUID(),
         },
+        /**
+         *
+         */
         BaseUUID: {
+            // Minecraft attributes
             MAX_HEALTH: $Attributes.MAX_HEALTH,
             ATTACK_DAMAGE: $Attributes.ATTACK_DAMAGE,
             MOVEMENT_SPEED: $Attributes.MOVEMENT_SPEED,
@@ -171,32 +232,54 @@ global.KUtils = {
             ARMOR_TOUGHNESS: $Attributes.ARMOR_TOUGHNESS,
             KNOCKBACK_RESISTANCE: $Attributes.KNOCKBACK_RESISTANCE,
 
+            // Irons Spell Books attributes
             // FIRE_MAGIC_RESIST: $IronSpellsAttributeRegistry.FIRE_MAGIC_RESIST.get(),
         },
+        /**
+         *
+         */
         Operation: {
             ADDITION: $AttributeModifier.Operation.ADDITION,
         },
+        /**
+         *  @param {string} key
+         *  @returns {string}
+         * */
+        getTypeByKey: (key) => {
+            const self = global.KUtils.Attribute;
+            const type = self.ReversType.find(entry => entry[0].toString() === key);
+            return type ? type[1] : null;
+        },
+        /**
+         *  @param {string} key
+         *  @returns {string}
+         * */
+        getTypeByName: (key) => {
+            const self = global.KUtils.Attribute;
+            const type = self.ReversType.find(entry => entry[1].toString() === key);
+            return type ? type[0] : null;
+        },
+        /**
+         * Init Attribute utils
+         * @returns
+         */
         init: () => {
             const self = global.KUtils.Attribute;
 
             Object.entries(self.Type).forEach(entry => {
-                const [typeKey, typeName] = entry;
-                self.ReversType['' + typeName] = '' + typeKey;
+                self.ReversType.push(entry);
             })
 
             Object.entries(self.all).forEach((entry) => {
-                // TODO fix
-                const [attributeKey, attribute] = entry;
-                const attributeType = self.ReversType[attributeKey];
-                console.warn(attributeType);
+                const [attributeName, attribute] = entry;
+                const attributeType = self.getTypeByName(attributeName.toString());
+
                 if (!attributeType || !self.BaseUUID[attributeType] || !self.Name[attributeType] || !self.UUID[attributeType]) { return; }
 
                 attribute.baseUUID = self.BaseUUID[attributeType];
                 attribute.name = self.Name[attributeType];
                 attribute.operation = self.Operation.ADDITION;
                 attribute.UUID = self.UUID[attributeType];
-
-                console.warn(self.all[attribute.description]);
             })
         }
     },
@@ -516,9 +599,9 @@ global.KUtils = {
                             }
                         }
 
-                        if (!attributeUtils.all['' + description]) {
-                            attributeUtils.all['' + description] = {
-                                description: '' + description,
+                        if (!attributeUtils.all[description.toString()]) {
+                            attributeUtils.all[description.toString()] = {
+                                description: description.toString(),
                                 baseUUID: null,
                                 UUID: null,
                                 name: null,

@@ -1,0 +1,246 @@
+{
+	"attributes": {
+		"minecraft:generic.max_health": {
+			"every": 1,
+			"amount": 0,
+			"ceil": true,
+			"exceptions": {
+				"dimensions": [],
+				"entities": [],
+				"structures": [],
+				"biomes": [],
+				"mods": []
+			}
+		},
+		"minecraft:generic.attack_damage": {
+			"every": 1,
+			"amount": 0,
+			"ceil": false,
+			"exceptions": {
+				"dimensions": [],
+				"entities": [],
+				"structures": [],
+				"biomes": [],
+				"mods": []
+			}
+		},
+		"minecraft:generic.movement_speed": {
+			"every": 1,
+			"amount": 0,
+			"ceil": false,
+			"exceptions": {
+				"dimensions": [],
+				"entities": [],
+				"structures": [],
+				"biomes": [],
+				"mods": []
+			}
+		},
+		"minecraft:generic.attack_knockback": {
+			"every": 1,
+			"amount": 0,
+			"ceil": false,
+			"exceptions": {
+				"dimensions": [],
+				"entities": [],
+				"structures": [],
+				"biomes": [],
+				"mods": []
+			}
+		},
+		"minecraft:generic.armor": {
+			"every": 1,
+			"amount": 0,
+			"ceil": false,
+			"exceptions": {
+				"dimensions": [],
+				"entities": [],
+				"structures": [],
+				"biomes": [],
+				"mods": []
+			}
+		},
+		"minecraft:generic.armor_toughness": {
+			"every": 1,
+			"amount": 0,
+			"ceil": false,
+			"exceptions": {
+				"dimensions": [],
+				"entities": [],
+				"structures": [],
+				"biomes": [],
+				"mods": []
+			}
+		},
+		"minecraft:generic.knockback_resistance": {
+			"every": 1,
+			"amount": 0,
+			"ceil": false,
+			"exceptions": {
+				"dimensions": [],
+				"entities": [],
+				"structures": [],
+				"biomes": [],
+				"mods": []
+			}
+		},
+		"irons_spellbooks:fire_magic_resist": {
+			"every": 1,
+			"amount": 0,
+			"ceil": false,
+			"exceptions": {
+				"dimensions": [],
+				"entities": [],
+				"structures": [],
+				"biomes": [],
+				"mods": []
+			}
+		}
+	},
+	"leveling": {
+		"maxLevel": 100,
+		"baseXP": 150,
+		"growthFactor": 1.085,
+		"smoothing": 100,
+		"curveModifier": 0.68,
+		"minXP": 10,
+		"round": true,
+		"xp": {
+			"baseValues": {
+				"common": 6,
+				"uncommon": 10,
+				"elite": 15,
+				"boss": 35
+			},
+			"playerLevelMultiplier": 0.04,
+			"mobLevelMultiplier": 0.12,
+			"dynamicScaling": {
+				"enabled": true,
+				"startLevel": 25,
+				"baseDivider": 40,
+				"exponent": 0.9
+			},
+			"randomize": true,
+			"minXP": 1,
+			"maxXP": 1500
+		},
+		"mobRarity": {
+			"uncommon": [
+				"minecraft:wither_skeleton",
+				"minecraft:ghast"
+			],
+			"elite": [
+				"minecraft:witch",
+				"minecraft:piglin_brute"
+			],
+			"boss": [
+				"minecraft:ender_dragon",
+				"minecraft:wither",
+				"minecraft:warden"
+			]
+		}
+	},
+	"debug": true,
+	"calculatedLevels": {
+		"1": 163,
+		"2": 283,
+		"3": 405,
+		"4": 534,
+		"5": 675,
+		"6": 829,
+		"7": 999,
+		"8": 1188,
+		"9": 1397,
+		"10": 1630,
+		"11": 1890,
+		"12": 2179,
+		"13": 2501,
+		"14": 2860,
+		"15": 3260,
+		"16": 3706,
+		"17": 4203,
+		"18": 4759,
+		"19": 5378,
+		"20": 6069,
+		"21": 6840,
+		"22": 7701,
+		"23": 8662,
+		"24": 9735,
+		"25": 10934,
+		"26": 12274,
+		"27": 13771,
+		"28": 15444,
+		"29": 17315,
+		"30": 19408,
+		"31": 21749,
+		"32": 24369,
+		"33": 27302,
+		"34": 30586,
+		"35": 34265,
+		"36": 38385,
+		"37": 43003,
+		"38": 48179,
+		"39": 53982,
+		"40": 60489,
+		"41": 67788,
+		"42": 75976,
+		"43": 85164,
+		"44": 95476,
+		"45": 107051,
+		"46": 120046,
+		"47": 134637,
+		"48": 151022,
+		"49": 169425,
+		"50": 190095,
+		"51": 213314,
+		"52": 239399,
+		"53": 268704,
+		"54": 301630,
+		"55": 338625,
+		"56": 380192,
+		"57": 426898,
+		"58": 479377,
+		"59": 538342,
+		"60": 604595,
+		"61": 679033,
+		"62": 762664,
+		"63": 856618,
+		"64": 962164,
+		"65": 1080723,
+		"66": 1213890,
+		"67": 1363451,
+		"68": 1531409,
+		"69": 1720009,
+		"70": 1931765,
+		"71": 2169494,
+		"72": 2436349,
+		"73": 2735862,
+		"74": 3071987,
+		"75": 3449148,
+		"76": 3872298,
+		"77": 4346976,
+		"78": 4879381,
+		"79": 5476444,
+		"80": 6145914,
+		"81": 6896458,
+		"82": 7737759,
+		"83": 8680643,
+		"84": 9737204,
+		"85": 10920951,
+		"86": 12246976,
+		"87": 13732131,
+		"88": 15395232,
+		"89": 17257284,
+		"90": 19341729,
+		"91": 21674729,
+		"92": 24285473,
+		"93": 27206520,
+		"94": 30474186,
+		"95": 34128968,
+		"96": 38216015,
+		"97": 42785659,
+		"98": 47893999,
+		"99": 53603546,
+		"100": 59983953
+	}
+}

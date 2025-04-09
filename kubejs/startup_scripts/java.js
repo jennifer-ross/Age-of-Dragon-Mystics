@@ -14,9 +14,9 @@ global.NearestAttackableTargetGoal = Java.loadClass('net.minecraft.world.entity.
 global.JavaUUID = Java.loadClass('java.util.UUID');
 global.Attributes = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes');
 global.AttributeModifier = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier');
-global.Registry = Java.loadClass('net.minecraft.core.registries.Registries')
-global.ResourceKey = Java.loadClass('net.minecraft.resources.ResourceKey')
-global.TagKey = Java.loadClass('net.minecraft.tags.TagKey')
+global.Registry = Java.loadClass('net.minecraft.core.registries.Registries');
+global.ResourceKey = Java.loadClass('net.minecraft.resources.ResourceKey');
+global.TagKey = Java.loadClass('net.minecraft.tags.TagKey');
 
 /**
  *  EpicFight
