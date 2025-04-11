@@ -1,4 +1,4 @@
-// priority: 300
+// priority: 3000
 // requires: ars_nouveau
 
 let ns = global.Namespace;
@@ -14,6 +14,7 @@ global.EventsHandler.addServerEvent('ServerEvents.recipes', /** @param {Internal
             ns.ars('source_gem'),// input item
             ns.ars('air_essence'),
             ns.mc('feather'),
+           
         ]
     );
 
