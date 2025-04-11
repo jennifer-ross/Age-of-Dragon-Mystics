@@ -4,6 +4,7 @@
 			"every": 1,
 			"amount": 0,
 			"ceil": true,
+			"percent": true,
 			"exceptions": {
 				"dimensions": [],
 				"entities": [],
@@ -16,6 +17,7 @@
 			"every": 1,
 			"amount": 0,
 			"ceil": false,
+			"percent": true,
 			"exceptions": {
 				"dimensions": [],
 				"entities": [],
@@ -28,6 +30,7 @@
 			"every": 1,
 			"amount": 0,
 			"ceil": false,
+			"percent": false,
 			"exceptions": {
 				"dimensions": [],
 				"entities": [],
@@ -40,6 +43,7 @@
 			"every": 1,
 			"amount": 0,
 			"ceil": false,
+			"percent": false,
 			"exceptions": {
 				"dimensions": [],
 				"entities": [],
@@ -52,6 +56,7 @@
 			"every": 1,
 			"amount": 0,
 			"ceil": false,
+			"percent": false,
 			"exceptions": {
 				"dimensions": [],
 				"entities": [],
@@ -64,6 +69,7 @@
 			"every": 1,
 			"amount": 0,
 			"ceil": false,
+			"percent": false,
 			"exceptions": {
 				"dimensions": [],
 				"entities": [],
@@ -76,6 +82,7 @@
 			"every": 1,
 			"amount": 0,
 			"ceil": false,
+			"percent": false,
 			"exceptions": {
 				"dimensions": [],
 				"entities": [],
@@ -88,6 +95,7 @@
 			"every": 1,
 			"amount": 0,
 			"ceil": false,
+			"percent": false,
 			"exceptions": {
 				"dimensions": [],
 				"entities": [],
@@ -131,7 +139,8 @@
 			],
 			"elite": [
 				"minecraft:witch",
-				"minecraft:piglin_brute"
+				"minecraft:piglin_brute",
+				"minecraft:enderman"
 			],
 			"boss": [
 				"minecraft:ender_dragon",

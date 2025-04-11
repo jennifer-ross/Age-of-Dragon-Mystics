@@ -307,7 +307,7 @@ global.Difficulty = {
             let currentStructures = structureUtils.getStructures(world, blockPos);
 
             // Apply attribute modifiers
-            /** @var { {every: number, amount: number, ceil: boolean} } attributeConfig */
+            /** @var { {every: number, amount: number, ceil: boolean, percent: boolean} } attributeConfig */
             for (const [attributeName, attributeConfig] of Object.entries(self.config.attributes)) {
                 // Exception for dimensions
                 if (Array.isArray(attributeConfig.exceptions.dimensions) && attributeConfig.exceptions.dimensions.length > 0 && attributeConfig.exceptions.dimensions.find(dim => dim === currentDimension)) { continue; }
@@ -332,7 +332,14 @@ global.Difficulty = {
                 if(maxLevel % attributeConfig.every !== 0) { continue; }
 
                 // Count modifier amount
-                let amount = attributeConfig.amount <= 0 ? 0 : (maxLevel / attributeConfig.every) * attributeConfig.amount;
+                let amount = 0;
+
+                if (attributeConfig.percent) {
+                    let baseAttributeValue = entity.getAttribute(attribute.baseUUID).getBaseValue();
+                    amount = attributeConfig.amount <= 0 ? 0 : (maxLevel / attributeConfig.every) * (baseAttributeValue * attributeConfig.amount);
+                }else {
+                    amount = attributeConfig.amount <= 0 ? 0 : (maxLevel / attributeConfig.every) * attributeConfig.amount;
+                }
 
                 // Set amount to ceil number with "Math.floor" function
                 if (attributeConfig.ceil) {
@@ -387,6 +394,7 @@ global.Difficulty = {
                     every: 1,
                     amount: 0,
                     ceil: attribute === 'minecraft:generic.max_health',
+                    percent: ['minecraft:generic.max_health', 'minecraft:generic.attack_damage'].includes(attribute),
                     exceptions: {
                         dimensions: [],
                         entities: [],
