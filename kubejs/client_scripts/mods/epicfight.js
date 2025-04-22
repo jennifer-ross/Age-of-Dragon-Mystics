@@ -13,6 +13,7 @@ global.EventsHandler.addClientEvent('ClientEvents.tick', /** @param {Internal.Cl
     let localPlayerUtils = global.KUtils.LocalPlayer;
 
     if (!player || !player.player) { return; }
+    if (player.deadOrDying) { return; }
     // Every 5 ticks
     if (player.age % 5 !== 0) { return; }
 
