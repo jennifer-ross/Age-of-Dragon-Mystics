@@ -1,0 +1,106 @@
+
+[Timers]
+	#Modify the timers for the surface (to reduce or increase them), based on the general timer set (e.g. spawn timer of 300 seconds -> 0.3 turns it into 90 seconds and 1.7 turns it into 510 seconds for the surface)
+	#Range: 0.0 ~ 5.0
+	surface_timer_multiplier = 1.0
+
+	[Timers.Spawn]
+		#Minimum time between spawns in seconds
+		#Range: 0 ~ 86400
+		can_spawn_min = 800
+		#Maximum time between spawns in seconds
+		#Range: 0 ~ 86400
+		can_spawn_max = 1200
+		#Chance for a spawn cooldown to occur
+		#Range: 0.0 ~ 1.0
+		can_spawn_cooldown_chance = 0.3
+		#Spawn cooldown length in seconds
+		#Range: 0 ~ 86400
+		can_spawn_cooldown = 1400
+
+	[Timers.Noise]
+		#Minimum time between noise occurrences in seconds
+		#Range: 0 ~ 86400
+		reset_noise_min = 740
+		#Maximum time between noise occurrences in seconds
+		#Range: 0 ~ 86400
+		reset_noise_max = 860
+
+	[Timers.Leave]
+		#Time (in seconds) it takes for the Pale Hound to leave
+		#Range: 1 ~ 6000
+		time_until_leave = 300
+		#Time (in seconds) it takes for the Pale Hound to leave once a chase begins
+		#Range: 1 ~ 600
+		time_until_leave_chase = 30
+
+["Spawn Conditions"]
+	#The spawn chance per tick (once the spawn timer is finished)
+	#Range: 0.0 ~ 1.0
+	spawn_chance_per_tick = 0.005
+	#Depth at which the Pale Hound can start to spawn
+	spawn_height = 500
+	#Whether the Pale Hound can spawn on the surface or not
+	allow_surface_spawn = true
+	#The maximum sky light level the Pale Hound can spawn at
+	#Range: 0 ~ 15
+	sky_light_level = 8
+	#The maximum block light level the Pale Hound can spawn at
+	#Range: 0 ~ 15
+	block_light_level = 15
+	#The maximum amount of pale hounds which can exist at the same time
+	#Range: 0 ~ 100
+	maximum_amount = 3
+	#How close to players the pale hounds is allowed to spawn (in blocks)
+	#Range: 0 ~ 64
+	spawn_distance = 20
+	#If set to true the pale hounds will try to find a spawn position with a possible path to the player
+	check_path_to_spawn = true
+
+	["Spawn Conditions".Dimensions]
+		#The dimensions where the Pale Hound can spawn in (Whitelist)
+		dimension_whitelist = ["minecraft:overworld"]
+
+	["Spawn Conditions".Biomes]
+		#If you don't want to create a datapack to configure the biomes
+		override_biome_datapack_config = true
+		#Use the surface biome list either as white- or blacklist
+		surface_biomes_is_whitelist = false
+		#Either white- or blacklist of the surface biomes the Pale Hound can spawn in (Syntax: modid:biome, e.g. `minecraft:plains`)
+		surface_biomes = ["minecraft:badlands", "minecraft:bamboo_jungle", "minecraft:basalt_deltas", "minecraft:beach", "minecraft:birch_forest", "minecraft:cold_ocean", "minecraft:crimson_forest", "minecraft:dark_forest", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_ocean", "minecraft:desert", "minecraft:eroded_badlands", "minecraft:flower_forest", "minecraft:forest", "minecraft:grove", "minecraft:jungle", "minecraft:lukewarm_ocean", "minecraft:mangrove_swamp", "minecraft:meadow", "minecraft:mushroom_fields", "minecraft:ocean", "minecraft:old_growth_birch_forest", "minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga", "minecraft:plains", "minecraft:river", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:sparse_jungle", "minecraft:stony_peaks", "minecraft:stony_shore", "minecraft:sunflower_plains", "minecraft:swamp", "minecraft:taiga", "minecraft:warm_ocean", "minecraft:windswept_forest", "minecraft:windswept_gravelly_hills", "minecraft:wooded_woodlands"]
+
+[Behaviour]
+	#The distance in blocks at which the Pale Hound can detect whether a player is looking at it or not
+	#Range: 0 ~ 128
+	spotting_range = 50
+	#Whether the pale hound can climb or not
+	can_climb = true
+	#Allow the Pale Hound to follow vanilla riding logic (e.g. boats)
+	allow_riding = false
+	#Whether invisible players can be targets or not
+	target_invisible = true
+
+[Attributes]
+	#Maximum Armor
+	#Range: 1.0 ~ 20.0
+	maximum_armor = 10.0
+	#Maximum health
+	#Range: 1.0 ~ 100000.0
+	maximum_health = 80.0
+	#Attack damage
+	#Range: 0.0 ~ 1000.0
+	attack_damage = 20.0
+	#Attack speed
+	#Range: 0.0 ~ 10.0
+	attack_speed = 0.35
+	#Movement speed
+	#Range: 0.0 ~ 5.0
+	movement_speed = 0.7
+	#Depth Strider (movement speed in water) bonus
+	#Range: 0.0 ~ 3.0
+	depth_strider_bonus = 1.5
+
+[Misc]
+	#Only play the ambient noises to the current (spawn) target (Note: The target can change when a spawn attempt is not successful)
+	only_play_noise_to_target = false
+

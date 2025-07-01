@@ -358,3 +358,47 @@
 	#Increase in max amount of kills per level
 	"Increase per levels" = 30
 
+["Advanced Thorns"]
+	#Activates or disables enchantment
+	Active = true
+
+["Supreme Thorns"]
+	#Activates or disables enchantment
+	Active = true
+
+["Burning Thorns"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+	#Base duration per tick
+	"Base duration" = 20
+	#Increase duration in ticks per level
+	"Duration per level" = 20
+	#Increased thorn damage if target is already on fire
+	"Multiplier bonus" = 1.5
+
+["Freezing Thorns"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+	#Base duration per tick
+	"Base duration" = 20
+	#Increase duration in ticks per level
+	"Duration per level" = 20
+	#Increased thorn damage if target is already freezing
+	"Multiplier bonus" = 1.5
+
+[Cleaving]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+	#Increased percentage per level
+	"Increased percentage" = 0.1
+	#Base Percentage of damage
+	"Base percentage" = 0.1
+	#This activates the tweak, if set to false, the will disable the enchantment in some cases
+	"Cleaving Tweak" = true
+

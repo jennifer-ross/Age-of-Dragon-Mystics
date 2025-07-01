@@ -111,13 +111,21 @@ global.Namespace = {
      * @returns string
      * */
     born: (id, x) => global.Namespace.mod(`born_in_chaos_v1`, id, x),
-     /**
+    /**
      * Forbidden & Arcanus
      * @param {string} id
      * @param {string | number} x
      * @returns string
      * */
-     arcana: (id, x) => global.Namespace.mod(`forbidden_arcanus`, id, x)
+    arcana: (id, x) => global.Namespace.mod(`forbidden_arcanus`, id, x),
+    /**
+     * Regions & Unexplored
+     * @param {string} id
+     * @param {string | number} x
+     * @returns string
+     * */
+    ru: (id, x) => global.Namespace.mod(`regions_unexplored`, id, x),
+     
     
 }
 

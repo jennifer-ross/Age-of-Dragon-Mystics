@@ -361,7 +361,7 @@
       }
     ],
     "mobs_spawn_stronger": {
-      "is_enabled": true,
+      "is_enabled": false,
       "health_bonus": {
         "__default": 0.0,
         "expert": 0.15,

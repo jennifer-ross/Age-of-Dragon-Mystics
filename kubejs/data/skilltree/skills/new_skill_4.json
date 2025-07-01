@@ -1,0 +1,47 @@
+{
+  "id": "skilltree:new_skill_4",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "dff8e163-3113-4270-8b98-0c67424df834",
+      "name": "Skill",
+      "amount": -2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:exp_per_minute",
+      "id": "f212f4b6-596a-41ae-af0a-f4a40fc06679",
+      "name": "Skill",
+      "amount": 0.75,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Start"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_lesser_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Познать",
+  "positionX": 39.836,
+  "positionY": -23.003,
+  "buttonSize": 16,
+  "isStartingPoint": true
+}

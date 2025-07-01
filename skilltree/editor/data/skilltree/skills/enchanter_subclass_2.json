@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:enchanter_subclass_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:exp_per_minute",
+      "id": "0d15505a-0cdd-49bf-a5e4-5cb9258099fb",
+      "name": "SkillBonus",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 200.40228,
+  "positionY": -283.073,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

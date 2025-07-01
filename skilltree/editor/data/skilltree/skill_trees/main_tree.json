@@ -1,0 +1,12 @@
+{
+  "skillIds": [
+    "skilltree:new_skill_2",
+    "skilltree:new_skill_3",
+    "skilltree:new_skill_4"
+  ],
+  "id": "skilltree:main_tree",
+  "skillLimitations": {
+    "Start": 1,
+    "": 1
+  }
+}

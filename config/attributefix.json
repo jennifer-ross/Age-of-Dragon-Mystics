@@ -132,6 +132,17 @@
         "value": 100
       }
     },
+    "runiclib:generic.burning_retaliation_length": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "additional_attributes:innate_spell/traveloptics/the_forgotten_beast": {
       "enabled": false,
       "min": {
@@ -1078,6 +1089,17 @@
         "value": 100
       }
     },
+    "runiclib:generic.burning_retaliation_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/oakskin": {
       "enabled": false,
       "min": {
@@ -1309,6 +1331,17 @@
         "value": 100
       }
     },
+    "runiclib:generic.critical_strike_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "obscure_api:critical_hit": {
       "enabled": false,
       "min": {
@@ -1365,6 +1398,17 @@
       }
     },
     "additional_attributes:spell/traveloptics/ignited_onslaught": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "runiclib:generic.critical_strike_multiplier": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1573,6 +1617,17 @@
         "value": 100
       }
     },
+    "runiclib:generic.vulnerability_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/teleport": {
       "enabled": false,
       "min": {
@@ -1703,6 +1758,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "runiclib:generic.lifesteal_heal_amount": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "additionalentityattributes:magic_protection": {
@@ -1904,6 +1970,17 @@
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/fang_ward": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "runiclib:generic.retaliation_chance": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2343,6 +2420,17 @@
         "value": 100
       }
     },
+    "runiclib:generic.lifesteal_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/greater_heal": {
       "enabled": false,
       "min": {
@@ -2524,6 +2612,17 @@
       "min": {
         "default": -100,
         "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "runiclib:generic.dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 100,
@@ -3520,6 +3619,17 @@
         "value": 100
       }
     },
+    "runiclib:generic.vulnerability_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/traveloptics/rapid_laser": {
       "enabled": false,
       "min": {
@@ -3576,6 +3686,17 @@
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/chain_creeper": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "runiclib:generic.retaliation_amount": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -4719,17 +4840,6 @@
         "value": 1
       }
     },
-    "tipsylib:vulnerability_chance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "epicfight:offhand_impact": {
       "enabled": false,
       "min": {
@@ -4739,6 +4849,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "tipsylib:vulnerability_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:innate_spell/traveloptics/tidal_grasp": {
@@ -5269,17 +5390,6 @@
         "value": 100
       }
     },
-    "tipsylib:vulnerability_multiplier": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "parcool:stamina_recovery": {
       "enabled": false,
       "min": {
@@ -5289,6 +5399,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "tipsylib:vulnerability_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:spell_type_haste": {

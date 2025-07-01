@@ -70,4 +70,31 @@ global.EventsHandler.addServerEvent('ServerEvents.recipes', /** @param {Internal
             B: ns.mc('netherite_scrap'),
         }
     )
+
+    e.shaped(
+        Item.of(ns.mc('chest'), 1),
+        [
+            'AAA',
+            'A A',
+            'AAA'
+        ],
+        {
+            A: ns.ars('archwood_planks'),
+        }   
+    )
+
+    e.shaped(
+        Item.of(ns.mc('arrow'), 4),
+        [
+            ' A ',
+            ' B ',
+            ' C '
+        ],
+        {
+            A: ns.mc('flint'),
+            B: ns.mc('stick'),
+            C: ns.ru('dropleaf'),
+        }
+    )
+
 });

@@ -51,13 +51,22 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
   "treechop": {
     "plugin": true,
     "show_tree_block_counts": true,
     "show_num_chops_remaining": true
   },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
   "tombstone": {
     "graves": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -66,26 +75,6 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
-  },
-  "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
-  },
-  "balm": {
-    "jade": true
-  },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
-  "lhmobdifficultyincrease": {
-    "level": true
-  },
-  "supplementaries": {
-    "hat_stand": true
   },
   "create": {
     "filter": true,
@@ -98,16 +87,18 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "petrolpark": {
-    "contamination": true
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
   },
   "waystones": {
     "waystone": true
   },
-  "gravestone": {
-    "grave": true
-  },
   "astages": {
     "block_component_provider": true
+  },
+  "balm": {
+    "jade": true
   }
 }

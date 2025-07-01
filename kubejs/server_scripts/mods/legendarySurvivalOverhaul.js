@@ -33,13 +33,13 @@ global.EventsHandler.addServerEvent('ServerEvents.recipes', /** @param {Internal
     e.shaped(
         Item.of(ns.loh('bandage'), 1),
         [
-            '  A',
-            ' B ',
-            'A  '
+            ' BA',
+            'BAB',
+            'AB '
         ],
         {
             A: ns.loh('plaster'),
-            B: ns.loh('glistering_melon_slice'),
+            B: ns.mc('gold_nugget'),
         }
     );
 });

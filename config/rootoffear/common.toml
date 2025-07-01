@@ -1,0 +1,14 @@
+"Mobs Run Away From Wilted (default: true)" = true
+"Strong Mobs Don't Run Away From Wilted (default: true)" = true
+"Wilted Adds Cooldowns To Nearby Light Items (default: true)" = true
+"Wilted Disables Nearby Dynamic Lights (default: true)" = true
+"Tamed Wolves Attack Wilted (default: true)" = true
+"Wilted Prevents Portal Travel (default: true)" = true
+"Wilted Immune To Damage (default: true)" = true
+"Wilted First Spawn Day (default: 1)" = 1
+"Minimum Wilted Spawn Cooldown (in days, default: false)" = 2
+"Maximum Wilted Spawn Cooldown (in days, default: false)" = 10
+"Wilted Bonus Behaviour Amount (default: 3)" = 3
+"Wilted Spawn Dimensions (default: \"minecraft:overworld\")" = ["minecraft:overworld"]
+"Wilted Warning Sounds (default: true)" = true
+

@@ -1,0 +1,82 @@
+{
+  "id": "skilltree:new_skill_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "f58bde17-d745-49ed-8b39-f713b02cbe9f",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "d0b2813a-fbac-457f-9ffb-7e17e5e21b2d",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "b4c12b4d-820a-4047-a044-2407d8691615",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "id": "1c4bbb2a-02a9-425d-8d39-158a6097b887",
+      "name": "Skill",
+      "amount": -0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.25,
+      "experience_source": "mobs"
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Start"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Победить",
+  "positionX": 0.0,
+  "positionY": 46.0,
+  "buttonSize": 16,
+  "isStartingPoint": true
+}

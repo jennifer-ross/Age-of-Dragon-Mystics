@@ -120,7 +120,7 @@
 	"Flame Jet Damage" = 7.0
 	#Flare Bomb's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Flare Bomb Damage" = 7.0
+	"Flare Bomb Damage" = 10.0
 
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
@@ -180,7 +180,7 @@
 	Lavabombamount = 3
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 1.0
+	MonstrosityHealthMultiplier = 0.8
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityDamageMultiplier = 1.0
@@ -192,12 +192,12 @@
 	MonstrosityNatureHealing = 10.0
 	#Monstrosity's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageCap = 22.0
+	MonstrosityDamageCap = 40.0
 	#Monstrosity's bodyBlocking verdict
 	NetheritemonstrosityBodyBloking = true
 	#Monstrosity's attack Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Monstrosity's attack Hp Damage" = 0.08
+	"Monstrosity's attack Hp Damage" = 0.1
 	#Monstrosity's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Monstrosity's prevent attacks from far away Range" = 18.0

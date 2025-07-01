@@ -446,7 +446,7 @@
 		"Added Broken Hearts Per Injured Limb" = 1
 		# Broken Hearts are an interaction with the localized body damage feature. Enables both feature to have it.
 		# Broken Hearts are lost hearts when a player's limb is severely injured and it can be recovered by healing the injured limb.
-		# The Resilient hearts is the number of heart below which Broken Hearts can no longer be added.
+		# The Resilient Hearts is the number of heart below which Broken Hearts can no longer be added.
 		# By default, the player has 2 resilient heart, meaning no matter the amount of broken hearts, the player won't go below 2 hearts.
 		#Range: 1 ~ 10000
 		"Minimum Amount Of Player's Heart With Broken Hearts (Broken Heart Resilience)" = 2
