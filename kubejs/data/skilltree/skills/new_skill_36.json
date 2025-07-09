@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_36",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p identity epicfight:meteor_slam",
+      "description": "epicfight skill add @p identity epicfight:meteor_slam",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Метеоритный Удар",
+  "positionX": 774.33234,
+  "positionY": 471.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

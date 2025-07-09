@@ -1,0 +1,50 @@
+{
+  "id": "skilltree:new_skill_6",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "ca5570fa-ea53-4a31-954a-c2ce66acd746",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "id": "adaa6e38-c26a-4b74-969e-53745d4a0c0a",
+      "name": "Skill",
+      "amount": -0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.5,
+      "experience_source": "ore"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Выжить",
+  "positionX": -39.838,
+  "positionY": -22.999,
+  "buttonSize": 16,
+  "isStartingPoint": true
+}

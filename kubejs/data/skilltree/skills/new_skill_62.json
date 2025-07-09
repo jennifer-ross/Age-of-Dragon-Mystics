@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_62",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p identity wom:back_and_forth",
+      "description": "epicfight skill add @p identity wom:back_and_forth",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "back and FORTH!",
+  "positionX": 929.273,
+  "positionY": -259.09113,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

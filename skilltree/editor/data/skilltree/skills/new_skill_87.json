@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_87",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "1a8fe3fc-bbc5-4bc0-a08a-1631db68e975",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_85"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 69.80589,
+  "positionY": 188.93634,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

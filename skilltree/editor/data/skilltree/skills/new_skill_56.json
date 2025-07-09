@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_56",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "picfight skill add @p passive1 wom:arrow_tenacity",
+      "description": "picfight skill add @p passive1 wom:arrow_tenacity",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "arrow tenacity",
+  "positionX": 751.231,
+  "positionY": -178.46213,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

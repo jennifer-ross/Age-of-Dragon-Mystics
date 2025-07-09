@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_43",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p dodge wom:bull_charge",
+      "description": "epicfight skill add @p dodge wom:bull_charge",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "БЫК",
+  "positionX": 873.667,
+  "positionY": -431.6672,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

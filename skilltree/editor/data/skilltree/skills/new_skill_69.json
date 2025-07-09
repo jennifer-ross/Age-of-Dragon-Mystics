@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_69",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p dodge sword_soaring:stellar_restoration",
+      "description": "epicfight skill add @p dodge sword_soaring:stellar_restoration",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "stellar_restoration",
+  "positionX": 1318.8127,
+  "positionY": -44.99985,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

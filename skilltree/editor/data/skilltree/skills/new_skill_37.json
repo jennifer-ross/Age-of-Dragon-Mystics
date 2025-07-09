@@ -1,0 +1,27 @@
+{
+  "id": "skilltree:new_skill_37",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p dodge wom:shadow_step",
+      "description": "epicfight skill add @p dodge wom:shadow_step",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 837.0,
+  "positionY": -523.3335,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

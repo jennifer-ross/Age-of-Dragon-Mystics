@@ -3,10 +3,10 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.max_health",
-      "id": "a495022e-2d36-4d3e-b3df-bff582d61e10",
+      "attribute": "skilltree:exp_per_minute",
+      "id": "2ef58345-31f5-4501-b775-eb156650e5af",
       "name": "Skill",
-      "amount": 1.0,
+      "amount": 0.25,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -14,64 +14,19 @@
       "player_condition": {
         "type": "skilltree:none"
       }
-    },
-    {
-      "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.armor",
-      "id": "26ca8501-5825-4beb-bbdb-939e698932c5",
-      "name": "Skill",
-      "amount": 1.0,
-      "operation": 0,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
-      }
-    },
-    {
-      "type": "skilltree:attribute",
-      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-      "id": "6812b259-5df7-4f2a-bb70-0235d8deca5a",
-      "name": "Skill",
-      "amount": -0.2,
-      "operation": 1,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
-      }
-    },
-    {
-      "type": "skilltree:gained_experience",
-      "multiplier": 0.25,
-      "experience_source": "ore"
     }
   ],
   "directConnections": [
-    "skilltree:new_skill_4"
+    "skilltree:new_skill_1"
   ],
   "longConnections": [],
   "oneWayConnections": [],
-  "tags": [
-    "Start"
-  ],
+  "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/hunter_healing_1.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Выжить",
-  "positionX": -39.838,
-  "positionY": -22.999,
+  "positionX": 119.51381,
+  "positionY": -68.98745,
   "buttonSize": 16,
-  "isStartingPoint": true,
-  "description": [
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "f_131103_": false,
-      "text": ""
-    }
-  ]
+  "isStartingPoint": false
 }

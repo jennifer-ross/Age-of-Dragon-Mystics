@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_25",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p passive1 epicfight:swordmaster",
+      "description": "epicfight skill add @p passive1 epicfight:swordmaster",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Мастер Меча",
+  "positionX": 840.0825,
+  "positionY": 227.74997,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

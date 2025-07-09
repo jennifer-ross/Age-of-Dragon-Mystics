@@ -1,6 +1,18 @@
 {
   "id": "skilltree:new_skill_13",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p dodge epicfight:step",
+      "description": "COCK",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
   "directConnections": [],
   "longConnections": [],
   "oneWayConnections": [],
@@ -8,8 +20,9 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": 48.756073,
-  "positionY": 103.45018,
+  "title": "Отшаг",
+  "positionX": 875.04663,
+  "positionY": 73.140656,
   "buttonSize": 16,
   "isStartingPoint": false
 }

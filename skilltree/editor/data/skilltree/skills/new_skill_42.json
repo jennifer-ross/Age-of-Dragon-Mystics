@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_42",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p dodge wom:time_travel ",
+      "description": "epicfight skill add @p dodge wom:time_travel ",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Путишествие во времени",
+  "positionX": 885.333,
+  "positionY": -516.6672,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

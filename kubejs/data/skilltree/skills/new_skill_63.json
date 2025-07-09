@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_63",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p identity wom:voodoo_magic",
+      "description": "epicfight skill add @p identity wom:voodoo_magic",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Магия вуду",
+  "positionX": 913.25,
+  "positionY": -230.00012,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

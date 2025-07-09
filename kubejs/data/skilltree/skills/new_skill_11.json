@@ -1,15 +1,28 @@
 {
   "id": "skilltree:new_skill_11",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p dodge epicfight:roll",
+      "description": "SUCK MY PUSSY",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
   "directConnections": [],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
-  "borderTexture": "skilltree:textures/tooltip/gateway.png",
-  "positionX": 32.041756,
-  "positionY": 74.502045,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Перекат",
+  "positionX": 826.1725,
+  "positionY": 68.51031,
   "buttonSize": 16,
   "isStartingPoint": false
 }

@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_21",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p mover epicfight:phantom_ascent",
+      "description": "epicfight skill add @p mover epicfight:phantom_ascent",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Фантомный прыжок",
+  "positionX": 846.9755,
+  "positionY": 178.64398,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

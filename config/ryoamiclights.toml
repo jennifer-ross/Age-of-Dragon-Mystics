@@ -37,14 +37,15 @@
 				armor_stand = true
 				drowned = true
 				experience_orb = true
-				item = true
 				stray = true
+				item = true
 				shulker = true
 				salmon = true
 				wandering_trader = true
 				item_frame = true
 				vindicator = true
 				horse = true
+				phantom = true
 				minecart = true
 				evoker = true
 				mooshroom = true
@@ -61,8 +62,10 @@
 				slime = true
 				pillager = true
 				iron_golem = true
+				blaze = true
 				cat = true
 				zombie = true
+				guardian = true
 				sheep = true
 				fireball = true
 				player = true
@@ -84,12 +87,19 @@
 				pale_hound = true
 
 			[light_sources.settings.entities.alexscaves]
+				dinosaur_spirit = true
 				nuclear_explosion = true
 
 			[light_sources.settings.entities.mowziesmobs]
+				umvuthana_raptor = true
 				sculptor = true
+				umvuthana_follower_raptor = true
 				grottol = true
 				ferrous_wroughtnaut = true
+
+			[light_sources.settings.entities.epicacg]
+				gs_yoimiya_sa_arrow = true
+				genshin_arrow = true
 
 			[light_sources.settings.entities.forbidden_arcanus]
 				lost_soul = true
@@ -101,6 +111,7 @@
 
 			[light_sources.settings.entities.majruszsdifficulty]
 				illusioner = true
+				cursed_armor = true
 				tank = true
 				creeperling = true
 
@@ -115,6 +126,7 @@
 			[light_sources.settings.entities.born_in_chaos_v1]
 				lifestealer_true_form = true
 				krampus_henchman = true
+				monstrous_easter_egg_projectile = true
 				fallen_chaos_knight = true
 				dark_vortex = true
 				glutton_fish = true
@@ -125,6 +137,7 @@
 				lifestealer = true
 				siamese_skeletonsleft = true
 				bonescaller_not_despawn = true
+				krampus = true
 				bloody_gadfly = true
 				zombie_clown = true
 				siamese_skeletonsright = true
@@ -147,14 +160,20 @@
 				dire_hound_leader = true
 				supreme_bonescaller = true
 				mother_spider = true
+				staffof_magic_arrows_2_projectile = true
 				corpse_fly = true
 				skeleton_thrasher_not_despawn = true
 
 			[light_sources.settings.entities.traveloptics]
+				summoned_vesper = true
+				summoned_tremorsaurus = true
 				aqua_grandmaster = true
+				summoned_vallumraptor = true
 
 			[light_sources.settings.entities.cataclysm]
+				deepling = true
 				laser_beam = true
+				screen_shake = true
 				netherite_monstrosity = true
 
 			[light_sources.settings.entities.create]
@@ -217,6 +236,7 @@
 				apothecarist = true
 				poison_arrow = true
 				necromancer = true
+				archevoker = true
 				priest = true
 				chain_lightning = true
 				ball_lightning = true
@@ -252,7 +272,9 @@
 				bamboo_creeper = true
 				dripstone_creeper = true
 				cave_creeper = true
+				savannah_creeper = true
 				hills_creeper = true
+				spruce_creeper = true
 
 			[light_sources.settings.entities.iceandfire]
 				stymphalian_bird = true
@@ -270,11 +292,16 @@
 				amphithere = true
 				sea_serpent = true
 
+			[light_sources.settings.entities.mia_mobs]
+				rohana = true
+				hagamizukin = true
+
 			[light_sources.settings.entities.ars_nouveau]
 				follow_proj = true
 				starbuncle = true
 				spell_proj = true
 				bookwyrm = true
+				drygmy = true
 				whirlisprig = true
 
 			[light_sources.settings.entities.celestisynth]

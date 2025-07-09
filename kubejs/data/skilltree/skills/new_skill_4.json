@@ -40,8 +40,8 @@
   "iconTexture": "skilltree:textures/icons/enchanter_lesser_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Познать",
-  "positionX": 39.836,
-  "positionY": -23.003,
+  "positionX": 39.838,
+  "positionY": -22.99,
   "buttonSize": 16,
   "isStartingPoint": true
 }

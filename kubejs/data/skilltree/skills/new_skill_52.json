@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_52",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p passive1 wom:latent_retribution",
+      "description": "epicfight skill add @p passive1 wom:latent_retribution",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "latent retribution",
+  "positionX": 759.143,
+  "positionY": -94.28508,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

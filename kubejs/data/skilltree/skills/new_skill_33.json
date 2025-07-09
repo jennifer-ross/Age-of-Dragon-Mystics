@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_33",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p mover epicfight:demolition_leap",
+      "description": "epicfight skill add @p mover epicfight:demolition_leap",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "бля",
+  "positionX": 790.9514,
+  "positionY": 419.524,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

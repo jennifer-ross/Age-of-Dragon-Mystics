@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_31",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p passive1 epicfight:death_harvest",
+      "description": "epicfight skill add @p passive1 epicfight:death_harvest",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Смертоносный урожай",
+  "positionX": 879.9997,
+  "positionY": 375.714,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

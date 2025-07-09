@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_26",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p passive1 epicfight:forbidden_strength",
+      "description": "epicfight skill add @p passive1 epicfight:forbidden_strength",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Запретная мощь",
+  "positionX": 814.4434,
+  "positionY": 317.778,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

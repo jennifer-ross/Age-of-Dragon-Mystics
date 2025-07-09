@@ -32,9 +32,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "b4c12b4d-820a-4047-a044-2407d8691615",
+      "id": "42011545-0bba-4666-9f81-614538650d36",
       "name": "Skill",
-      "amount": 1.0,
+      "amount": 2.0,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -46,9 +46,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-      "id": "1c4bbb2a-02a9-425d-8d39-158a6097b887",
+      "id": "ab3a7965-2372-42e9-b304-8fbc792314a3",
       "name": "Skill",
-      "amount": -0.2,
+      "amount": -0.35,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -63,9 +63,7 @@
       "experience_source": "mobs"
     }
   ],
-  "directConnections": [
-    "skilltree:new_skill_3"
-  ],
+  "directConnections": [],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [

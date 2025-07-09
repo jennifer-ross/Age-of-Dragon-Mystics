@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_59",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p passive1 wom:pain_anticipation ",
+      "description": "epicfight skill add @p passive1 wom:pain_anticipation ",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Отвержение боли",
+  "positionX": 926.286,
+  "positionY": -414.2862,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

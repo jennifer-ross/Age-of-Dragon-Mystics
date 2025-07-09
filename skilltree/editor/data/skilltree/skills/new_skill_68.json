@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_68",
+  "bonuses": [
+    {
+      "type": "skilltree:command",
+      "command": "epicfight skill add @p identity cdmoveset:fatalfalsh",
+      "description": "epicfight skill add @p identity cdmoveset:fatalfalsh",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:skill_learned"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "fatalfalsh",
+  "positionX": 548.75,
+  "positionY": 610.833,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
