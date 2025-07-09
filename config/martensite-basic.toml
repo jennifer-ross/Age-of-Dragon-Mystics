@@ -2,8 +2,6 @@
 Radius = 20.0
 #the lowest chance that entity tick
 "Minimal Chance" = 0.1
-#Use modulo calculation to skip entity tick
-"Modulo Skip Mode" = false
 #Use the char you won't use in chunk name (Don't use speical char like backslash)
 "Chunk Name Spliter" = "/"
 

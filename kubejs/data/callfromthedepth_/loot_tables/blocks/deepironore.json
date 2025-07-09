@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "callfromthedepth_:blocks/deepironore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create:crushed_raw_iron"
+        }
+      ]
+    }
+  ]
+}

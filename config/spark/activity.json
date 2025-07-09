@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "jennifer_ross",
+      "uniqueId": "10bb5932-6615-439a-b065-f39f0e27818c"
+    },
+    "time": 1751646227297,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/9iKrTsMklh"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "jennifer_ross",
+      "uniqueId": "10bb5932-6615-439a-b065-f39f0e27818c"
+    },
+    "time": 1751643904684,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/c81NG0LCdk"
+    }
+  }
+]

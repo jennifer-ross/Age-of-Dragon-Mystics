@@ -125,8 +125,34 @@ global.Namespace = {
      * @returns string
      * */
     ru: (id, x) => global.Namespace.mod(`regions_unexplored`, id, x),
-     
-    
+    /**
+     * Dungeons Plus
+     * @param {string} id
+     * @param {string | number} x
+     * @returns string
+     * */
+    dp: (id, x) => global.Namespace.mod(`dungeons_plus`, id, x),
+    /**
+     * Call from the depth_
+     * @param {string} id
+     * @param {string | number} x
+     * @returns string
+     * */
+    cfd: (id, x) => global.Namespace.mod(`callfromthedepth_`, id, x),
+    /**
+     * Create ore excavation
+     * @param {string} id
+     * @param {string | number} x
+     * @returns string
+     * */
+    coe: (id, x) => global.Namespace.mod(`createoreexcavation`, id, x),
+    /**
+     * Create ore excavation plus
+     * @param {string} id
+     * @param {string | number} x
+     * @returns string
+     * */
+    coep: (id, x) => global.Namespace.mod(`create_ore_excavation_plus`, id, x),
 }
 
 /**
@@ -467,7 +493,7 @@ global.KUtils = {
          * @param { string } fullName
          * @return { string | null }
          */
-        getMobFullName: ( fullName) => {
+        getMobFullName: (fullName) => {
             const self = global.KUtils.Entity;
             const [modId, name] = fullName.split(':');
             if (!self.hasMobs(modId) || self.hasMob(modId, name)) return null;
@@ -507,7 +533,7 @@ global.KUtils = {
         isPlayer: (entity) => entity.living && entity.player,
 
         /**
-         *  @param {Internal.Entity} entity
+         *  @param {Internal.Entity | Internal.LivingEntity} entity
          *  @returns {boolean}
          * */
         isMob: (entity) => !entity.player && entity.living,

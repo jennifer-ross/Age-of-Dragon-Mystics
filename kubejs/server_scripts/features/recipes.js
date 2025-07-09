@@ -83,18 +83,18 @@ global.EventsHandler.addServerEvent('ServerEvents.recipes', /** @param {Internal
         }   
     )
 
-    e.shaped(
-        Item.of(ns.mc('arrow'), 4),
-        [
-            ' A ',
-            ' B ',
-            ' C '
-        ],
-        {
-            A: ns.mc('flint'),
-            B: ns.mc('stick'),
-            C: ns.ru('dropleaf'),
-        }
-    )
+    // e.shaped(
+    //     Item.of(ns.mc('arrow'), 4),
+    //     [
+    //         ' A ',
+    //         ' B ',
+    //         ' C '
+    //     ],
+    //     {
+    //         A: ns.mc('flint'),
+    //         B: ns.mc('stick'),
+    //         C: ns.ru('dropleaf'),
+    //     }
+    // )
 
 });

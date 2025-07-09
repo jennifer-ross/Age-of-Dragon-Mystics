@@ -4,8 +4,8 @@ let ns = global.Namespace;
 
 global.EventsHandler.addServerEvent('ServerEvents.tags.item', /** @param {TagEvent.Item} e */e => {
     // Fix connector Better Nether and Better End
-    e.remove("forge:ingots/iron", ns.be('thallasium_ingot'));
-    e.remove("forge:ingots/iron", ns.bn("cincinnasite_ingot"));
+    // e.remove("forge:ingots/iron", ns.be('thallasium_ingot'));
+    // e.remove("forge:ingots/iron", ns.bn("cincinnasite_ingot"));
 
 
 });

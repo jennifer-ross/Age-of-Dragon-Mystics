@@ -1300,6 +1300,7 @@
 		"create": {
 			"package": {}
 		},
+<<<<<<< Updated upstream
 		"arise": {
 			"beru": {},
 			"shadow": {},
@@ -1380,6 +1381,11 @@
 			"spirit": {},
 			"firefly": {},
 			"crystalline_mimic": {}
+=======
+		"palladium": {
+			"trail_segment": {},
+			"suit_stand": {}
+>>>>>>> Stashed changes
 		}
 	}
 }

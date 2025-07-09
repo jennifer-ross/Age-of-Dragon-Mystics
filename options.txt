@@ -1,17 +1,17 @@
 version:3465
 betterBiomeBlendRadius:14
 autoJump:false
-operatorItemsTab:false
+operatorItemsTab:true
 autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:true
+enableVsync:false
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
-realmsNotifications:true
+realmsNotifications:false
 reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
@@ -22,7 +22,7 @@ toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
-mouseSensitivity:0.5000000002623444
+mouseSensitivity:0.10211267605633803
 fov:0.25
 screenEffectScale:1.0
 fovEffectScale:1.0
@@ -31,20 +31,26 @@ glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
-gamma:1.0
+gamma:0.5
 renderDistance:12
 simulationDistance:5
-entityDistanceScaling:1.0
+entityDistanceScaling:0.5
 guiScale:2
-particles:0
+particles:2
 maxFps:120
-graphicsMode:2
+graphicsMode:0
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
+<<<<<<< Updated upstream
 renderClouds:"fast"
 resourcePacks:["vanilla","mod_resources","fabric","Moonlight Mods Dynamic Assets","netherexp:jne_retextures","file/Soft-Weather-1.0-1.20.zip","file/Clear Glass Pack 1.20.zip","file/§5§lModded §f§lContainers§8.zip","file/§b§lVanilla Experience+§0.zip","file/§lcolourful containers§8.zip","file/enchant icons 1.20 v1.3.zip","netherexp:jne_emissive","file/Yor Forger 1.20-1.20.1.zip","all_rapiers_3D","file/EnderEyes_1.20.1_v3.zip"]
 incompatibleResourcePacks:["file/§lcolourful containers§8.zip"]
+=======
+renderClouds:"false"
+resourcePacks:["vanilla","mod_resources","fabric","Moonlight Mods Dynamic Assets","netherexp:jne_retextures","netherexp:jne_emissive","all_rapiers_3D","corrupt_animation","More_Power","file/LowOnFire v1.21.6§8.zip","file/EFMxIronsV2.0.zip","file/EnderEyes_1.20.1_v3.zip","file/Soft-Weather-1.0-1.20.zip","file/Yor Forger 1.20-1.20.1.zip","file/[Compressed] Alternative Rain Sounds 1.20-1.20.1.zip","file/boss-refreshed-v1.4.zip","file/enchant icons 1.20 v1.3.zip","file/§5§lModded §f§lContainers§8.zip","file/§lcolourful containers§8.zip","file/epicfight_custom_armors.zip","file/intstrong_graveyard-1.0.0-1.20.1.zip","file/Clear Glass Pack 1.20.zip","file/!11.zip","file/EFM_Traveloptics-armors-patch(v1.3).zip"]
+incompatibleResourcePacks:["file/LowOnFire v1.21.6§8.zip","file/EFMxIronsV2.0.zip","file/§lcolourful containers§8.zip"]
+>>>>>>> Stashed changes
 lastServer:192.168.0.108:25565
 lang:ru_ru
 soundDevice:""
@@ -119,6 +125,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.entityculling.toggle:key.keyboard.unknown
 key_key.dragon_fireAttack:key.keyboard.r
 key_key.dragon_strike:key.keyboard.g
 key_key.dragon_down:key.keyboard.x
@@ -130,6 +137,21 @@ key_info.structure_gel.building_tool.undo:key.keyboard.z:CONTROL
 key_info.structure_gel.building_tool.redo:key.keyboard.y:CONTROL
 key_key.structure_gel.open_building_tool_gui:key.keyboard.r
 key_key.structurecompass.hide:key.keyboard.unknown
+key_modpacktools.hud.entity:key.keyboard.e:CONTROL
+key_modpacktools.hud.tps:key.keyboard.t:CONTROL
+key_modpacktools.hud.fps:key.keyboard.f:CONTROL
+key_modpacktools.cmd.hand:key.keyboard.unknown
+key_modpacktools.cmd.hand_nonbt:key.keyboard.unknown
+key_modpacktools.cmd.hot:key.keyboard.unknown
+key_modpacktools.cmd.hot_nonbt:key.keyboard.unknown
+key_modpacktools.cmd.inv:key.keyboard.unknown
+key_modpacktools.cmd.inv_nonbt:key.keyboard.unknown
+key_modpacktools.cmd.blockinv:key.keyboard.unknown
+key_modpacktools.cmd.blockinv_nonbt:key.keyboard.unknown
+key_modpacktools.cmd.block:key.keyboard.unknown
+key_modpacktools.cmd.block_nonbt:key.keyboard.unknown
+key_modpacktools.cmd.recipe:key.keyboard.r:CONTROL
+key_modpacktools.cmd.entity:key.keyboard.unknown
 key_tombstone.message.knowledge_of_death:key.keyboard.m
 key_tombstone.message.config:key.keyboard.comma
 key_tombstone.message.compendium:key.keyboard.period
@@ -162,11 +184,8 @@ key_key.occultism.familiar.beholder_familiar:key.keyboard.unknown
 key_key.occultism.familiar.fairy_familiar:key.keyboard.unknown
 key_key.occultism.familiar.mummy_familiar:key.keyboard.unknown
 key_key.occultism.familiar.beaver_familiar:key.keyboard.unknown
-key_key.ryoamiclights.dyn_light:key.keyboard.unknown
+key_key.open_muffler_gui:key.keyboard.unknown
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
-key_iris.keybind.reload:key.keyboard.unknown
-key_iris.keybind.toggleShaders:key.keyboard.unknown
-key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_key.craftingtweaks.rotate:key.keyboard.unknown
 key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown
 key_key.craftingtweaks.balance:key.keyboard.unknown
@@ -204,6 +223,10 @@ key_key.cataclysm.ability:key.keyboard.x
 key_key.cataclysm.helmet_ability:key.keyboard.c
 key_key.cataclysm.chestplate_ability:key.keyboard.y
 key_key.cataclysm.boots_ability:key.keyboard.v
+key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_key.irons_spellbooks.spell_wheel:key.keyboard.g
 key_key.irons_spellbooks.spellbook_cast:key.keyboard.r
 key_key.irons_spellbooks.spell_bar_modifier:key.keyboard.left.alt
@@ -230,10 +253,11 @@ key_key.terramity.active_ability:key.keyboard.v
 key_key.terramity.armor_set_bonus_ability:key.keyboard.x
 key_key.terramity.fire_gun:key.mouse.right
 key_key.terramity.sword_swing_keybind:key.mouse.left
-key_key.origins.primary_active:key.keyboard.f
-key_key.origins.secondary_active:key.keyboard.t
+key_key.origins.primary_active:key.keyboard.g
+key_key.origins.secondary_active:key.keyboard.unknown
 key_key.origins.view_origin:key.keyboard.o
 key_key.mokels_bossfight_saphyra.keybind_dodge:key.keyboard.r
+<<<<<<< Updated upstream
 key_key.jei.previousPage:key.keyboard.unknown
 key_key.jei.cheatItemStack2:key.mouse.middle
 key_key.jei.previousRecipePage:key.keyboard.page.up
@@ -265,6 +289,39 @@ key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL
 key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextSearch:key.keyboard.down
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
+=======
+key_key.jei.toggleEditMode:key.keyboard.unknown
+key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
+key_key.jei.transferRecipeBookmark:key.mouse.left:SHIFT
+key_key.jei.previousSearch:key.keyboard.up
+key_key.jei.recipeBack:key.keyboard.backspace
+key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL
+key_key.jei.showUses2:key.mouse.right
+key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
+key_key.jei.clearSearchBar:key.mouse.right
+key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL
+key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
+key_key.jei.nextRecipePage:key.keyboard.page.down
+key_key.jei.focusSearch:key.keyboard.f:CONTROL
+key_key.jei.closeRecipeGui:key.keyboard.escape
+key_key.jei.cheatItemStack:key.mouse.left:SHIFT
+key_key.jei.previousPage:key.keyboard.unknown
+key_key.jei.cheatOneItem2:key.mouse.right
+key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
+key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_key.jei.showRecipe2:key.mouse.left
+key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
+key_key.jei.cheatItemStack2:key.mouse.middle
+key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
+key_key.jei.previousRecipePage:key.keyboard.page.up
+key_key.jei.showUses:key.keyboard.u
+key_key.jei.bookmark:key.keyboard.a
+key_key.jei.nextSearch:key.keyboard.down
+key_key.jei.cheatOneItem:key.mouse.left
+key_key.jei.nextPage:key.keyboard.unknown
+key_key.jei.showRecipe:key.keyboard.r
+key_key.jei.toggleCheatMode:key.keyboard.unknown
+>>>>>>> Stashed changes
 key_key.mount_jump:key.keyboard.f7
 key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.toggle_felling:key.keyboard.unknown
@@ -385,7 +442,8 @@ key_supplementaries.keybind.quiver:key.keyboard.v
 key_key.create_sa.flying:key.keyboard.space
 key_key.create_sa.increase_reach:key.keyboard.up
 key_key.create_sa.decrease_reach:key.keyboard.down
-key_key.nbtedit.shortcut:key.keyboard.unknown
+key_Inspect Key:key.keyboard.j
+key_key.nbtedit.shortcut:key.keyboard.n
 key_key.epicfight.show_tooltip:key.keyboard.left.shift
 key_key.epicfight.switch_mode:key.keyboard.equal
 key_key.epicfight.dodge:key.keyboard.left.alt
@@ -402,9 +460,8 @@ key_key.battlearts_api.ultimate_art_use:key.keyboard.v
 key_key.bs_api.battle_style_menu:key.keyboard.apostrophe
 key_key.bs_api.view_proficiencies:key.keyboard.semicolon
 key_key.pickup.item:key.keyboard.unknown
-key_key.entityculling.toggle:key.keyboard.unknown
 key_key.observable.profile:key.keyboard.equal
-soundCategory_master:0.31125827814569534
+soundCategory_master:0.16225165562913907
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

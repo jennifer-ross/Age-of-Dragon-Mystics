@@ -779,7 +779,7 @@ _version = 3
 	#
 	# Maximum speed for uploading LODs to the clients, in KB/s.
 	# Value of 0 disables the limit.
-	maxDataTransferSpeed = 500
+	maxDataTransferSpeed = 512
 
 	[server.experimental]
 		#

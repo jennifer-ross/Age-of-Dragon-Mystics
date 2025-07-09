@@ -1,0 +1,18 @@
+
+[HUD]
+	#Delay between entity HUD refreshes, in milliseconds
+	#Range: > 10
+	hudEntityDelay = 250
+
+[Behavior]
+	#Automatically copy data to clipboard when running commands that list them (mt hand/hot/inv/blockinv/etc)
+	autoCopyItems = true
+
+[Commands]
+	#Default to including NBT if true, if false leave it out
+	includeNBT = true
+	#Default to removing contents of evaluated ItemStacks after running the command
+	clearContents = false
+	#Default to printing output as JSON array
+	printAsJSON = false
+

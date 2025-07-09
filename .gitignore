@@ -36,6 +36,9 @@ servers.dat
 servers.dat_old
 .idea
 kubejs/README.txt
+.blinkload
+backups
+observable_profiles
 
 !resourcepacks/*.zip
 !resourcepacks/*.rar

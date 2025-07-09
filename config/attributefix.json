@@ -165,6 +165,17 @@
         "value": 100
       }
     },
+    "palladium:levitation_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32,
+        "value": 32
+      }
+    },
     "additional_attributes:spell_type_ascension": {
       "enabled": false,
       "min": {
@@ -242,6 +253,17 @@
         "value": 1024
       }
     },
+    "palladium:flight_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32,
+        "value": 32
+      }
+    },
     "tiered:generic.crit_chance": {
       "enabled": false,
       "min": {
@@ -273,6 +295,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "palladium:flight_flexibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "obscure_api:accuracy": {
@@ -452,6 +485,17 @@
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/planar_sight": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "palladium:leaping": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -977,6 +1021,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "palladium:destroy_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "tipsylib:dodge_chance": {
@@ -3124,6 +3179,17 @@
         "value": 100
       }
     },
+    "palladium:punch_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "epicfight:execution_resistance": {
       "enabled": false,
       "min": {
@@ -4565,6 +4631,17 @@
         "value": 100
       }
     },
+    "palladium:fall_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "tiered:generic.dig_speed": {
       "enabled": false,
       "min": {
@@ -5500,6 +5577,17 @@
         "value": 100
       }
     },
+    "palladium:jump_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "additional_attributes:innate_school/irons_spellbooks/blood": {
       "enabled": false,
       "min": {
@@ -6015,6 +6103,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "palladium:heroic_flight_type": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     }
   }

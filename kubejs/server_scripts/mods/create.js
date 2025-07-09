@@ -51,4 +51,43 @@ global.EventsHandler.addServerEvent('ServerEvents.recipes', /** @param {Internal
         ],
         ns.mc('clay')
     )
+
+    // dungeons_plus:granite_iron_ore ==> crushed_raw_iron
+    create.crushing([
+            Item.of(ns.cr('crushed_raw_iron')),
+            Item.of(ns.cr('crushed_raw_iron')).withChance(0.75),
+            Item.of(ns.cr('experience_nugget')).withChance(0.75),
+            Item.of(ns.mc('cobblestone')).withChance(0.125)
+    ], ns.dp('granite_iron_ore'),).processingTime(250)
+
+    // dungeons_plus:granite_gold_ore ==> crushed_raw_gold
+    create.crushing([
+        Item.of(ns.cr('crushed_raw_gold')),
+        Item.of(ns.cr('crushed_raw_gold')).withChance(0.75),
+        Item.of(ns.cr('experience_nugget')).withChance(0.75),
+        Item.of(ns.mc('cobblestone')).withChance(0.125)
+    ], ns.dp('granite_gold_ore'),).processingTime(250)
+
+    // callfromthedepth_:deepdiamondore ==> raw_diamond
+    create.crushing([
+        Item.of(ns.coe('raw_diamond')),
+        Item.of(ns.coe('raw_diamond')).withChance(0.75),
+        Item.of(ns.cr('experience_nugget')).withChance(0.75),
+        Item.of(ns.mc('cobblestone')).withChance(0.125)
+    ], ns.cfd('deepdiamondore'),).processingTime(350)
+
+    // callfromthedepth_:deepironore ==> crushed_raw_iron
+    create.crushing([
+        Item.of(ns.cr('crushed_raw_iron')),
+        Item.of(ns.cr('crushed_raw_iron')).withChance(0.75),
+        Item.of(ns.cr('experience_nugget')).withChance(0.75),
+        Item.of(ns.mc('cobblestone')).withChance(0.125)
+    ], ns.cfd('deepironore'),).processingTime(250)
+
+    // callfromthedepth_:marble_ore ==> marble
+    create.crushing([
+        Item.of(ns.cfd('marble_gem')),
+        Item.of(ns.cfd('marble_gem')).withChance(0.75),
+        Item.of(ns.cr('experience_nugget')).withChance(0.75),
+    ], ns.cfd('marble_ore'),).processingTime(250)
 });

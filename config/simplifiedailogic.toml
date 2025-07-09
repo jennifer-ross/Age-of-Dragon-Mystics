@@ -1,0 +1,9 @@
+
+["Peaceful Mobs"]
+	#List of peaceful mobs to apply simplified AI
+	peaceful_mobs = ["minecraft:cow", "minecraft:sheep", "minecraft:pig", "minecraft:chicken", "minecraft:rabbit", "minecraft:horse", "minecraft:donkey", "minecraft:mule", "minecraft:llama", "minecraft:cat", "minecraft:fox", "minecraft:wolf"]
+
+["Hostile Mobs"]
+	#List of hostile mobs with optimized AI
+	hostile_mobs = ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "minecraft:creeper", "minecraft:enderman", "minecraft:witch"]
+
