@@ -24,5 +24,13 @@
   "positionX": 846.9755,
   "positionY": 178.64398,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(мобильность) Позволяет вам прыгнуть на 1 раз больше в воздухе.\n0.2 сек "
+    }
+  ]
 }

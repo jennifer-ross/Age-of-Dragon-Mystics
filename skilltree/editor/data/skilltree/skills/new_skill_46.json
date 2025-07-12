@@ -24,5 +24,13 @@
   "positionX": 795.333,
   "positionY": -387.50018,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(Блок)\nИдеальный блок запускает контратаку на основе атак оружия. "
+    }
+  ]
 }

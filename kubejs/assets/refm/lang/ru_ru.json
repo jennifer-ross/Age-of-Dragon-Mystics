@@ -1,0 +1,34 @@
+{
+    "epicfight.weapon_category.rapier": "Рапира",
+    "epicfight.weapon_category.ender_rapier": "Эндеритовая рапира",
+    "epicfight.weapon_category.ocean_rapier": "Океанитовая рапира",
+    "epicfight.weapon_category.wither_rapier": "Визеритовая рапира",
+    "epicfight.weapon_category.amethyst_rapier": "Аметистовая рапира",
+
+    "item.refm.iron_rapier": "Железная рапира",
+    "item.refm.gold_rapier": "Золотая рапира",
+    "item.refm.diamond_rapier": "Алмазная рапира",
+    "item.refm.netherite_rapier": "Незеритовая рапира",
+    "item.refm.enderite_rapier": "Эндеритовая рапира",
+    "item.refm.oceanite_rapier": "Океанитовая рапира",
+    "item.refm.witherite_rapier": "Визеритовая рапира",
+    "item.refm.end_upgrade": "Улучшение эндеритом",
+    "item.refm.wither_upgrade": "Улучшение визеритом",
+    "item.refm.ocean_upgrade": "Улучшение океанитом",
+
+    "pack.all_rapiers_3D.title": "3D Рапиры",
+
+    "creativetab.rapiers_tab": "Мод рапир",
+    "damage_source.epicfight.stun_fall": "§cПАДЕНИЕ §8по целям",
+
+    "skill.refm.deadlybackflip": "Смертельный сальто назад",
+    "skill.refm.deadlybackflip.tooltip": "Бросьтесь к врагу, ударив его и сделав сальто назад.\nПосле сальто атакуйте врага во второй раз, нанося смертельный укол.",
+    "skill.refm.deadlybackflip_ender": "Танец Эндера",
+    "skill.refm.deadlybackflip_ender.tooltip": "Бросьтесь к врагу, ударив его и перенеся в портал Энда.\nПосле входа в портал вы используете потерянную энергию Энда, чтобы разорвать врага на части.",
+    "skill.refm.deadlybackflip_ocean": "Течение Океана",
+    "skill.refm.deadlybackflip_ocean.tooltip": "Бросьтесь к врагу, ударив его и поднявшись на высоту дождя.\nДостигнув небес, вы направите дождь по своему клинку, чтобы пробить броню врага.",
+    "skill.refm.deadlybackflip_wither": "Гнев Визера",
+    "skill.refm.deadlybackflip_wither.tooltip": "Бросьтесь к врагу, ударив его и почувствовав его желание смерти.\nУслышав жертву, вы исполните её желание самым демоническим и жестоким способом.",
+    "skill.refm.deadlybackflip_amethyst": "Разрушение аметистового кристалла",
+    "skill.refm.deadlybackflip_amethyst.tooltip": "Бросьтесь к врагу, ударив его и поднявшись вверх с помощью магии.\nЗатем вы направите древнюю ману, собранную в аметисте, за броню врага."
+}

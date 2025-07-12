@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "бля",
-  "positionX": 790.9514,
+  "title": "Импульсняый прыжок",
+  "positionX": 790.951,
   "positionY": 419.524,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Мобильность\nсконцентрируйтесь, чтобы собрать энергию выносливости и запустить себя вверх, в любое заданное вами направление. Навык снижает урон от падения на 50%\n0ю6 выносливости в секунду"
+    }
+  ]
 }

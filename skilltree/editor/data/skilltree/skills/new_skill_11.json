@@ -24,5 +24,13 @@
   "positionX": 826.1725,
   "positionY": 68.51031,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(Уклонение)\n4.0 выносливости"
+    }
+  ]
 }

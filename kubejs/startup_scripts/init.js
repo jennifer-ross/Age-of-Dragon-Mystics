@@ -91,20 +91,6 @@ global.Namespace = {
      * */
     be: (id, x) => global.Namespace.mod(`betterend`, id, x),
     /**
-     * Better Nether
-     * @param {string} id
-     * @param {string | number} x
-     * @returns string
-     * */
-    bn: (id, x) => global.Namespace.mod(`betternether`, id, x),
-    /**
-     * Undead Revamp
-     * @param {string} id
-     * @param {string | number} x
-     * @returns string
-     * */
-    urv: (id, x) => global.Namespace.mod(`undead_revamp2`, id, x),
-    /**
      * Born In Chaos
      * @param {string} id
      * @param {string | number} x
@@ -118,13 +104,6 @@ global.Namespace = {
      * @returns string
      * */
     arcana: (id, x) => global.Namespace.mod(`forbidden_arcanus`, id, x),
-    /**
-     * Regions & Unexplored
-     * @param {string} id
-     * @param {string | number} x
-     * @returns string
-     * */
-    ru: (id, x) => global.Namespace.mod(`regions_unexplored`, id, x),
     /**
      * Dungeons Plus
      * @param {string} id

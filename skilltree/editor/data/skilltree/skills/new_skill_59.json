@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Отвержение боли",
+  "title": "Предвкушение боли",
   "positionX": 926.286,
-  "positionY": -414.2862,
+  "positionY": -413.1738,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Если никакие действия не выполняются в течение 2сек, вы получаете \"Предвкушение\", что даёт иммунитет к оглушению и снижает получаемый урон на 40% для следующего действия в течение 2.0с."
+    }
+  ]
 }

@@ -22,7 +22,15 @@
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "shulker cloak",
   "positionX": 787.333,
-  "positionY": -335.33316,
+  "positionY": -335.333,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(Блок)\n"
+    }
+  ]
 }

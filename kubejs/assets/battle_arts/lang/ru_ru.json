@@ -1,0 +1,34 @@
+{
+	"item.battle_arts.iron_sabre": "Железная сабля",
+	"item.battle_arts.golden_sabre": "Золотая сабля",
+	"item.battle_arts.diamond_sabre": "Алмазная сабля",
+	"item.battle_arts.netherite_sabre": "Незеритовая сабля",
+	"item.battle_arts.sabre.tooltip": "Дальнобойные и сбалансированные, эти мечи обладают быстрыми атаками с дальностью длинного меча. Для создания требуют больше ресурсов.",
+
+	"item.battle_arts.iron_battleaxe": "Железный боевой топор",
+	"item.battle_arts.golden_battleaxe": "Золотой боевой топор",
+	"item.battle_arts.diamond_battleaxe": "Алмазный боевой топор",
+	"item.battle_arts.netherite_battleaxe": "Незеритовый боевой топор",
+	"item.battle_arts.battleaxe.tooltip": "Мощные и медленные, эти топоры созданы для битв и могут наносить огромный урон за короткое время.",
+
+	"skill.battle_arts.squire": "Оруженосец",
+	"skill.battle_arts.squire.tooltip": "Ученик в обращении с мечами, луками, кинжалами и верховой езде. Довольно универсальный класс.",
+	"skill.battle_arts.squire_heavy_blow": "Прыжок с вихрем",
+	"skill.battle_arts.squire_heavy_blow.tooltip": "После небольшой подготовки совершите стремительный прыжок вперёд, рассекая всех на своём пути.",
+
+	"skill.battle_arts.recruit": "Рекрут",
+	"skill.battle_arts.recruit.tooltip": "Новичок в копьях, щитах, доспехах и арбалетах. Сосредоточен на поглощении урона и контроле территории.",
+
+	"skill.battle_arts.iron_fortress": "Железная крепость",
+	"skill.battle_arts.iron_fortress.tooltip": "Защитное искусство, активируемое автоматически, блокирующее следующие 3 удара.",
+
+	"key.category.battle_arts.efbs_skills": "Боевые искусства",
+	"skill.battle_arts.test_combat_art": "Тестовое боевое искусство",
+	"skill.battle_arts.test_combat_art.tooltip": "Это искусство предназначено для тестирования, а не для реального использования в игре.",
+	"itemGroup.battle_arts.items": "Боевые искусства: Предметы",
+
+	"epicfight.style.squire_sword": "Искусство меча оруженосца",
+	"epicfight.style.squire_bow": "Искусство лука оруженосца",
+	"epicfight.style.squire_dagger": "Искусство кинжала оруженосца",
+	"epicfight.style.recruit_spear": "Искусство копья рекрута"
+}

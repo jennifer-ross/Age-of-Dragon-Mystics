@@ -24,5 +24,13 @@
   "positionX": 875.04663,
   "positionY": 73.140656,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(Укалнение)\n3.0 выносливости"
+    }
+  ]
 }

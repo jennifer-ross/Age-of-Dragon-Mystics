@@ -1,0 +1,46 @@
+{
+  "itemGroup.epicacg.items": "EpicACG",
+
+  "item.epicacg.elucidator": "Элюцидатор",
+  "item.epicacg.lambent_light": "Мерцающий Свет", 
+  "item.epicacg.dark_repulsor": "Тёмный Репульсор",
+  "item.epicacg.dragon_shit_crystal": "Кристалл Дракона",
+  "item.epicacg.anneal_blade": "Закалённый Клинок",
+  "item.epicacg.battle_scythe": "Боевая Коса",
+  "item.epicacg.destiny": "-Судьба-",
+  "item.epicacg.training_bow": "Тренировочный Лук",
+  "item.epicacg.custom_skillbook": "Книга Умений",
+
+  "item.epicacg.firefly_sword": "Стандартное Оружие Гламота - Светляк-IV",
+
+  "skill.epicacg.sao_dual_sword_skill.tooltip": "Двойные Мечи: Особая способность, позволяющая одновременно использовать два одноручных меча. Этот навык мощнее других, но требует исключительной скорости реакции.",
+  "skill.epicacg.sao_dual_sword_skill": "Двойные Мечи",
+  "tab.skill.epicacg.sao_dual_sword_skill": "УМЕНИЕ - Двойные Мечи",
+
+  "skill.epicacg.sao_rapier_skill.tooltip": "Рапира: Навык, открывающий различные атаки при использовании рапиры. Быстрее других видов оружия.",
+  "skill.epicacg.sao_rapier_skill": "Рапира",
+  "tab.skill.epicacg.sao_rapier_skill": "УМЕНИЕ - Рапира",
+
+  "skill.epicacg.sao_single_sword.tooltip": "Одноручный меч, базовый навык",  
+  "skill.epicacg.sao_single_sword": "Одноручный Меч",
+  "tab.skill.epicacg.sao_single_sword": "УМЕНИЕ - Одноручный Меч",
+
+  "skill.epicacg.sao_single_sword_guard_skill.tooltip": "Использование одноручного меча для защиты.",
+  "skill.epicacg.sao_single_sword_guard_skill": "Защита Одноручным Мечом\nДоступные типы оружия: %s",
+
+  "skill.epicfight.sao_single_sword.category": "ОДНОРУЧНЫЙ МЕЧ",
+
+  "epicfight.skill_slot.sao_single_sword": "СИСТЕМА ОДНОРУЧНОГО МЕЧА",
+
+  "skill.epicacg.weapon_skill_rapier": "Мульти-Умение",
+  "skill.epicacg.weapon_skill_rapier.tooltip": "Молниеносный укол (нельзя использовать при беге)\nУкол кометы\n",
+
+  "skill.epicacg.battle_scythe_sa": "Клинок в Ножнах",
+  "skill.epicacg.battle_scythe_sa.tooltip": "Рывок вперёд с мгновенным режущим ударом",
+
+  "skill.epicacg.gs_yoimiya_sa": "Танец Лука",
+  "skill.epicacg.gs_yoimiya_sa.tooltip": "Фейерверк!",
+
+  "key.epicacg.gui": "EFM ACG Дополнение",
+  "key.epicacg.switch_skill": "Смена Умений (Удерживать и прокручивать среднюю кнопку)"
+}

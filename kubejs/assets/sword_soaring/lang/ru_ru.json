@@ -1,0 +1,32 @@
+{
+  "key.sword_soaring.sword_soaring": "Парение на мече",
+  "key.sword_soaring.change_speed": "Изменить скорость полёта",
+  "key.sword_soaring.take_off": "Взлёт",
+
+  "item_group.sword_soaring.weapon": "Парение на мече",
+  "tip.sword_soaring.learn": "Вы постигли чьи-то секреты и теперь можете летать на мече!",
+  "tip.sword_soaring.stamina_consume": "Расход выносливости: %s / тик",
+  "tip.sword_soaring.speed_level": "Текущий уровень скорости: ",
+  "tip.sword_soaring.sword_master": "Вы уже мастер полётов на мече!",
+
+  "item.sword_soaring.loong_roar": "Рев льва",
+  "item.sword_soaring.shattered_star": "Разбитая звезда",
+
+  "skill.sword_soaring.sword_soaring": "Парение на мече",
+  "skill.sword_soaring.sword_soaring.tooltip": "В боевом режиме удерживайте ПРОБЕЛ для полёта на мече, отпустите для остановки. Тратит выносливость. Во время полёта нажмите TAB для изменения скорости. Можно переназначить клавиши в настройках. Зачарование «Экономия выносливости при парении» снижает расход.",
+  "skill.sword_soaring.rain_screen": "Дождь клинков",
+  "skill.sword_soaring.rain_screen.tooltip": "ПКМ отталкивает врагов и создаёт 4 защитных меча на 10 секунд. Мечи блокируют атаки (1 удар = 1 меч), тратят 3 выносливости и лечат владельца. Можно активировать только при отсутствии мечей и ≥10 выносливости.\n\n(Перезарядка: 21с)",
+  "skill.sword_soaring.rain_cutter": "Режущий дождь",
+  "skill.sword_soaring.rain_cutter.tooltip": "10 секунд после активации навыка: обычные/воздушные атаки выпускают 3 преследующих меча. Без цели мечи летят прямо.\n\nЗачарование Огненный Аспект работает с уменьшенной длительностью.",
+  "skill.sword_soaring.yaksha_mask": "Маска Якши",
+  "skill.sword_soaring.yaksha_mask.tooltip": "10 секунд после активации: позволяет высоко прыгать для §l§4Улучшенного метеорного удара§r.\n\n§l§4Улучшенный удар§r: игнорирует тип оружия и угол поворота, но ограничивает высоту. Каждая атака тратит 3 выносливости (4 с WOM - усиленная анимация и урон).",
+  "skill.sword_soaring.stellar_restoration": "Звёздное восстановление",
+  "skill.sword_soaring.stellar_restoration.tooltip": "ALT + клик (удержание для прицела) бросает меч (5 выносливости). Повторное нажатие телепортирует к мечу с круговой атакой.\n\n(КД: 7.5с)",
+  "skill.sword_soaring.sword_convergence": "Мечи, сходитесь! (Бета)",
+  "skill.sword_soaring.sword_convergence.tooltip": "§l§4ТОЛЬКО В КРЕАТИВЕ§r\n\nУдержание кнопки прицела создаёт мечи со всех сторон, отпускание выпускает 20 мечей/тик.",
+
+  "config.sword_soaring.fly_speed_scale": "Коэффициент скорости полёта",
+  "config.sword_soaring.stamina_consume_per_tick": "Расход выносливости за тик полёта",
+  "config.sword_soaring.max_anticipation_tick": "Тиков подготовки перед взлётом",
+  "enchantment.sword_soaring.sword_soaring": "Экономия выносливости при парении"
+}
