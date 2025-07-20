@@ -1,0 +1,2 @@
+execute if entity @s[tag=!nola.noAI,tag=!nola.noAI.ignore] unless entity @p[gamemode=!spectator,distance=..64] run function nola:modules/no_ai/enable
+execute if entity @s[tag=nola.noAI] if entity @p[gamemode=!spectator,distance=..64] run function nola:modules/no_ai/disable

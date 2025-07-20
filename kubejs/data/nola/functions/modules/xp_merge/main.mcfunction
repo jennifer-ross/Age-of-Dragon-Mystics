@@ -1,0 +1,1 @@
+execute if entity @s[tag=!nola.dead] run function nola:modules/xp_merge/__generated__/execute/0

@@ -1,6 +1,10 @@
 {
+    "replace":false,
     "values": [
-    "celestisynth:load",
-    "cb:load"
-]
+        "celestisynth:load",
+        "cb:load",
+        "nola:core/loop/second",
+        "nola:core/loop/minute",
+        "nola:core/load"
+    ]
 }
