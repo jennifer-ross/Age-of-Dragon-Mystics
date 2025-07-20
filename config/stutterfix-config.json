@@ -1,5 +1,5 @@
 {
-  "main_worker_executor_count": 12,
+  "main_worker_executor_count": 19,
   "main_worker_executor_priority_cut": 9,
   "render_thread_priority": 10,
   "server_thread_priority": 8,
