@@ -1,0 +1,24 @@
+{
+  "id": "skilltree:new_skill_197",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.05,
+      "multiplier": 1.0,
+      "loot_type": "fishing"
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_196"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -333.2944,
+  "positionY": 36.421757,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

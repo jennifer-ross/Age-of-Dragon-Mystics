@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Водные монёвры",
+  "title": "Водный манёвр",
   "positionX": 925.846,
-  "positionY": -321.53915,
+  "positionY": -321.539,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Улучшает способность плавания.\\n\\nПлаваете быстрее под водой или немного медленнее над водой.\\n\\nОтпустите кнопку прыжка для толчка под водой или баттерфляя над водой."
+    }
+  ]
 }

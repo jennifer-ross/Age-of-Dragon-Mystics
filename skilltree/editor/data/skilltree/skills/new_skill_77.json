@@ -2,21 +2,16 @@
   "id": "skilltree:new_skill_77",
   "bonuses": [
     {
-      "type": "skilltree:crit_chance",
-      "chance": 0.02,
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:stealth",
+      "id": "add8b13a-049e-4f2e-9cf6-7d8607d6a0b4",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 2,
       "player_multiplier": {
         "type": "skilltree:none"
       },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
-      },
       "player_condition": {
-        "type": "skilltree:none"
-      },
-      "damage_condition": {
-        "type": "skilltree:none"
-      },
-      "target_condition": {
         "type": "skilltree:none"
       }
     }
@@ -30,8 +25,8 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": 92.321724,
-  "positionY": 71.9349,
+  "positionX": 145.32167,
+  "positionY": 159.95837,
   "buttonSize": 16,
   "isStartingPoint": false
 }

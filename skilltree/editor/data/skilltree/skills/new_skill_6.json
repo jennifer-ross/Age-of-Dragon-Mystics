@@ -43,8 +43,8 @@
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Выжить",
-  "positionX": -39.838,
-  "positionY": -22.999,
+  "positionX": -33.438004,
+  "positionY": -9.398991,
   "buttonSize": 16,
   "isStartingPoint": true
 }

@@ -21,8 +21,16 @@
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Выносливость",
-  "positionX": 903.3327,
-  "positionY": 297.778,
+  "positionX": -193.42387,
+  "positionY": 587.75397,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(Пассивный)\nДаёт устойчивость к оглушению на количество выносливости, потребляемое в течение 3 секунд, Есливо время подготовки атаки, по игроку наносят удары.\n12 сек\n30% текущей выносливуости\n+4 Макс. выносливости\n+2 Макс. здоровья"
+    }
+  ]
 }

@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Vengeful Perry",
+  "title": "Мстительный парирование",
   "positionX": 862.556,
-  "positionY": -373.8892,
+  "positionY": -373.889,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(Блок)\nПереводит вас в стойку блока на 2сек. Вы будете удерживать позицию в это время, блокируя все атаки без затрат выносливости. После этого вы сможете вернуть весь урон в следующей атаке. Сбрасывает урон при повторной активации. Перезарядка 1сек."
+    }
+  ]
 }

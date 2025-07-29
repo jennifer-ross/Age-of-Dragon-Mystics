@@ -25,8 +25,8 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": 69.80589,
-  "positionY": 110.93634,
+  "positionX": 98.80588,
+  "positionY": 164.29318,
   "buttonSize": 16,
   "isStartingPoint": false
 }

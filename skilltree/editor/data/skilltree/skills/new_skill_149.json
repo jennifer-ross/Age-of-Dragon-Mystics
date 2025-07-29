@@ -1,0 +1,23 @@
+{
+  "id": "skilltree:new_skill_149",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.25,
+      "experience_source": "fishing"
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_146"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -305.3795,
+  "positionY": 9.401551,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

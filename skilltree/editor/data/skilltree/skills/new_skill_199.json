@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_199",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.luck",
+      "id": "ae56e88b-5189-4bb8-98de-3806b3a80d7f",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "divisor": 80.0,
+        "type": "skilltree:missing_health_percentage"
+      },
+      "player_condition": {
+        "type": "skilltree:fishing"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_198"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -266.7944,
+  "positionY": 37.371605,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

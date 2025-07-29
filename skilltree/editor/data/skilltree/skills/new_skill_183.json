@@ -1,0 +1,29 @@
+{
+  "id": "skilltree:new_skill_183",
+  "bonuses": [
+    {
+      "type": "skilltree:block_break_speed",
+      "player_condition": {
+        "min": 1,
+        "item_condition": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:has_gems"
+      },
+      "multiplier": 0.1
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_169"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -150.6464,
+  "positionY": -207.40956,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

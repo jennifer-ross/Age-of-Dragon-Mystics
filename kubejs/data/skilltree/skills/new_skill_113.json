@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_113",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "3a9447aa-aa2a-432f-80e6-236de485e9c2",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 20,
+        "type": "skilltree:food_level"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_111"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -117.44821,
+  "positionY": -29.148117,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

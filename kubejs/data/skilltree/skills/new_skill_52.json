@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "latent retribution",
+  "title": "Скрытое возмездие",
   "positionX": 759.143,
-  "positionY": -94.28508,
+  "positionY": -94.285,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Если никакие действия не выполняются в течение 4сек, вы получаете \\\"Возмездие\\\", что даёт иммунитет к оглушению и увеличивает ваш урон на 40% в течение этого времени для следующего действия в течение 4.0с."
+    }
+  ]
 }

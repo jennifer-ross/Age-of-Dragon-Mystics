@@ -5,11 +5,11 @@
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
   "iconTexture": "skilltree:textures/icons/void.png",
-  "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": 0.0,
-  "positionY": 0.0,
-  "buttonSize": 16,
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "positionX": -28.242325,
+  "positionY": 563.2215,
+  "buttonSize": 50,
   "isStartingPoint": false
 }

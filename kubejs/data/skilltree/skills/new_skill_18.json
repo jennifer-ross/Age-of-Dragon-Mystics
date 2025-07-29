@@ -1,6 +1,22 @@
 {
   "id": "skilltree:new_skill_18",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "f95d35ed-34c3-489d-85d3-23a279e73430",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "max": 0.35,
+        "type": "skilltree:health_percentage"
+      }
+    }
+  ],
   "directConnections": [
     "skilltree:new_skill_16"
   ],
@@ -10,8 +26,8 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": -89.33344,
-  "positionY": 158.5302,
+  "positionX": -27.436638,
+  "positionY": 201.87898,
   "buttonSize": 16,
   "isStartingPoint": false
 }

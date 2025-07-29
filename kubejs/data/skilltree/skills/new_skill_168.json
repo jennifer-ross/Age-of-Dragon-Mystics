@@ -1,0 +1,41 @@
+{
+  "id": "skilltree:new_skill_168",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:exp_per_minute",
+      "id": "6fcd2785-d158-445d-aa7c-19754e6f6b7a",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 0,
+      "player_multiplier": {
+        "item_condition": {
+          "equipment_type": "any",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:gems_amount"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "pickaxe",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_163",
+    "skilltree:new_skill_155"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -89.75882,
+  "positionY": -261.8135,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

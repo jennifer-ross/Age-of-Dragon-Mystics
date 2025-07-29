@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "arrow tenacity",
-  "positionX": 751.231,
-  "positionY": -178.46213,
+  "title": "Стойкость к стрелам",
+  "positionX": -155.69493,
+  "positionY": 481.86847,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Предотвращает оглушение от урона стрелами. Этот навык постоянный, поэтому вы можете использовать другой пассивный навык, но при смерти сохранится только текущий пассивный навык."
+    }
+  ]
 }

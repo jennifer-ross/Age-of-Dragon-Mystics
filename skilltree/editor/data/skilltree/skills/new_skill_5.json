@@ -14,25 +14,6 @@
       "player_condition": {
         "type": "skilltree:none"
       }
-    },
-    {
-      "type": "skilltree:crit_damage",
-      "amount": 0.05,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
-      },
-      "damage_condition": {
-        "type": "skilltree:none"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
-      }
     }
   ],
   "directConnections": [
@@ -44,8 +25,8 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": 69.80589,
-  "positionY": 84.93634,
+  "positionX": 95.47257,
+  "positionY": 122.29316,
   "buttonSize": 16,
   "isStartingPoint": false
 }

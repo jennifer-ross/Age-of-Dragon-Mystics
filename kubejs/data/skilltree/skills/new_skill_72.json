@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "sword_soaring",
-  "positionX": 1123.8118,
-  "positionY": -16.666946,
+  "title": "Парение на мече",
+  "positionX": 1123.812,
+  "positionY": -16.667,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "В боевом режиме удерживайте ПРОБЕЛ для полёта на мече, отпустите для остановки. Тратит выносливость. Во время полёта нажмите TAB для изменения скорости. Можно переназначить клавиши в настройках. Зачарование «Экономия выносливости при парении» снижает расход."
+    }
+  ]
 }

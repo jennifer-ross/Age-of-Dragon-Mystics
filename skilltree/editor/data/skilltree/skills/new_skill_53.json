@@ -21,8 +21,22 @@
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Слабое место",
-  "positionX": 751.65027,
-  "positionY": -227.55305,
+  "positionX": 751.65,
+  "positionY": -227.553,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Пассивный"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Даёт %s%% шанс нанести %s%% дополнительного урона.\\nШанс критического удара увеличивается на 5%% за каждый уровень зачарования Защиты от огня. Критический урон увеличивается на 15%% за каждый уровень зачарования Защиты от взрывов."
+    }
+  ]
 }

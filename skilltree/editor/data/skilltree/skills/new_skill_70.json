@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "rain_cutter",
-  "positionX": 1184.6449,
-  "positionY": -59.999893,
+  "title": "Режущий дождь",
+  "positionX": 1184.645,
+  "positionY": -60.0,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "10 секунд после активации навыка: обычные/воздушные атаки выпускают 3 преследующих меча. Без цели мечи летят прямо.\\n\\nЗачарование Огненный Аспект работает с уменьшенной длительностью."
+    }
+  ]
 }

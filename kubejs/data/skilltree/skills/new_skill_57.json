@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Паучия техники",
+  "title": "Техники паука",
   "positionX": 927.714,
-  "positionY": -368.5712,
+  "positionY": -368.571,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Позволяет бегать по стенам. Удерживайте спринт и прыгайте к стене, чтобы бежать по ней. Отпустите спринт для падения или отпустите управление для медленного скольжения. Присядьте, чтобы замедлить скольжение ещё больше. Вы можете прыгать со стены на стену, регулируя горизонтальный угол обзора. Позиция, с которой вы прыгаете, определяет высоту прыжка."
+    }
+  ]
 }

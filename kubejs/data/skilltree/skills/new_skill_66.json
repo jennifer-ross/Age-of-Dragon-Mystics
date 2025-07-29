@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "rain_screen",
-  "positionX": 1255.4781,
-  "positionY": -50.832874,
+  "title": "Дождь клинков",
+  "positionX": 1254.0494,
+  "positionY": -50.833,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "ПКМ отталкивает врагов и создаёт 4 защитных меча на 10 секунд. Мечи блокируют атаки (1 удар \u003d 1 меч), тратят 3 выносливости и лечат владельца. Можно активировать только при отсутствии мечей и ≥10 выносливости.\\n\\n(Перезарядка: 21с)"
+    }
+  ]
 }

@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Серденый щит",
+  "title": "Щит сердца",
   "positionX": 820.59,
-  "positionY": -220.00014,
+  "positionY": -220.0,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Даёт 20 очков щита, которые восстанавливаются, если никакие действия не выполняются в течение %sсек, со скоростью 1 очко каждые %sсек.\\n\\nСкорость восстановления щита можно улучшить с зачарованием Защиты."
+    }
+  ]
 }

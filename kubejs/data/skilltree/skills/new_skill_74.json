@@ -20,8 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": 334.16684,
-  "positionY": 278.3334,
+  "title": "Оруженосец",
+  "positionX": 671.944,
+  "positionY": 50.332,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Ученик в обращении с мечами, луками, кинжалами и верховой езде. Довольно универсальный класс."
+    }
+  ]
 }

@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_140",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "multiplier": 0.1,
+        "type": "skilltree:food_saturation"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_128"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -267.1618,
+  "positionY": -44.803387,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
