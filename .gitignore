@@ -13,6 +13,7 @@ server-resource-packs
 /*.zip
 *.log
 *.png
+!kubejs/assets/*.png
 observable_announce
 patchouli_data.json
 rhino.local.properties
