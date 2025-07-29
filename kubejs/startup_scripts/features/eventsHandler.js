@@ -110,7 +110,7 @@ global.EventsHandler = {
     },
     /**
      *  @param {string} name
-     *  @param {Internal.RemoveWorldgenEventJS | Registry.Item | Registry.EntityType | Internal.ModifyAttributeEventJS | any} e
+     *  @param {Internal.RemoveWorldgenEventJS | Registry.Item | Registry.EntityType | Internal.ModifyAttributeEventJS | Registry.Fluid | any} e
      *  @returns
      * */
     handleStartupEvents: (name, e) => {

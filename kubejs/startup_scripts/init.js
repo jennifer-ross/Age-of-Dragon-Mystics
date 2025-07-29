@@ -132,6 +132,20 @@ global.Namespace = {
      * @returns string
      * */
     coep: (id, x) => global.Namespace.mod(`create_ore_excavation_plus`, id, x),
+    /**
+     * Ice and fire
+     * @param {string} id
+     * @param {string | number} x
+     * @returns string
+     * */
+    icf: (id, x) => global.Namespace.mod(`iceandfire`, id, x),
+    /**
+     * Kube JS
+     * @param {string} id
+     * @param {string | number} x
+     * @returns string
+     * */
+    kjs: (id, x) => global.Namespace.mod(`kubejs`, id, x),
 }
 
 /**

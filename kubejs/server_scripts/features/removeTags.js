@@ -7,5 +7,8 @@ global.EventsHandler.addServerEvent('ServerEvents.tags.item', /** @param {TagEve
     // e.remove("forge:ingots/iron", ns.be('thallasium_ingot'));
     // e.remove("forge:ingots/iron", ns.bn("cincinnasite_ingot"));
 
-
+    // Add tag to items
+    // e.add('tag', [
+    //     ns.mc('diamond_sword')
+    // ])
 });

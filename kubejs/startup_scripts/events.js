@@ -8,6 +8,10 @@ StartupEvents.registry('item', /** @param {Registry.Item} e */ e => {
     global.EventsHandler.handleStartupEvents('StartupEvents.registry.item', e);
 });
 
+StartupEvents.registry('fluid', /** @param {Registry.Fluid} e */ e => {
+    global.EventsHandler.handleStartupEvents('StartupEvents.registry.fluid', e);
+});
+
 // StartupEvents.registry('entity_type', /** @param {Registry.EntityType} e */ e => {
 //     global.EventsHandler.handleStartupEvents('StartupEvents.registry.entity_type', e);
 // });
