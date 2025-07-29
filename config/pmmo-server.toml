@@ -21,7 +21,7 @@
 	#If your formula makes the required xp to get max level greater than
 	#pmmo can store, pmmo will replace your value with the actual max.
 	#Range: > 1
-	"Max Level" = 329
+	"Max Level" = 100
 	#should levels be determined using an exponential formula?
 	"Use Exponential Formula" = true
 	#=====LEAVE -1 VALUE UNLESS YOU WANT STATIC LEVELS=====
@@ -38,7 +38,7 @@
 	#How much experience should players lose when they die?
 	#zero is no loss, one is lose everything
 	#Range: 0.0 ~ 1.0
-	"Loss on death" = 0.05
+	"Loss on death" = 0.15
 	#should loss of experience cross levels?
 	#for example, if true, a player with 1 xp above their current level would lose the
 	#[Loss on death] percentage of xp and fall below their current level.  However,
@@ -51,7 +51,7 @@
 	"Lose Only Excess" = true
 	#Modifies how much xp is earned.  This is multiplicative to the XP.
 	#(Mutually Exclusive to [Skill Modifiers])
-	"Global Modifier" = 1.0
+	"Global Modifier" = 1.5
 
 	#Modifies xp gains for specific skills.  This is multiplicative to the XP.
 	#(Mutually Exclusive to [Global Modifier])
@@ -71,30 +71,30 @@
 	[Levels."EXPONENTIAL LEVELS"]
 		#What is the x in: x * ([Power Base]^([Per Level] * level))
 		#Range: > 1
-		"Base XP" = 250
+		"Base XP" = 550
 		#What is the x in: [Base XP] * (x^([Per Level] * level))
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Power Base" = 1.104088404342588
 		#What is the x in: [Base XP] * ([Power Base]^(x * level))
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Per Level" = 1.1
+		"Per Level" = 1.85
 
 #Should requirements apply for the applicable action type
 [Requirements]
-	"WEAR Req Enabled" = true
-	"USE_ENCHANTMENT Req Enabled" = true
-	"TOOL Req Enabled" = true
-	"WEAPON Req Enabled" = true
-	"USE Req Enabled" = true
-	"PLACE Req Enabled" = true
-	"BREAK Req Enabled" = true
-	"KILL Req Enabled" = true
-	"TRAVEL Req Enabled" = true
-	"RIDE Req Enabled" = true
-	"TAME Req Enabled" = true
-	"BREED Req Enabled" = true
-	"INTERACT Req Enabled" = true
-	"ENTITY_INTERACT Req Enabled" = true
+	"WEAR Req Enabled" = false
+	"USE_ENCHANTMENT Req Enabled" = false
+	"TOOL Req Enabled" = false
+	"WEAPON Req Enabled" = false
+	"USE Req Enabled" = false
+	"PLACE Req Enabled" = false
+	"BREAK Req Enabled" = false
+	"KILL Req Enabled" = false
+	"TRAVEL Req Enabled" = false
+	"RIDE Req Enabled" = false
+	"TAME Req Enabled" = false
+	"BREED Req Enabled" = false
+	"INTERACT Req Enabled" = false
+	"ENTITY_INTERACT Req Enabled" = false
 
 #All settings related to the gain of experience
 [XP_Gains]
@@ -102,7 +102,7 @@
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Reuse Penalty" = 0.0
 	#Should xp Gains from perks be added onto by configured xp values
-	"Perks Plus Configs" = false
+	"Perks Plus Configs" = true
 
 	#Settings related to certain default event XP awards.
 	[XP_Gains.Event_XP_Specifics]
@@ -114,28 +114,16 @@
 			#the value below multiplied by the damage applied.
 			[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE]
 
-				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."#pmmo:gun"]
-					gunslinger = 1
-
-				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."minecraft:generic_kill"]
-					combat = 1
-
 				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."minecraft:player_attack"]
-					combat = 1
+					combat = 1.9
 
 				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."#minecraft:is_projectile"]
-					archery = 1
+					archery = 1.3
 
-				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."#pmmo:magic"]
-					magic = 15
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."minecraft:generic_kill"]
+					combat = 1.5
 
 			[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE]
-
-				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."minecraft:generic_kill"]
-					endurance = 1
-
-				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."#pmmo:impact"]
-					endurance = 15
 
 				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."#minecraft:is_projectile"]
 					endurance = 15
@@ -146,16 +134,22 @@
 				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."#pmmo:magic"]
 					magic = 15
 
+				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."minecraft:generic_kill"]
+					endurance = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."#pmmo:impact"]
+					endurance = 15
+
 		[XP_Gains.Event_XP_Specifics.Jumps]
 
 			[XP_Gains.Event_XP_Specifics.Jumps."JUMP Skills and Ratios"]
-				agility = 2.5
+				agility = 1.5
 
 			[XP_Gains.Event_XP_Specifics.Jumps."SPRINT_JUMP Skills and Ratios"]
-				agility = 2.5
+				agility = 1.5
 
 			[XP_Gains.Event_XP_Specifics.Jumps."CROUCH_JUMP Skills and Ratios"]
-				agility = 2.5
+				agility = 1.5
 
 		[XP_Gains.Event_XP_Specifics.Player_Actions]
 
@@ -172,22 +166,22 @@
 				endurance = 1.0
 
 			[XP_Gains.Event_XP_Specifics.Player_Actions."SPRINTING Skills and Ratios"]
-				agility = 100.0
+				agility = 30.0
 
 			[XP_Gains.Event_XP_Specifics.Player_Actions."SUBMERGED Skills and Ratios"]
 				swimming = 1.0
 
 			[XP_Gains.Event_XP_Specifics.Player_Actions."SWIMMING Skills and Ratios"]
-				swimming = 100.0
-
-			[XP_Gains.Event_XP_Specifics.Player_Actions."DIVING Skills and Ratios"]
-				swimming = 150.0
-
-			[XP_Gains.Event_XP_Specifics.Player_Actions."SURFACING Skills and Ratios"]
 				swimming = 50.0
 
+			[XP_Gains.Event_XP_Specifics.Player_Actions."DIVING Skills and Ratios"]
+				swimming = 20.0
+
+			[XP_Gains.Event_XP_Specifics.Player_Actions."SURFACING Skills and Ratios"]
+				swimming = 25.0
+
 			[XP_Gains.Event_XP_Specifics.Player_Actions."SWIM_SPRINTING Skills and Ratios"]
-				swimming = 200.0
+				swimming = 50.0
 
 #All settings governing party behavior
 [Party]
@@ -204,7 +198,7 @@
 #settings related to how strong mobs get based on player level.
 [Mob_Scaling]
 	#Should mob scaling be turned on.
-	"Enable Mob Scaling" = true
+	"Enable Mob Scaling" = false
 	#How far should players be from spawning mobs to affect scaling?
 	#Range: > 0
 	"Scaling AOE" = 150
@@ -252,11 +246,11 @@
 				[Mob_Scaling.Scaling_Settings."Mob Scaling IDs and Ratios"."minecraft:generic".movement_speed]
 					combat = 1.0E-6
 
-				[Mob_Scaling.Scaling_Settings."Mob Scaling IDs and Ratios"."minecraft:generic".max_health]
-					combat = 0.001
-
 				[Mob_Scaling.Scaling_Settings."Mob Scaling IDs and Ratios"."minecraft:generic".attack_damage]
 					combat = 1.0E-4
+
+				[Mob_Scaling.Scaling_Settings."Mob Scaling IDs and Ratios"."minecraft:generic".max_health]
+					combat = 0.001
 
 #Settings related to the Vein Miner
 [Vein_Miner]

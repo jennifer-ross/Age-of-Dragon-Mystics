@@ -1,0 +1,24 @@
+{
+  "id": "skilltree:new_skill_191",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.05,
+      "multiplier": 1.0,
+      "loot_type": "gems"
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_168"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -90.869934,
+  "positionY": -236.3696,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

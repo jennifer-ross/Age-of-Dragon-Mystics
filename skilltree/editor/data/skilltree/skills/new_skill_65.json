@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "bloodwolf",
-  "positionX": 429.583,
-  "positionY": 582.5,
+  "title": "Кровавый волк",
+  "positionX": 694.583,
+  "positionY": 712.5,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Когда волк воет, настаёт время для контратаки. Получите защиту бога волков, уклоняясь и побеждая врагов. Когда уровень навыка достигнет 10, вы получите защиту бога волков, усиливающую ваши атаки и дающую шанс прервать атаки врагов."
+    }
+  ]
 }

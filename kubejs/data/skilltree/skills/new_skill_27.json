@@ -21,8 +21,16 @@
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Гипер Стойкасть",
-  "positionX": 824.9995,
-  "positionY": 277.222,
+  "positionX": -214.368,
+  "positionY": 481.455,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(Пассивный)\nИспользует вашу выносливость при нехватке энергии самого оружия\n20% от заряда оружия\n+2 Макс. выносливости\n+4 Маск. здоровья"
+    }
+  ]
 }

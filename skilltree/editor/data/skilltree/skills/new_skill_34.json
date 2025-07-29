@@ -13,7 +13,9 @@
       }
     }
   ],
-  "directConnections": [],
+  "directConnections": [
+    "skilltree:new_skill_78"
+  ],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
@@ -21,8 +23,8 @@
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Выброс адреналина",
-  "positionX": 860.3326,
-  "positionY": 441.0,
+  "positionX": 86.093895,
+  "positionY": 597.5471,
   "buttonSize": 16,
   "isStartingPoint": false,
   "description": [

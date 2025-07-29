@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "fatalfalsh",
-  "positionX": 548.75,
-  "positionY": 610.833,
+  "title": "Смертельная вспышка",
+  "positionX": 813.75,
+  "positionY": 740.833,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Закрепитесь на враге с низким здоровьем и выполните убийство, которое нельзя прервать во время выполнения (Разрешённое оружие: учигатана, катана, тати, длинный меч)"
+    }
+  ]
 }

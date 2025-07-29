@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:new_skill_186",
+  "bonuses": [
+    {
+      "type": "skilltree:gem_power",
+      "item_condition": {
+        "equipment_type": "tool",
+        "type": "skilltree:equipment_type"
+      },
+      "multiplier": 0.4
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "tool",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "item_condition": {
+            "equipment_type": "tool",
+            "type": "skilltree:equipment_type"
+          },
+          "multiplier": -0.8,
+          "type": "skilltree:repair_efficiency"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_185"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -102.184906,
+  "positionY": -130.17877,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

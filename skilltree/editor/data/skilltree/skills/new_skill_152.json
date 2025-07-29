@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:new_skill_152",
+  "bonuses": [
+    {
+      "type": "skilltree:gem_power",
+      "item_condition": {
+        "equipment_type": "tool",
+        "type": "skilltree:equipment_type"
+      },
+      "multiplier": 0.1
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_133"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -81.54869,
+  "positionY": -169.69014,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

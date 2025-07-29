@@ -1,0 +1,23 @@
+{
+  "id": "skilltree:new_skill_139",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.25,
+      "experience_source": "mobs"
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_137"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -219.58904,
+  "positionY": 16.221249,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

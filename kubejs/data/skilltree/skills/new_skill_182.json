@@ -1,0 +1,70 @@
+{
+  "id": "skilltree:new_skill_182",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "shield",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "minecraft:generic.armor",
+          "id": "0115becd-a0c7-498d-9e3c-030de49935ea",
+          "name": "Skill",
+          "amount": 0.2,
+          "operation": 0,
+          "player_multiplier": {
+            "attribute": "skilltree:blocking",
+            "divisor": 1.0,
+            "type": "skilltree:attribute_value"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "shield",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "skilltree:blocking",
+          "id": "027d3968-0ffc-48a5-8680-c7b79515aa81",
+          "name": "Skill",
+          "amount": -0.2,
+          "operation": 0,
+          "player_multiplier": {
+            "attribute": "minecraft:generic.armor",
+            "divisor": 0.5,
+            "type": "skilltree:attribute_value"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_181"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -200.3474,
+  "positionY": -91.98181,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

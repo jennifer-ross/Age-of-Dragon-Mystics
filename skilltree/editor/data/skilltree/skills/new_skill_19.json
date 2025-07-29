@@ -21,8 +21,8 @@
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Парирование",
-  "positionX": 902.7618,
-  "positionY": 135.93698,
+  "positionX": 198.99579,
+  "positionY": 599.1208,
   "buttonSize": 16,
   "isStartingPoint": false,
   "description": [

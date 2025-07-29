@@ -13,7 +13,10 @@
       }
     }
   ],
-  "directConnections": [],
+  "directConnections": [
+    "skilltree:new_skill_30",
+    "skilltree:new_skill_19"
+  ],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
@@ -21,8 +24,8 @@
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Мастер Меча",
-  "positionX": 840.0825,
-  "positionY": 227.74997,
+  "positionX": -21.507093,
+  "positionY": 709.30817,
   "buttonSize": 16,
   "isStartingPoint": false,
   "description": [

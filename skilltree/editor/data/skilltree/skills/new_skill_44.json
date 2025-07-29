@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Крутой",
-  "positionX": 768.92303,
-  "positionY": -271.53912,
+  "title": "Идеальный бастион",
+  "positionX": 768.923,
+  "positionY": -271.539,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Удержание стойки блока блокирует атаки со всех направлений с постепенно растущей стоимостью выносливости.\\nОтпускание блока после 5 попаданий отправляет ударную волну, отталкивающую врагов.\\n\\nДоступные типы оружия: %s"
+    }
+  ]
 }

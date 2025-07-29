@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "shulker cloak",
+  "title": "Плащ шалкера",
   "positionX": 787.333,
-  "positionY": -335.33316,
+  "positionY": -335.333,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(Блок)\nТеряете возможность блокировать. Каждые 5сек вы получаете один уровень сопротивления шалкера. Если у вас есть хотя бы 1 уровень сопротивления шалкера, вы игнорируете 60% урона. Получение урона снижает уровень на 1."
+    }
+  ]
 }

@@ -1,0 +1,24 @@
+{
+  "id": "skilltree:new_skill_137",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.05,
+      "multiplier": 1.0,
+      "loot_type": "mobs"
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_136"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -185.67596,
+  "positionY": 36.742992,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

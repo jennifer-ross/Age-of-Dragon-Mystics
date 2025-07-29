@@ -15,14 +15,26 @@
   ],
   "directConnections": [],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_22",
+    "skilltree:new_skill_102",
+    "skilltree:new_skill_103"
+  ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_crit_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Отшаг",
-  "positionX": 875.04663,
-  "positionY": 73.140656,
+  "positionX": -84.963,
+  "positionY": 386.874,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(Укалнение)\n3.0 выносливости"
+    }
+  ]
 }

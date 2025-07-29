@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "БЫК",
+  "title": "Ярость Разорителя",
   "positionX": 873.667,
-  "positionY": -431.6672,
+  "positionY": -431.667,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Рывок вперёд, отталкивая все сущности на пути. Вы неуязвимы к оглушению во время рывка и получаете на 40% меньше урона."
+    }
+  ]
 }

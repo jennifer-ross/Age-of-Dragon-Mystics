@@ -20,8 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": 288.33325,
-  "positionY": 265.00003,
+  "title": "Рекрут",
+  "positionX": 626.11,
+  "positionY": 36.998,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "\"Новичок в копьях, щитах, доспехах и арбалетах. Сосредоточен на поглощении урона и контроле территории."
+    }
+  ]
 }

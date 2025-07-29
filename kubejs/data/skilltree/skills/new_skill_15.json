@@ -3,11 +3,25 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "epicfight:staminar",
-      "id": "c37992b3-6b5a-4280-b5e8-43d5e25c4a2f",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "8aa22ae5-3656-4265-ac4c-c4aeee3351b5",
       "name": "Skill",
-      "amount": 1.0,
+      "amount": 0.1,
       "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "3964e8b9-0c30-4eca-bee7-a6d69d2337d1",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
       },
@@ -25,8 +39,8 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": 65.8155,
-  "positionY": 84.00421,
+  "positionX": -151.87202,
+  "positionY": 126.796165,
   "buttonSize": 16,
   "isStartingPoint": false
 }

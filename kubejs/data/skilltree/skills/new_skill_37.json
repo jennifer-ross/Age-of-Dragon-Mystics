@@ -20,8 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Теневой шаг",
   "positionX": 837.0,
-  "positionY": -523.3335,
+  "positionY": -523.333,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(Уклонение)\nРастворитесь в тенях. Движение в тени искривляет пространство, позволяя двигаться быстрее света. Во время выполнения этого навыка игрок становится невосприимчивым к физическим атакам."
+    }
+  ]
 }

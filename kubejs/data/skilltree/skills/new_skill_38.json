@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Шаг эндера",
+  "title": "Шаг Эндера",
   "positionX": 817.833,
-  "positionY": -487.50015,
+  "positionY": -487.5,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(Уклонение)\nБыстрая телепортация от опасности. Во время выполнения этого навыка игрок становится невосприимчивым к физическим атакам."
+    }
+  ]
 }

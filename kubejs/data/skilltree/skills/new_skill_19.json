@@ -21,8 +21,16 @@
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Парирование",
-  "positionX": 902.7618,
-  "positionY": 135.93698,
+  "positionX": 198.99579,
+  "positionY": 599.1208,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Позволяет игроку использовать защиту точно в тайминг, чтобы избежать расхода выносливости.\nИгррок может защищаться от дальних атак."
+    }
+  ]
 }

@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Борис бритва",
+  "title": "Борис Бритва",
   "positionX": 809.5,
-  "positionY": -443.33316,
+  "positionY": -443.333,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "(Уклонение)\nИнстинктивно уклоняетесь на небольшое расстояние, если получите урон после активации в течение 0.30с. Последовательно уклоняетесь от всех атак после первой в течение 0.50с и после каждого успешного уклонения. Двойное потребление выносливости при многократной активации."
+    }
+  ]
 }

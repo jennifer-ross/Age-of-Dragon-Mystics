@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "back and FORTH!",
+  "title": "Назад и... ВПЕРЁД!",
   "positionX": 929.273,
-  "positionY": -259.09113,
+  "positionY": -261.59348,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Позволяет отключить сознание вашей цели после достижения определённого расстояния от неё.\\n\\nАтакуйте цель один раз, затем отдалитесь от неё.\\nКогда расстояние между вами и целью превысит 20, ваша следующая атака в прыжке будет сильным оглушением, отключающим сознание цели на 5сек."
+    }
+  ]
 }

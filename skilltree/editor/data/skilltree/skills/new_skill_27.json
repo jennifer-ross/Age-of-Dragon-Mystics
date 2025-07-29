@@ -21,8 +21,8 @@
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Гипер Стойкасть",
-  "positionX": 824.9995,
-  "positionY": 277.222,
+  "positionX": -214.368,
+  "positionY": 481.455,
   "buttonSize": 16,
   "isStartingPoint": false,
   "description": [

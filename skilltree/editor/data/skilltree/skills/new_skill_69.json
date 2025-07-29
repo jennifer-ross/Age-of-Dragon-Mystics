@@ -20,9 +20,17 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "stellar_restoration",
-  "positionX": 1318.8127,
-  "positionY": -44.99985,
+  "title": "Звёздное восстановление",
+  "positionX": 1318.813,
+  "positionY": -45.0,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "ALT + клик (удержание для прицела) бросает меч (5 выносливости). Повторное нажатие телепортирует к мечу с круговой атакой.\\n\\n(КД: 7.5с)"
+    }
+  ]
 }

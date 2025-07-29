@@ -15,14 +15,17 @@
   ],
   "directConnections": [],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_90",
+    "skilltree:new_skill_93"
+  ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/void.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "title": "Перекат",
-  "positionX": 826.1725,
-  "positionY": 68.51031,
+  "positionX": -3.15971,
+  "positionY": 378.17374,
   "buttonSize": 16,
   "isStartingPoint": false,
   "description": [
