@@ -12,8 +12,6 @@ server-resource-packs
 *.dll
 /*.zip
 *.log
-*.png
-!kubejs/assets/*.png
 observable_announce
 patchouli_data.json
 rhino.local.properties
@@ -45,3 +43,9 @@ observable_profiles
 !resourcepacks/*.rar
 !shaderpacks/*.zip
 !shaderpacks/*.rar
+
+# Игнорировать все .png файлы
+*.png
+
+# Но не игнорировать .png внутри kubejs
+!kubejs/**/*.png
